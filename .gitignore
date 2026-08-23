@@ -1,0 +1,100 @@
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ───────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Secrets & credentials ──────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.p8
+*.p12
+*.key
+keys/
+keystore_base64.txt
+*.keystore.txt
+
+# ── Database ───────────────────────────────────────────────────────
+*.sqlite3
+*.db
+
+# ── Alembic ───────────────────────────────────────────────────────
+# Keep versions tracked - do NOT ignore alembic/versions/
+
+# ── Logs ──────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── OS ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.claude/
+*.iml
+*.swp
+*.swo
+
+# ── Flutter ───────────────────────────────────────────────────────
+fe/.dart_tool/
+fe/.flutter-plugins
+fe/.flutter-plugins-dependencies
+fe/.packages
+fe/build/
+fe/pubspec.lock
+fe/.fvm/
+
+# ── Android ───────────────────────────────────────────────────────
+fe/android/.gradle/
+fe/android/local.properties
+fe/android/key.properties
+fe/android/app/google-services.json
+*.jks
+*.keystore
+
+# ── iOS ───────────────────────────────────────────────────────────
+fe/ios/Pods/
+fe/ios/.symlinks/
+fe/ios/Flutter/Flutter.framework
+fe/ios/Flutter/Flutter.podspec
+fe/ios/GoogleService-Info.plist
+
+# ── Test coverage ─────────────────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ── Misc ──────────────────────────────────────────────────────────
+*.bak
+*.tmp
+prompt.MD
+compare_prompt.md
+backend_p.md
+
+# ── Node / Next.js ─────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+.turbo/
+next-env.d.ts
+*.tsbuildinfo
+
+# ── Stray debug screenshots (temp-path filenames) ──────────────────
+web/Users*.png
+web/UsersUser*.png
