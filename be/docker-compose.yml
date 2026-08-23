@@ -1,0 +1,49 @@
+version: "3.9"
+
+services:
+  # ── PostgreSQL ─────────────────────────────────────────────────
+  db:
+    image: postgres:15-alpine
+    container_name: curecordai_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: curecordai
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: curecordai
+    # Not published to the host - the `api` service reaches this over the Docker network.
+    # Publishing 5432 turns a dev-only weak password into an internet-reachable one if this
+    # compose file is ever reused for a reachable environment.
+    expose:
+      - "5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+      - ./scripts/init_db.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U curecordai"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── FastAPI App ────────────────────────────────────────────────
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: curecordai_api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://curecordai:password@db:5432/curecordai
+    volumes:
+      - ./app:/app/app
+      - ./keys:/app/keys
+    depends_on:
+      db:
+        condition: service_healthy
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload --timeout-keep-alive 5 --limit-concurrency 1000
+
+volumes:
+  pg_data:
