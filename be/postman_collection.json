@@ -1,0 +1,142 @@
+{
+  "info": {
+    "name": "CurecordAI Auth API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {"key": "base_url", "value": "http://localhost:8000/api/v1"},
+    {"key": "access_token", "value": ""},
+    {"key": "refresh_token", "value": ""}
+  ],
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8000/health"
+      }
+    },
+    {
+      "name": "Register Email",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/auth/register/email",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"email\": \"test@example.com\", \"password\": \"Test1234\", \"full_name\": \"Test User\"}"
+        }
+      }
+    },
+    {
+      "name": "Login Email",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/auth/login/email",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"email\": \"test@example.com\", \"password\": \"Test1234\"}"
+        }
+      }
+    },
+    {
+      "name": "Send OTP",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/auth/otp/send",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"phone_number\": \"+923001234567\", \"purpose\": \"registration\"}"
+        }
+      }
+    },
+    {
+      "name": "Verify OTP",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/auth/otp/verify",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"phone_number\": \"+923001234567\", \"otp\": \"123456\", \"purpose\": \"registration\"}"
+        }
+      }
+    },
+    {
+      "name": "Register Phone (after OTP)",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/auth/register/phone",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"full_name\": \"Test User\", \"otp_verified_token\": \"PASTE_TOKEN_FROM_OTP_VERIFY\"}"
+        }
+      }
+    },
+    {
+      "name": "Google OAuth",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/auth/google",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id_token\": \"PASTE_GOOGLE_ID_TOKEN\"}"
+        }
+      }
+    },
+    {
+      "name": "Get Current User",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/users/me",
+        "header": [{"key": "Authorization", "value": "Bearer {{access_token}}"}]
+      }
+    },
+    {
+      "name": "Complete Onboarding",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/users/onboarding",
+        "header": [
+          {"key": "Content-Type", "value": "application/json"},
+          {"key": "Authorization", "value": "Bearer {{access_token}}"}
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"full_name\": \"Test User\", \"year_of_birth\": 2000, \"gender\": \"Male\", \"height_cm\": 175, \"weight_kg\": 70, \"blood_group\": \"B+\", \"allergies\": \"Pollen\", \"existing_conditions\": [\"Asthma\"]}"
+        }
+      }
+    },
+    {
+      "name": "Refresh Token",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/auth/token/refresh",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"refresh_token\": \"{{refresh_token}}\"}"
+        }
+      }
+    },
+    {
+      "name": "Logout",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/auth/logout",
+        "header": [
+          {"key": "Content-Type", "value": "application/json"},
+          {"key": "Authorization", "value": "Bearer {{access_token}}"}
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"all_devices\": false}"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "info": {
+    "name": "CurecordAI API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:8000/api/v1" },
+    { "key": "token", "value": "" },
+    { "key": "refresh_token", "value": "" },
+    { "key": "record_id", "value": "" },
+    { "key": "folder_id", "value": "" },
+    { "key": "session_id", "value": "" }
+  ],
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Register (Email)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/auth/register/email",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"test@curecordai.com\",\n  \"password\": \"Test1234!\",\n  \"full_name\": \"Test User\"\n}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 201) {",
+                  "  const d = pm.response.json();",
+                  "  pm.collectionVariables.set('token', d.access_token);",
+                  "  pm.collectionVariables.set('refresh_token', d.refresh_token);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Login (Email)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/auth/login/email",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"test@curecordai.com\",\n  \"password\": \"Test1234!\"\n}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const d = pm.response.json();",
+                  "  pm.collectionVariables.set('token', d.access_token);",
+                  "  pm.collectionVariables.set('refresh_token', d.refresh_token);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Send OTP",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/auth/otp/send",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"phone_number\": \"+923001234567\",\n  \"purpose\": \"registration\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Verify OTP",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/auth/otp/verify",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"phone_number\": \"+923001234567\",\n  \"otp\": \"123456\",\n  \"purpose\": \"registration\"\n}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const d = pm.response.json();",
+                  "  if (d.otp_verified_token) pm.collectionVariables.set('otp_verified_token', d.otp_verified_token);",
+                  "  if (d.access_token) pm.collectionVariables.set('token', d.access_token);",
+                  "  if (d.refresh_token) pm.collectionVariables.set('refresh_token', d.refresh_token);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Register (Phone - after OTP verify)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/auth/register",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"otp_verified_token\": \"{{otp_verified_token}}\",\n  \"full_name\": \"Test User\"\n}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 201) {",
+                  "  const d = pm.response.json();",
+                  "  pm.collectionVariables.set('token', d.access_token);",
+                  "  pm.collectionVariables.set('refresh_token', d.refresh_token);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Refresh Token",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/auth/token/refresh",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"refresh_token\": \"{{refresh_token}}\"\n}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const d = pm.response.json();",
+                  "  pm.collectionVariables.set('token', d.access_token);",
+                  "  pm.collectionVariables.set('refresh_token', d.refresh_token);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Logout",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": "{{baseUrl}}/auth/logout",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"refresh_token\": \"{{refresh_token}}\",\n  \"all_devices\": false\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Users",
+      "item": [
+        {
+          "name": "Get Me",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": "{{baseUrl}}/users/me"
+          }
+        },
+        {
+          "name": "Complete Onboarding",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": "{{baseUrl}}/users/onboarding",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"full_name\": \"Ali Raza\",\n  \"year_of_birth\": 1990,\n  \"gender\": \"male\",\n  \"height_cm\": 175.0,\n  \"weight_kg\": 70.0,\n  \"blood_group\": \"O+\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Update Profile",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": "{{baseUrl}}/users/me/profile",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"full_name\": \"Ali Raza\",\n  \"gender\": \"male\",\n  \"blood_group\": \"O+\"\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Medical Records - Folders",
+      "item": [
+        {
+          "name": "List Folders",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": "{{baseUrl}}/records/folders"
+          }
+        },
+        {
+          "name": "Create Folder",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": "{{baseUrl}}/records/folders",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Cardiology\",\n  \"icon\": \"heart\",\n  \"sort_order\": 0\n}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 201) {",
+                  "  pm.collectionVariables.set('folder_id', pm.response.json().id);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Update Folder",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": "{{baseUrl}}/records/folders/{{folder_id}}",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Cardiology Reports\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete Folder",
+          "request": {
+            "method": "DELETE",
+            "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": "{{baseUrl}}/records/folders/{{folder_id}}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Medical Records - Pipeline",
+      "item": [
+        {
+          "name": "1. List Records",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": {
+              "raw": "{{baseUrl}}/records?limit=10&offset=0",
+              "host": ["{{baseUrl}}"],
+              "path": ["records"],
+              "query": [
+                { "key": "limit", "value": "10" },
+                { "key": "offset", "value": "0" },
+                { "key": "record_type", "value": "lab_report", "disabled": true },
+                { "key": "folder_id", "value": "{{folder_id}}", "disabled": true }
+              ]
+            }
+          }
+        },
+        {
+          "name": "2. Init Upload (get pre-signed S3 URL)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": "{{baseUrl}}/records/upload/init",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"CBC Blood Test - June 2026\",\n  \"record_type\": \"lab_report\",\n  \"file_name\": \"cbc_report.pdf\",\n  \"file_mime_type\": \"application/pdf\",\n  \"file_size_bytes\": 204800,\n  \"record_date\": \"2026-06-28\"\n}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 201) {",
+                  "  const d = pm.response.json();",
+                  "  pm.collectionVariables.set('record_id', d.record_id);",
+                  "  pm.collectionVariables.set('upload_url', d.upload_url);",
+                  "  pm.collectionVariables.set('object_key', d.object_key);",
+                  "  console.log('Upload URL:', d.upload_url);",
+                  "  console.log('Record ID:', d.record_id);",
+                  "}",
+                  "// Save the mime type so the PUT request uses the correct Content-Type",
+                  "try {",
+                  "  const body = JSON.parse(pm.request.body.raw);",
+                  "  pm.collectionVariables.set('file_mime_type', body.file_mime_type);",
+                  "} catch(e) {}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "3. PUT file to S3 (use upload_url from step 2)",
+          "request": {
+            "method": "PUT",
+            "header": [{ "key": "Content-Type", "value": "{{file_mime_type}}" }],
+            "url": "{{upload_url}}",
+            "body": {
+              "mode": "file",
+              "file": {}
+            }
+          },
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "exec": [
+                  "// Body > Binary: select the file you uploaded in step 2.",
+                  "// Content-Type is auto-set from {{file_mime_type}} saved by the Init Upload script.",
+                  "// Do NOT add an Authorization header - S3 presigned URLs don't use it."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "4. Confirm Upload (triggers AI pipeline)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": "{{baseUrl}}/records/{{record_id}}/upload/confirm",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"file_hash\": null\n}"
+            }
+          }
+        },
+        {
+          "name": "5. Poll Record (check processing_status)",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": "{{baseUrl}}/records/{{record_id}}"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const d = pm.response.json();",
+                  "pm.test('Processing status', () => {",
+                  "  console.log('Status:', d.processing_status);",
+                  "  console.log('AI Summary:', d.ai_summary);",
+                  "});"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Get Record",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": "{{baseUrl}}/records/{{record_id}}"
+          }
+        },
+        {
+          "name": "Get Download URL",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": "{{baseUrl}}/records/{{record_id}}/download"
+          }
+        },
+        {
+          "name": "Update Record",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" }
+            ],
+            "url": "{{baseUrl}}/records/{{record_id}}",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"CBC Blood Test - June 2026 (Updated)\",\n  \"folder_id\": null\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete Record",
+          "request": {
+            "method": "DELETE",
+            "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": "{{baseUrl}}/records/{{record_id}}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "AI Chat Pipeline",
+      "item": [
+        {
+          "name": "1. List Sessions",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": "{{baseUrl}}/ai/sessions"
+          }
+        },
+        {
+          "name": "2. Create Session",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": "{{baseUrl}}/ai/sessions"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 201) {",
+                  "  pm.collectionVariables.set('session_id', pm.response.json().id);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "3. Get Messages",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": "{{baseUrl}}/ai/sessions/{{session_id}}/messages"
+          }
+        },
+        {
+          "name": "4. Send Message (SSE stream)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" },
+              { "key": "Accept", "value": "text/event-stream" }
+            ],
+            "url": "{{baseUrl}}/ai/sessions/{{session_id}}/messages/stream",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"content\": \"What does a high creatinine level in my blood test mean?\",\n  \"source_record_ids\": []\n}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "// SSE streams: response body contains lines like:",
+                  "// data: {\"chunk\": \"...\"}",
+                  "// data: [DONE]",
+                  "// Postman shows the full streamed body in the response tab.",
+                  "pm.test('Stream received', () => {",
+                  "  pm.expect(pm.response.text()).to.include('[DONE]');",
+                  "});"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Send Message with Record Context",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{token}}" },
+              { "key": "Accept", "value": "text/event-stream" }
+            ],
+            "url": "{{baseUrl}}/ai/sessions/{{session_id}}/messages/stream",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"content\": \"Summarize this lab report and highlight anything abnormal.\",\n  \"source_record_ids\": [\"{{record_id}}\"]\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete Session",
+          "request": {
+            "method": "DELETE",
+            "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": "{{baseUrl}}/ai/sessions/{{session_id}}"
+          }
+        }
+      ]
+    }
+  ]
+}
