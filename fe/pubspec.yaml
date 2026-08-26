@@ -1,0 +1,147 @@
+name: curecordai
+description: Personal health record platform - CurecordAI
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Navigation
+  go_router: ^14.2.7
+
+  # HTTP client
+  dio: ^5.7.0
+
+  # File hashing (SHA-256 duplicate-upload detection)
+  crypto: ^3.0.3
+
+  # Secure storage (tokens)
+  flutter_secure_storage: ^9.2.2
+
+  # Local storage (settings)
+  shared_preferences: ^2.3.2
+
+  # HTTP response caching (encrypted Hive-backed store)
+  dio_cache_interceptor: ^3.5.1
+  dio_cache_interceptor_hive_store: ^3.2.2
+  hive: ^2.2.3
+
+  # Downloaded file caching (PDFs, images)
+  flutter_cache_manager: ^3.4.1
+
+  # Connectivity / offline detection
+  connectivity_plus: ^7.0.0
+
+  # UI components
+  flutter_svg: ^2.0.10+1
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  lottie: ^3.1.2
+  fl_chart: ^0.68.0
+  qr_flutter: ^4.1.0
+  image_picker: ^1.1.2
+  image_cropper: ^8.1.0
+  file_picker: ^8.1.2
+  mobile_scanner: ^5.2.1
+
+  # Formatting
+  intl: ^0.20.0
+  timeago: ^3.7.0
+
+  # Biometrics
+  local_auth: ^2.3.0
+
+  # Push notifications
+  firebase_core: ^3.4.0
+  firebase_messaging: ^15.1.0
+
+  # Local/alarm-style notifications (medication reminders - Android & iOS)
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+  flutter_timezone: ^3.0.1
+
+  # Google Sign-In
+  google_sign_in: ^6.2.1
+
+  # Apple Sign-In
+  sign_in_with_apple: ^6.1.2
+
+  # Auth flow - Provider, HTTP, Google Fonts
+  provider: ^6.1.2
+  http: ^1.2.0
+  google_fonts: ^6.1.0
+  country_code_picker: ^3.0.0
+  pin_code_fields: ^8.0.1
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # UUID
+  uuid: ^4.5.0
+
+  # JSON serialization
+  json_annotation: ^4.9.0
+
+  # Other utils
+  url_launcher: ^6.3.0
+  share_plus: ^10.0.2
+  path_provider: ^2.1.4
+  equatable: ^2.0.5
+  flutter_markdown_plus: ^1.0.11
+  pdfx: ^2.9.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.12
+  riverpod_generator: ^2.4.3
+  json_serializable: ^6.8.0
+  custom_lint: ^0.7.6
+  riverpod_lint: ^2.4.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+  # Source PNG has a transparent background - iOS doesn't support alpha in
+  # app icons (App Store rejects it), so it's flattened onto white on export.
+  remove_alpha_ios: true
+  background_color_ios: "#FFFFFF"
+  min_sdk_android: 21
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/dark/
+    - assets/icons/
+    - assets/animations/
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Manrope-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Manrope-Regular.ttf
+        - asset: assets/fonts/Manrope-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Manrope-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Manrope-ExtraBold.ttf
+          weight: 800
