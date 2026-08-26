@@ -1,0 +1,486 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Dark theme palette, kept in sync with the mobile app's dark palette
+ * (fe/lib/core/theme/app_theme.dart) so web and mobile read as one product.
+ * Every color in tailwind.config.ts resolves through one of these variables -
+ * change the palette here, not in component classNames.
+ */
+:root {
+  /* Tells the browser this page is dark-only, so native form controls (inputs, selects,
+     date/number pickers, scrollbars) render with dark UA defaults instead of assuming
+     light mode - without this, inputs render a white background no matter what
+     Tailwind classes are applied around them. */
+  color-scheme: dark;
+
+  --color-background: #0d1413;
+  --color-surface: #0d1413;
+  --color-card: #16201f;
+  --color-elevated: #1c2826;
+  --color-border: #2a3735;
+
+  --color-primary: #2dbfaf;
+  --color-primary-dark: #0f9b8e;
+  --color-primary-light: #6fd9cc;
+  --color-primary-tint: #15302d;
+  --color-primary-tint-subtle: #101d1b;
+  --color-primary-foreground: #04100d;
+  --color-highlight: #6fd9cc;
+
+  --color-ink: #f2f7f6;
+  --color-ink-muted: #a8b5b2;
+  --color-ink-faint: #6f7c79;
+  --color-disabled: #475250;
+
+  --color-error: #f87171;
+  --color-error-bg: #3a1f1f;
+  --color-success: #34d399;
+  --color-warning: #fbbf24;
+  --color-warning-bg: #332912;
+  --color-warning-dark: #fbbf24;
+  --color-info: #60a5fa;
+
+  /* Chat AI-bubble fill - a step lighter than the card so it reads as content sitting on
+     the chat panel rather than blending into it (elevated/surface don't fit both themes). */
+  --color-bubble-ai: #1c2826;
+
+  /*
+   * RGB-channel twins of the palette above, used exclusively by tailwind.config.ts
+   * so utilities like bg-primary/10 or border-highlight/20 can apply an opacity
+   * modifier (Tailwind can't derive alpha from a var() that resolves to a hex string).
+   * Keep every value here in sync with its hex counterpart above.
+   */
+  --color-background-rgb: 13 20 19;
+  --color-surface-rgb: 13 20 19;
+  --color-card-rgb: 22 32 31;
+  --color-elevated-rgb: 28 40 38;
+  --color-border-rgb: 42 55 53;
+
+  --color-primary-rgb: 45 191 175;
+  --color-primary-dark-rgb: 15 155 142;
+  --color-primary-light-rgb: 111 217 204;
+  --color-primary-tint-rgb: 21 48 45;
+  --color-primary-tint-subtle-rgb: 16 29 27;
+  --color-primary-foreground-rgb: 4 16 13;
+  --color-highlight-rgb: 111 217 204;
+
+  --color-ink-rgb: 242 247 246;
+  --color-ink-muted-rgb: 168 181 178;
+  --color-ink-faint-rgb: 111 124 121;
+  --color-disabled-rgb: 71 82 80;
+
+  --color-error-rgb: 248 113 113;
+  --color-error-bg-rgb: 58 31 31;
+  --color-success-rgb: 52 211 153;
+  --color-warning-rgb: 251 191 36;
+  --color-warning-bg-rgb: 51 41 18;
+  --color-warning-dark-rgb: 251 191 36;
+  --color-info-rgb: 96 165 250;
+
+  --color-bubble-ai-rgb: 28 40 38;
+
+  /*
+   * StickyFeatureShowcase-only tokens. That section is styled with its own
+   * hardcoded near-black/neon palette rather than the tokens above, so it
+   * needs its own theme-swap variables to pick up light mode too. Values
+   * here match its existing hardcoded dark colors exactly (zero visual
+   * change in dark mode); the light block below is the only place they
+   * differ. The phone mockup device chrome inside that section is left
+   * alone in both themes - it's a fixed screenshot/device illustration.
+   */
+  --showcase-bg: #050505;
+  --showcase-heading: #ffffff;
+  --showcase-muted: #a0a0a0;
+  --showcase-accent: #00e676;
+  --showcase-accent-border: rgb(0 230 118 / 0.3);
+  --showcase-accent-bg: rgb(0 230 118 / 0.1);
+  --showcase-track: rgb(255 255 255 / 0.1);
+
+  /* Hero-only background: darker than the shared --color-background so the
+     hero section reads as full black in dark theme, without changing that
+     token's other uses across the site. */
+  --hero-bg: #000000;
+
+  /* Navbar link/icon color — white on the dark glass pill; swapped for a
+     brand-green in light theme (see below) so text stays readable on the
+     light glass surface instead of staying white-on-white. */
+  --navbar-fg-rgb: 255 255 255;
+
+  /* Navbar glass tint — deliberately lighter than --color-surface-rgb (which
+     is near-black, almost the same tone as the page/hero background behind
+     it) so the frosted pill still reads as visibly separated from whatever
+     scrolls underneath. Using the surface color directly made the blur look
+     like it wasn't applying at all in dark theme: blurring near-black text
+     against a near-black tint just produces more near-black. */
+  --navbar-glass-rgb: 28 40 38;
+  --navbar-glass-alpha: 1;
+}
+
+/*
+ * Urdu-script pages (the `ur` locale) read entirely in Noto Nastaliq Urdu
+ * instead of Manrope. `data-locale` is set on <html> by LocaleHtmlSync
+ * (marketing routes) and AppLocaleHtmlSync (dashboard/auth routes) - see
+ * i18n/language.ts for the locale table. Roman Urdu (`roman-ur`) is
+ * Latin-script and is intentionally excluded, so it keeps reading in
+ * Manrope like English.
+ */
+html[data-locale="ur"] body {
+  font-family: var(--font-noto-nastaliq-urdu), var(--font-manrope), sans-serif;
+  /* Nastaliq stacks diagonally - its loops and connectors swing well above
+     and below the baseline, needing far more vertical room per line than
+     Manrope does. Without this, adjacent lines visually collide. This
+     multiplier is unitless, so it scales with whatever font-size each
+     element ends up at (body copy, small labels, etc.) rather than being a
+     fixed px value. */
+  line-height: 2;
+}
+
+/*
+ * Tailwind's tighter leading-* utilities (leading-tight, leading-snug,
+ * leading-[1.1], etc.) are tuned for Manrope's small ascenders/descenders
+ * and set line-height directly on the element, which overrides the body
+ * rule above through inheritance. Force them back open under the Urdu
+ * locale so prose using those utilities doesn't collide once rendered in
+ * Nastaliq.
+ *
+ * leading-none is deliberately excluded: every use of it in this codebase
+ * is a numeric stat or an aria-hidden flag glyph relying on it for tight
+ * vertical alignment, never translated Urdu prose, so it should keep its
+ * tight value even on Urdu-locale pages.
+ */
+html[data-locale="ur"] [class*="leading-"]:not(.leading-none) {
+  line-height: 2.2;
+}
+
+/*
+ * Headings need more headroom than body copy: Nastaliq's diagonal stagger
+ * and loop/tail height grow with font-size, so the bigger a heading is,
+ * the more it collides at any line-height that reads fine for 14-16px body
+ * text (line-height is proportional to font-size, but Nastaliq's ascender/
+ * descender reach isn't - it grows faster than font-size at display
+ * sizes). `!important` here is intentional: h1-h6 in this codebase carry
+ * whatever leading-* utility a component was designed with for Manrope
+ * (leading-[1.1], no class at all, etc.), and every one of those needs to
+ * lose to this rule on Urdu pages rather than requiring each heading to be
+ * hunted down and special-cased individually.
+ */
+html[data-locale="ur"] h1,
+html[data-locale="ur"] h2,
+html[data-locale="ur"] h3,
+html[data-locale="ur"] h4,
+html[data-locale="ur"] h5,
+html[data-locale="ur"] h6 {
+  line-height: 2.6 !important;
+}
+
+/*
+ * Light theme palette, toggled via [data-theme="light"] on <html> (see
+ * lib/useTheme.ts). Only the tokens above are redefined here - everything
+ * else (layout, components, animations) reads through the same variables
+ * and needs no theme-specific handling.
+ */
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --color-background: #f7faf9;
+  --color-surface: #f7faf9;
+  --color-card: #ffffff;
+  --color-elevated: #ffffff;
+  --color-border: #e2e8e7;
+
+  --color-primary: #0f9b8e;
+  --color-primary-dark: #0b6d63;
+  --color-primary-light: #5fbfb3;
+  --color-primary-tint: #e3f5f3;
+  --color-primary-tint-subtle: #f0faf9;
+  --color-primary-foreground: #ffffff;
+  --color-highlight: #5fbfb3;
+
+  --color-ink: #14201e;
+  --color-ink-muted: #6b7676;
+  --color-ink-faint: #9ca6a4;
+  --color-disabled: #c7d1cf;
+
+  --color-error: #dc2626;
+  --color-error-bg: #fce8e8;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-warning-bg: #fff8e6;
+  --color-warning-dark: #8a6100;
+  --color-info: #3b82f6;
+
+  --color-bubble-ai: #f4f6f4;
+
+  --color-background-rgb: 247 250 249;
+  --color-surface-rgb: 247 250 249;
+  --color-card-rgb: 255 255 255;
+  --color-elevated-rgb: 255 255 255;
+  --color-border-rgb: 226 232 231;
+
+  --color-primary-rgb: 15 155 142;
+  --color-primary-dark-rgb: 11 109 99;
+  --color-primary-light-rgb: 95 191 179;
+  --color-primary-tint-rgb: 227 245 243;
+  --color-primary-tint-subtle-rgb: 240 250 249;
+  --color-primary-foreground-rgb: 255 255 255;
+  --color-highlight-rgb: 95 191 179;
+
+  --color-ink-rgb: 20 32 30;
+  --color-ink-muted-rgb: 107 118 118;
+  --color-ink-faint-rgb: 156 166 164;
+  --color-disabled-rgb: 199 209 207;
+
+  --color-error-rgb: 220 38 38;
+  --color-error-bg-rgb: 252 232 232;
+  --color-success-rgb: 16 185 129;
+  --color-warning-rgb: 245 158 11;
+  --color-warning-bg-rgb: 255 248 230;
+  --color-warning-dark-rgb: 138 97 0;
+  --color-info-rgb: 59 130 246;
+
+  --color-bubble-ai-rgb: 244 246 244;
+
+  --showcase-bg: #ffffff;
+  --showcase-heading: #1a1a2e;
+  --showcase-muted: #6b7280;
+  --showcase-accent: #0f9b8e;
+  --showcase-accent-border: rgb(15 155 142 / 0.3);
+  --showcase-accent-bg: rgb(15 155 142 / 0.1);
+  --showcase-track: #e5e7eb;
+
+  --hero-bg: var(--color-background);
+
+  --navbar-fg-rgb: var(--color-primary-dark-rgb);
+
+  --navbar-glass-rgb: 255 255 255;
+  --navbar-glass-alpha: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Off-canvas drawers (e.g. the AI assistant's chat-history panel) are positioned via a
+     `fixed` + `translate-x` pair that briefly extends outside the 0..100vw range while closed.
+     Without this, that extra scrollable width shifts the browser's resting scroll position
+     under `dir="rtl"` (the Urdu locale) - taps/visible content end up offset from where they're
+     actually laid out, and elements pinned near the trailing edge (e.g. the chat send button)
+     read as cut off. Clipping horizontal overflow at the root prevents that shift everywhere,
+     not just in the one component that happened to trigger it. */
+  overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/*
+ * Brand-themed scrollbar, applied globally so every scrollable element in the
+ * app (page body, chat panel, dropdown menus, modals, etc.) uses it instead of
+ * the OS/browser default - no per-component opt-in needed. Reads through the
+ * same CSS variables as the rest of the palette, so it follows dark/light
+ * theme switching automatically.
+ */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(var(--color-border-rgb)) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--color-border-rgb));
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(var(--color-primary-rgb) / 0.6);
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Smooth theme switch: color-related properties animate; layout, transforms
+   and existing animations are untouched since they aren't in this list.
+   Elements with their own transition-* utility (e.g. transition-colors)
+   keep that duration - a class selector always outweighs this universal one. */
+*,
+*::before,
+*::after {
+  transition-property: background-color, border-color, color, fill, stroke, box-shadow;
+  transition-timing-function: ease;
+  transition-duration: 300ms;
+}
+
+/* Fractal-noise grain overlay used on dark hero surfaces for a filmic, non-flat feel. */
+.bg-grain {
+  position: relative;
+}
+
+.bg-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@keyframes card-float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-card-float {
+  animation: card-float 6s ease-in-out infinite;
+}
+
+/* Ambient twinkle used by SparkleField on dark hero/feature backgrounds. */
+@keyframes sparkle-twinkle {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+}
+
+.animate-sparkle {
+  animation-name: sparkle-twinkle;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+/* Pulsing glow behind the emergency widget card in FeatureShowcase. */
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+}
+
+/* Slow back-and-forth tilt for the QR card in FeatureShowcase, combined
+   with the float bob into one class so both play at once. */
+@keyframes gentle-tilt {
+  0%,
+  100% {
+    rotate: -3deg;
+  }
+  50% {
+    rotate: 3deg;
+  }
+}
+
+.animate-qr-float {
+  animation:
+    card-float 6s ease-in-out infinite,
+    gentle-tilt 5s ease-in-out infinite;
+}
+
+/* Staggered bounce for the AI "typing" indicator dots in FeatureShowcase. */
+@keyframes typing-bounce {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+  30% {
+    transform: translateY(-3px);
+    opacity: 1;
+  }
+}
+
+.animate-typing-dot {
+  animation: typing-bounce 1.1s ease-in-out infinite;
+}
+
+/*
+ * Premium glass floating navigation pill (Navbar.tsx). Tinted with the
+ * shared --color-surface token (dark near-black in dark theme, near-white in
+ * light theme) so the glass reads as the section behind it seen through
+ * frosted glass, rather than a fixed grey/black panel independent of theme.
+ * The ambient glow ties back into the theme via --color-primary-rgb.
+ *
+ * True glass: the base tint is highly transparent so the background behind
+ * it shows through the blur (no opaque slab), and the border/glow carry the
+ * "glass edge" read instead of the fill itself.
+ */
+.glass-navbar {
+  background:
+    linear-gradient(180deg, rgb(255 255 255 / 0.09), rgb(255 255 255 / 0) 45%),
+    rgb(var(--navbar-glass-rgb) / var(--navbar-glass-alpha));
+  backdrop-filter: blur(48px) saturate(160%);
+  -webkit-backdrop-filter: blur(48px) saturate(160%);
+  border: 1px solid rgb(var(--color-border-rgb) / 0.8);
+  box-shadow:
+    inset 0 1px 0 0 rgb(255 255 255 / 0.16),
+    inset 0 0 0 1px rgb(255 255 255 / 0.05),
+    inset 0 -1px 0 0 rgb(0 0 0 / 0.04),
+    0 16px 40px -14px rgb(0 0 0 / 0.35),
+    0 0 24px -8px rgb(var(--color-primary-rgb) / 0.18);
+  transition: box-shadow 300ms ease, border-color 300ms ease, background-color 300ms ease;
+}
+
+/* Individual link/button surface inside the glass pill — shared hover +
+   active treatment so every nav item (including Home and Sign In) picks up
+   the same subtle glass highlight and green active glow automatically. */
+.glass-navbar-item {
+  position: relative;
+  transition: color 200ms ease, background-color 200ms ease, box-shadow 200ms ease;
+}
+
+.glass-navbar-item:hover {
+  background-color: rgb(var(--color-primary-rgb) / 0.08);
+}
+
+.glass-navbar-item[data-active="true"] {
+  background-color: rgb(var(--color-primary-rgb) / 0.14);
+  box-shadow:
+    inset 0 0 0 1px rgb(var(--color-primary-rgb) / 0.3),
+    0 0 16px -4px rgb(var(--color-primary-rgb) / 0.5);
+}
+
+/* Smooth settle-in the first time the navbar mounts, echoing the hero's own
+   entrance timing without competing with it (see HeroFeaturesPhone.tsx). */
+@keyframes navbar-drop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-navbar-in {
+  animation: navbar-drop-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
