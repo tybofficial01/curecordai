@@ -1,0 +1,1218 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "howItWorks": "Kaam Karne Ka Tareeqa",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "signIn": "Sign In",
+    "getStarted": "Shuru Karein",
+    "primary": "Primary Menu",
+    "mobile": "Mobile Menu",
+    "openMenu": "Menu Kholein",
+    "closeMenu": "Menu Band Karein"
+  },
+  "footer": {
+    "tagline": "Aap ke family ki mukammal medical history, organized aur asaan zaban mein samjhai gayi.",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "groups": {
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "account": "Account"
+    },
+    "links": {
+      "features": "Features",
+      "howItWorks": "Kaam Karne Ka Tareeqa",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "about": "Hamare Baray Mein",
+      "contact": "Contact Karein",
+      "blog": "Blog",
+      "privacy": "Privacy Policy",
+      "signIn": "Sign In",
+      "getStarted": "Shuru Karein"
+    },
+    "copyright": "CurecordAI. Tamam huqooq mehfooz hain."
+  },
+  "home": {
+    "meta": {
+      "title": "Family Ke Liye AI Health Record App",
+      "description": "Prescriptions aur lab reports upload karein, Roman Urdu ya English mein AI explanation payein, aur apni puri family ke health records ek hi jagah manage karein. Shuru karna free hai."
+    },
+    "badge": "AI-Powered Health Intelligence",
+    "heroTitle": "Aap ki family ki health,",
+    "heroTitleHighlight": "ab samajh aane lagi hai.",
+    "heroSubtitle": "Sirf chand seconds mein prescriptions, lab reports aur discharge summaries upload karein. CurecordAI har family member ki history ko organize karta hai aur usay foran asaan Roman Urdu ya English mein samjhata hai.",
+    "pinnedHeading": "Aap Ki Sehat. Sirf Ek Zaheen Guftagu Door",
+    "pinnedBody": "Ek zaheen AI health assistant se fitri andaz mein baat karein jo aapko symptoms samajhne, medications manage karne, wellness track karne, aur apni healthcare se juday rehne mein madad deta hai - yeh sab aik hi asaan tajurbay mein.",
+    "dashboardAlt": "Phone screen par CurecordAI home dashboard",
+    "reportSummaryAlt": "Phone screen par CurecordAI ki AI report summary",
+    "aiChatAlt": "Blood test se mutaliq sawal ka jawab deti CurecordAI ki AI chat screen",
+    "ctaPrimary": "Free Shuru Karein",
+    "ctaSecondary": "Dekhein yeh kaise kaam karta hai",
+    "featuresHeading": "CurecordAI ke andar kya kuch hai, ek qareebi nazar",
+    "featuresBody": "Ek hi app records ko organize karne, samajhne aur share karne ke liye - patients ke liye banayi gayi, doctors ke liye nahi.",
+    "featuresLink": "Har feature explore karein",
+    "howItWorksHeading": "CurecordAI kaise kaam karta hai",
+    "howItWorksBody": "Sirf teen steps, koi technical setup nahi.",
+    "howItWorksLink": "Mukammal walkthrough dekhein",
+    "pricingHeading": "Sab ke liye mukammal taur par free",
+    "pricingBody": "Koi paid plan nahi, koi chupi hui fee nahi. Har feature individuals aur families dono ke liye free hai.",
+    "pricingLink": "Mukammal plan details dekhein",
+    "faqHeading": "Aksar poochay jaane wale sawalat",
+    "faqBody": "Aur sawalat hain? Mukammal",
+    "faqLink": "FAQ page dekhein",
+    "solutionHeading": "CurecordAI har family member ke liye is masle ka hal hai",
+    "solutionIncluded": "Har family member ke liye shamil",
+    "solutions": {
+      "vault": {
+        "title": "Ek organized health vault",
+        "description": "Koi bhi document sirf ek baar upload karein. CurecordAI usay khud-ba-khud sahi family member ke tehat file kar deta hai, taake sab kuch hamesha ek hi jagah rahe."
+      },
+      "explain": {
+        "title": "Asaan zaban mein explanations",
+        "description": "AI assistant se poochein ke koi lab result ya diagnosis ka kya matlab hai. Yeh aap ke apne records ki bunyad par asaan Roman Urdu ya English mein jawab deta hai."
+      },
+      "share": {
+        "title": "Apni history ek tap mein share karein",
+        "description": "Kisi bhi doctor ke liye secure link ya QR code generate karein. Woh foran aap ki mukammal, organized history dekh lete hain - dobara sab kuch batane ki zaroorat nahi."
+      }
+    }
+  },
+  "faq": {
+    "meta": {
+      "title": "CurecordAI FAQ - Aam Sawalat",
+      "description": "CurecordAI ke baray mein aam sawalat ke jawabat payein - records kaise upload karein, AI assistant kaise kaam karta hai, privacy, family management, aur WhatsApp access."
+    },
+    "eyebrow": "FAQ",
+    "title": "Aksar poochay jaane wale sawalat",
+    "description": "Apne aur apni family ke liye CurecordAI use karne ke baray mein har zaroori baat.",
+    "footerPrompt": "Aur sawalat hain? Hamare",
+    "footerFeatures": "features dekhein",
+    "footerHowItWorks": "kaam karne ka tareeqa parhein",
+    "footerPricing": "pricing check karein",
+    "items": [
+      {
+        "question": "CurecordAI kya hai aur yeh kaise kaam karta hai?",
+        "answer": "CurecordAI Pakistan mein patients aur families ke liye ek AI-powered personal health record app hai. Aap koi bhi medical document upload karte hain, jaise prescriptions, lab reports aur discharge summaries. AI document ko parhta hai, medications, diagnoses aur lab results nikaalta hai, aur sab kuch har family member ke liye ek searchable health vault mein organize kar deta hai."
+      },
+      {
+        "question": "Kya CurecordAI Android aur iOS par available hai?",
+        "answer": "Ji haan. CurecordAI Google Play par Android app, Apple App Store par iOS app, aur ek website ke tor par available hai jo aap kisi bhi browser mein use kar sakte hain."
+      },
+      {
+        "question": "Kya main CurecordAI ko WhatsApp par use kar sakta hoon?",
+        "answer": "Ji haan. CurecordAI ka apna WhatsApp AI agent hai. Aap koi alag app download kiye baghair seedha WhatsApp ke zariye documents upload kar sakte hain aur health se mutalliq sawalat pooch sakte hain."
+      },
+      {
+        "question": "Health sawalat ke liye CurecordAI aur ChatGPT mein kya farq hai?",
+        "answer": "ChatGPT sirf generic jawabat de sakta hai kyunke uske paas aap ke personal medical records tak rasai nahi hoti. CurecordAI har sawal ka jawab aap ki apni upload ki hui health history ki bunyad par deta hai, isliye jawabat aap ki asal diagnoses, medications aur lab results ke mutabiq hote hain."
+      },
+      {
+        "question": "Kya main apni puri family ke records manage kar sakta hoon?",
+        "answer": "Ji haan. Aap apne parents, spouse aur bachon jaisay family members ko apne account mein add kar sakte hain aur har fard ki medical history ko ek hi family vault ke tehat alag alag organize rakh sakte hain."
+      },
+      {
+        "question": "Main apne records kisi doctor ke sath kaise share karoon?",
+        "answer": "Share with Doctor screen kholein, choose karein ke kya aur kitni dair ke liye share karna hai, aur CurecordAI ek secure QR code ya link generate kar deta hai. Doctor usay scan karta hai ya link kholta hai aur foran aap ki organized history dekh leta hai, unki taraf se kisi account ki zaroorat nahi."
+      },
+      {
+        "question": "Main kis qisam ke documents upload kar sakta hoon?",
+        "answer": "Aap prescriptions, medical reports, X-rays aur lab results upload kar sakte hain. Har type khud-ba-khud aap ke health vault mein apne folder mein file ho jaata hai."
+      },
+      {
+        "question": "Kya CurecordAI Urdu support karta hai?",
+        "answer": "Ji haan. AI health assistant aap ke medical documents ko asaan Urdu ya English mein samjhata hai, taake lab results aur doctor ke notes us zaban mein samajh aayein jisme aap sab se zyada asaani mehsoos karte hain."
+      },
+      {
+        "question": "Kya mera health data private aur secure hai?",
+        "answer": "Ji haan. Aap ke documents securely store kiye jaate hain aur sirf aap aur un logon ko accessible hote hain jinhein aap khud share karne ka intekhab karte hain. CurecordAI kabhi bhi aap ka health data bechta ya zahir nahi karta. Mukammal details ke liye hamari Privacy Policy dekhein."
+      },
+      {
+        "question": "Kya CurecordAI use karna free hai?",
+        "answer": "Ji haan, CurecordAI mukammal taur par free hai - including records upload karna, AI assistant, doctor ke sath sharing, aur family members add karna. Koi paid plan nahi hai."
+      }
+    ]
+  },
+  "common": {
+    "getStartedFree": "Free Start Karein",
+    "seeHowItWorks": "Dekhein Ye Kaise Kaam Karta Hai"
+  },
+  "cta": {
+    "title": "Aaj hi apni family ke health records organize karna shuru karein",
+    "description": "Start karna bilkul free hai. Credit card ki zaroorat nahi."
+  },
+  "about": {
+    "meta": {
+      "title": "Hamare Baare Mein",
+      "description": "CurecordAI is liye banaya gaya ke Pakistani families apni medical history organize kar sakein aur usay aasan zabaan mein samajh sakein - aisi AI ke sath jo patient ki privacy ka khayal rakhti hai."
+    },
+    "eyebrow": "Hamare Baare Mein",
+    "title": "Health records aasan hone chahiye, pareshani ka sabab nahi",
+    "description": "CurecordAI ki shuruaat aik simple si baat se hui: gharon mein sab se ahem medical documents darazon, mobile phones aur WhatsApp chats mein bikhre rehte hain - aur doctor ke ilawa koi unhein samajh nahi pata.",
+    "missionHeading": "Hamara Mission",
+    "missionBody": "Hum ne CurecordAI is liye banaya ke Pakistan mein koi bhi patient ya uske ghar ka fard aik document upload kar sake, usay apni zabaan mein samajh sake, aur aik tap mein apni poori medical history kisi bhi doctor ko de sake - bina kisi technical skill ya medical training ke.",
+    "values": {
+      "patients": {
+        "title": "Patients Pehle",
+        "description": "Har screen aise shakhs ke liye design ki gayi hai jo na doctor hai na technical - buzurg walidain aur dada dadi samet."
+      },
+      "privacy": {
+        "title": "Privacy By Default",
+        "description": "Aapka health data sirf aapka hai. Ye kabhi becha nahi jata, aur sirf un logon ke sath share hota hai jinhein aap khud select karte hain."
+      },
+      "family": {
+        "title": "Poori Family Ke Liye",
+        "description": "Medical records kam hi kisi aik fard tak mehdood hote hain. CurecordAI poori family ko samne rakh kar banaya gaya hai, sirf aik individual account ke liye nahi."
+      }
+    },
+    "ctaTitle": "Un families mein shamil hon jo CurecordAI ke sath apni health organize kar rahi hain",
+    "ctaDescription": "Start karna free hai. Aik minute se bhi kam mein apna pehla document add karein."
+  },
+  "contact": {
+    "meta": {
+      "title": "Hum Se Raabta Karein",
+      "description": "Support, partnership ya app se mutalliq feedback ke liye CurecordAI ki team se raabta karein."
+    },
+    "eyebrow": "Raabta",
+    "title": "Hum aapki madad ke liye mojood hain",
+    "description": "Apne account se mutalliq sawal ho, partnership ki tajweez ho, ya app par feedback - humein message bhejein.",
+    "formHeading": "Humein message bhejein",
+    "otherHeading": "Raabte ke doosre zarai",
+    "form": {
+      "name": "Poora Naam",
+      "email": "Email Address",
+      "message": "Message",
+      "send": "Message Bhejein",
+      "sending": "Bheja ja raha hai...",
+      "successTitle": "Message mil gaya",
+      "successBody": "Raabta karne ka shukriya. Hamari team aik business day ke andar aapke diye gaye email par jawab degi.",
+      "errorRequired": "Bhejne se pehle bar-e-karam tamam khane pur karein.",
+      "errorEmail": "Bar-e-karam sahi email address likhein.",
+      "errorGeneric": "Aapka message bheja nahi ja saka. Bar-e-karam dobara koshish karein."
+    }
+  },
+  "features": {
+    "meta": {
+      "title": "Features: AI Medical Records aur Family Vault",
+      "description": "CurecordAI ke tamam features tafseel ke sath: AI report summary, medication reminders, emergency widget, family profiles, aik tap mein doctor ke sath sharing, aur searchable health vault."
+    },
+    "eyebrow": "Features",
+    "title": "Apni family ki health sambhalne ke liye har cheez",
+    "description": "Aik hi app mein records organize karein, unhein samjhein aur share karein - doctors ke liye nahi, patients ke liye banaya gaya.",
+    "footerPrompt": "Steps ko practically dekhna chahte hain?",
+    "footerHowItWorks": "Dekhein ye kaise kaam karta hai",
+    "footerOr": "ya dekhein",
+    "footerPricing": "pricing",
+    "faqHeading": "CurecordAI ke features se mutalliq aam sawalat",
+    "faqs": [
+      {
+        "question": "Main CurecordAI par kis tarah ki files upload kar sakta hoon?",
+        "answer": "Aap apne mobile se li gayi tasveer ya kisi bhi prescription, lab report, X-ray ya discharge summary ki PDF upload kar sakte hain. CurecordAI usay parh kar khud ba khud sahi folder mein save kar deta hai."
+      }
+    ],
+    "items": {
+      "organize": {
+        "title": "Records Organize Karein",
+        "description": "Har prescription, lab report aur discharge summary khud ba khud aik hi searchable health vault mein organize ho jati hai."
+      },
+      "assistant": {
+        "title": "AI Health Assistant",
+        "description": "Kisi bhi diagnosis, dawa ya lab result ke baare mein sawal poochein aur aasan Urdu ya English mein wazeh jawab payein."
+      },
+      "personalized": {
+        "title": "Aap Ke Mutabiq Jawabat",
+        "description": "ChatGPT jaise generic jawab nahi. Har jawab aapki apni upload ki hui medical history par mabni hota hai, kisi aam average par nahi."
+      },
+      "family": {
+        "title": "Family Vault",
+        "description": "Apne walidain, shareek-e-hayat aur bachon ke records aik hi account mein sambhalein, har fard ki apni alag organized history ke sath."
+      },
+      "sharing": {
+        "title": "Aik Tap Mein Doctor Sharing",
+        "description": "Aik secure QR code ya link banayein taake koi bhi doctor visit ke dauran foran aapki poori history dekh sake."
+      },
+      "whatsapp": {
+        "title": "WhatsApp Par Rasai",
+        "description": "Documents upload karein aur health se mutalliq sawal seedha WhatsApp par poochein - koi app download karne ki zaroorat nahi."
+      },
+      "analytics": {
+        "title": "Health Analytics",
+        "description": "Weight aur blood pressure jaise ahem vitals waqt ke sath aik simple chart mein dekhein, aik report ka doosri se hath se comparison karne ke bajaye."
+      },
+      "emergency": {
+        "title": "Emergency Widget",
+        "description": "Allergies, dawaiyan, chronic conditions, blood group aur emergency contacts lock-screen widget mein add karein taake first responders phone khole baghair unhein dekh sakein. Ye CurecordAI mobile app se set kiya jata hai."
+      },
+      "reminders": {
+        "title": "Medication Reminders",
+        "description": "Har dawa ke liye din aur waqt ke sath reminder lagayein aur track karein ke dose li gayi ya nahi - apni profile aur family ke har fard ke liye."
+      }
+    }
+  },
+  "howItWorks": {
+    "meta": {
+      "title": "CurecordAI Kaise Kaam Karta Hai: Upload, Sawal, Share",
+      "description": "Dekhein ke CurecordAI kis tarah aik prescription ya lab report ko aisi AI summary mein badalta hai jo aap samajh sakein aur apne doctor ke sath share kar sakein."
+    },
+    "eyebrow": "Ye Kaise Kaam Karta Hai",
+    "title": "Kaghazi records se jawabat tak, teen steps mein",
+    "description": "Na koi technical setup, na seekhne ki mushkil. Agar aap WhatsApp par tasveer bhej sakte hain to CurecordAI bhi use kar sakte hain.",
+    "stepsHeading": "Har baar: Upload karein, sawal karein, share karein",
+    "stepLabel": "Step {number}",
+    "steps": {
+      "upload": {
+        "title": "Upload Karein",
+        "description": "Kisi bhi prescription, lab report ya medical document ki tasveer lein ya PDF upload karein. AI usay parh kar khud ba khud organize kar deti hai."
+      },
+      "ask": {
+        "title": "Sawal Karein",
+        "description": "Apni health history ke baare mein AI assistant se kuch bhi poochein - kisi result ka matlab, kaunsi dawa leni hai, ya waqt ke sath kya tabdeeli aayi."
+      },
+      "share": {
+        "title": "Share Karein",
+        "description": "Aik secure QR code ya link banayein taake koi bhi doctor aik tap mein aapki poori, organized medical history dekh sake."
+      }
+    },
+    "familyHeading": "Aik family ke liye ye kaisa lagta hai",
+    "familyBody": "Apne account mein walidain, shareek-e-hayat ya bacha add karein aur unke liye wohi teen steps dohrayein. Family ke har fard ko apna alag organized health vault milta hai, aur AI assistant har jawab usi fard ki apni history ke mutabiq deti hai.",
+    "familyLink": "Dekhein family vault mein kya kuch hai",
+    "scenarios": {
+      "parent": {
+        "title": "Walidain ka naya prescription add karna",
+        "description": "Caregiver access rakhne wala beta ya beti walidain ka naya prescription upload karta hai, assistant se poochta hai ke ye kis liye hai, aur usay walidain ki profile mein save rakhta hai - apne records se alag."
+      },
+      "specialist": {
+        "title": "Specialist se milne se pehle",
+        "description": "Har purani diagnosis aur dawa yaad karne ki koshish ke bajaye, vault mein mojood organized history kholein aur seedha share kar dein."
+      },
+      "report": {
+        "title": "Uljhi hui report samajhna",
+        "description": "Clinical terms se bhari lab report aik aasan zabaan ki summary ban jati hai jis mein har marker ki status wazeh hoti hai, bajaye is ke ke aap har term online dhoondte phirein."
+      }
+    }
+  },
+  "pricing": {
+    "meta": {
+      "title": "CurecordAI Pricing - Start Karna Free",
+      "description": "CurecordAI bilkul free hai - credit card ki zaroorat nahi. Apna health vault sambhalein, ya bina kisi kharch ke 6 tak family members add karein."
+    },
+    "eyebrow": "Pricing",
+    "title": "Bilkul free, koi chupi hui shart nahi",
+    "description": "Koi paid plan nahi, koi hidden fees nahi. Har feature individuals aur families dono ke liye free hai.",
+    "mostPopular": "Sab Se Popular",
+    "footerPrompt": "Jaanna chahte hain ke is mein kya kuch shamil hai? Dekhein poori",
+    "footerFeatures": "features ki list",
+    "footerMiddle": ", ya aam sawalat ke liye dekhein",
+    "footerFaq": "FAQ",
+    "footerEnd": ".",
+    "plans": {
+      "individual": {
+        "name": "Individual",
+        "price": "Free",
+        "period": "hamesha ke liye",
+        "description": "Aik user ko organized hone ke liye har zaroori cheez.",
+        "features": [
+          "Unlimited documents upload karein",
+          "AI health assistant",
+          "Aik health vault",
+          "Aik tap mein doctor sharing",
+          "WhatsApp par rasai"
+        ],
+        "cta": "Free Start Karein"
+      },
+      "family": {
+        "name": "Family",
+        "price": "Free",
+        "period": "hamesha ke liye",
+        "description": "Un gharanon ke liye jo walidain, shareek-e-hayat aur bachon ke health records sambhalte hain.",
+        "features": [
+          "Individual plan ki har sahulat",
+          "6 tak family member vaults",
+          "AI ke jawab mein priority",
+          "Documents ki lambi history",
+          "Har fard ke liye emergency health card"
+        ],
+        "cta": "Apni Family Add Karein"
+      }
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy",
+      "description": "CurecordAI ki privacy policy parhein aur jaanein ke hum aapki family ke health records aur zaati maloomat ko kaise jama, mehfooz aur protect karte hain."
+    },
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "description": "Aakhri baar July 2026 mein update kiya gaya. Ye policy batati hai ke CurecordAI aapki maloomat kaise jama karta, istemal karta aur mehfooz rakhta hai.",
+    "sections": [
+      {
+        "title": "Hum kaunsi maloomat jama karte hain",
+        "body": "Account banate waqt aap jo maloomat faraham karte hain wo hum jama karte hain, jin mein aapka naam, phone number ya email, aur profile ki tafseelat shamil hain. Is ke ilawa hum wo medical documents bhi mehfooz karte hain jo aap upload karte hain, jaise prescriptions, lab reports aur discharge summaries, aur aapke banaye gaye family member profiles."
+      },
+      {
+        "title": "Hum aapki maloomat kaise istemal karte hain",
+        "body": "Hum aapki maloomat aapke upload kiye gaye documents organize karne, AI health assistant ko aapke apne records ki bunyad par jawab dene ke qabil banane, aur aapke select kiye gaye doctors ke sath secure sharing ke liye istemal karte hain. Hum aapka health data doosre users ke liye models train karne ke liye istemal nahi karte, aur na hi aapka data kisi third party ko bechte hain."
+      },
+      {
+        "title": "Aapka data kaise store hota hai",
+        "body": "Documents encrypted cloud storage mein mehfooz kiye jate hain. Hamare database mein sirf har file ka reference rakha jata hai - file khud zaroorat ke waqt banne wale short-lived secure links ke zariye dikhayi jati hai. Aapke account tak rasai ke liye authentication zaroori hai, aur hassas actions ka security audit ke liye record rakha jata hai."
+      },
+      {
+        "title": "Aapke records ki sharing",
+        "body": "Jab tak aap khud \"Share with Doctor\" screen se koi share link ya QR code na banayein, aapke records kisi ko nazar nahi aate. Kya share hoga aur kitni der ke liye, ye ikhtiyar aapke paas hai, aur aap kisi bhi waqt access khatam kar sakte hain."
+      },
+      {
+        "title": "Family member ka data",
+        "body": "Jab aap kisi family member ki profile add karte hain to us shakhs ke records aapke account ke tehat sambhale jate hain. Us ki taraf se health maloomat sambhalne ka munasib ikhtiyar rakhna aapki zimmedari hai, maslan kisi na-baaligh bache ya zair-e-kafalat walid ke liye."
+      },
+      {
+        "title": "Aapke huqooq",
+        "body": "Aap kisi bhi waqt apni Profile aur Settings se apna account aur us se mutalliq data dekh, update ya delete kar sakte hain. Aap hamari support team se raabta kar ke apne data ka mukammal export ya deletion ki darkhwast bhi kar sakte hain."
+      },
+      {
+        "title": "Is policy mein tabdeeliyan",
+        "body": "Hum waqtan fawaqtan is privacy policy ko update kar sakte hain. Ahem tabdeeliyan nafiz hone se pehle app ke zariye ya email par batayi jayengi."
+      },
+      {
+        "title": "Hum se raabta karein",
+        "body": "Agar is privacy policy ya aapke data ke istemal se mutalliq koi sawal ho to humein support@curecordai.com par raabta karein."
+      }
+    ]
+  },
+  "blog": {
+    "meta": {
+      "title": "Pakistani Families Ke Liye Health Records Blog",
+      "description": "Medical records organize karne, lab reports samajhne aur apni family ki health sambhalne par amli rehnumai - CurecordAI banane wali team ki taraf se."
+    },
+    "eyebrow": "Blog",
+    "title": "Apni health organize karne aur samajhne ki rehnumai",
+    "description": "Family ke medical records sambhalne, lab reports parhne aur har doctor visit se bharpoor faida uthane par amli articles.",
+    "readArticle": "Article Parhein",
+    "post": {
+      "writtenBy": "Likha gaya: {author}",
+      "published": "Publish hua {date}",
+      "updated": "Update hua {date}",
+      "disclaimer": "Ye article CurecordAI ki team ne aam maloomati maqsad ke liye likha aur publish kiya hai. Ye zaati medical advice nahi hai aur kisi mustanad doctor se mashware ka mutabadil nahi. Health se mutalliq koi bhi faisla hamesha aise doctor se confirm kar lein jo aapki medical history jaanta ho.",
+      "ctaTitle": "Khud try karne ke liye tayyar hain?",
+      "ctaBody": "Apna pehla document upload karein aur dekhein ke CurecordAI usay khud ba khud kaise organize karta hai.",
+      "related": "Mutalliqa Articles"
+    }
+  },
+  "platforms": {
+    "heading": "Android, iOS aur Web par dastyab",
+    "body": "Apne phone se start karein, web par jari rakhein. Aapki family ka health vault har jagah sync rehta hai.",
+    "comingSoon": "Jald Aa Raha Hai!",
+    "webNote": "Seedha apne browser mein istemal karein"
+  },
+  "problem": {
+    "heading": "Family health records sambhalna zaroorat se zyada mushkil hai",
+    "body": "Bikhre hue kaghazat, uljhi hui lab reports, aur har visit par wohi history dohrana - har family ye sab yaadasht ke sahare jorti rehti hai. Dekhein CurecordAI ye sab aik jagah kaise laata hai.",
+    "empty": "Aapke records jama karne ke liye tayyar",
+    "points": {
+      "records": {
+        "compact": "Records",
+        "title": "Records har jagah bikhre hue",
+        "description": "Prescriptions daraz mein, lab reports WhatsApp par, discharge papers folders mein gum. Zaroorat ke waqt kuch bhi aik jagah nahi hota."
+      },
+      "reports": {
+        "compact": "Medical Reports",
+        "title": "Medical reports uljha deti hain",
+        "description": "Lab values aur doctor ke notes jargon se bhare hote hain. Patients andaza lagate reh jate hain ke kisi result ka matlab kya hai."
+      },
+      "history": {
+        "compact": "History",
+        "title": "Har visit par history dohrana",
+        "description": "Har naya doctor wohi sawalat poochta hai kyunke organized medical history share karne ka koi tez tareeqa mojood nahi."
+      }
+    }
+  },
+  "showcase": {
+    "items": {
+      "records": {
+        "label": "Records Vault",
+        "title": "Records Vault",
+        "description": "Prescriptions, lab reports, scans, vaccination records aur har ahem medical document ko aik encrypted jagah par mehfooz tareeqe se organize karein. Apni poori health history jab chahein foran dekhein.",
+        "alt": "CurecordAI Records Vault screen jis mein prescriptions, lab reports aur medical documents aik jagah organized hain"
+      },
+      "summary": {
+        "label": "AI Medical Summary",
+        "title": "AI Medical Summary",
+        "description": "Lambi medical reports ko aasani se samajh aane wali summaries mein badlein. AI khud ba khud diagnoses, dawaiyan, abnormal lab values, ahem findings aur tajweez karda follow-ups highlight kar deti hai, taake patients chand seconds mein apni health samajh sakein.",
+        "alt": "CurecordAI AI Medical Summary screen jis mein diagnoses, dawaiyan aur abnormal lab values aasan zabaan mein highlight hain"
+      },
+      "analytics": {
+        "label": "Health Analytics",
+        "title": "Health Analytics",
+        "description": "Weight aur blood pressure jaise ahem vitals waqt ke sath wazeh trend charts mein track karein, jo aapki upload ki hui lab reports se khud ba khud liye jate hain - taake aap dekh sakein ke koi number kis taraf ja raha hai, aik report ka doosri se hath se comparison kiye baghair.",
+        "alt": "CurecordAI Health Analytics screen jis mein weight aur blood pressure ka trend chart dikhaya gaya hai"
+      },
+      "emergency": {
+        "label": "Emergency Widget",
+        "title": "Emergency Widget",
+        "description": "First responders ko ahem medical maloomat seedha aapki lock screen se faraham karein. Allergies, dawaiyan, chronic conditions, blood group, emergency contacts aur doosri jaan bachane wali tafseelat phone khole baghair nazar aati hain.",
+        "alt": "Lock screen par CurecordAI Emergency Widget jis mein allergies, dawaiyan aur emergency contacts dikhaye gaye hain"
+      },
+      "family": {
+        "label": "Family Profiles",
+        "title": "Family Profiles",
+        "description": "Walidain, bachon, shareek-e-hayat aur apne pyaron ke medical records aik hi secure account se sambhalein. Profiles ke darmiyan aasani se switch karein, aur har fard ki medical history organized aur private rahe.",
+        "alt": "CurecordAI Family Profiles screen jis se walidain, bachon aur shareek-e-hayat ke medical records sambhale jate hain"
+      },
+      "sharing": {
+        "label": "QR Medical Sharing",
+        "title": "QR Medical Sharing",
+        "description": "Secure QR codes bana kar muntakhab medical records foran doctors, hospitals aur healthcare providers ke sath share karein. Har share kiya gaya record encrypted rehta hai, mukammal tor par user ke control mein hota hai, aur behtar privacy ke liye khud ba khud expire ho sakta hai.",
+        "alt": "CurecordAI QR Medical Sharing screen jis mein doctor ke sath records share karne ke liye secure QR code ban raha hai"
+      },
+      "assistant": {
+        "label": "AI Medical Assistant",
+        "title": "AI Medical Assistant",
+        "description": "Aisi AI assistant se qudrati andaz mein baat karein jo aapki poori medical history samajhti hai. Reports, dawaiyon, allergies, lab results, symptoms ya purani diagnoses ke baare mein poochein aur apne mehfooz records ki bunyad par personalized rehnumai hasil karein.",
+        "alt": "CurecordAI AI Medical Assistant chat screen jo lab report se mutalliq sawal ka jawab de rahi hai"
+      }
+    }
+  },
+  "app": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "upload": "Upload",
+      "vault": "Health Vault",
+      "assistant": "AI Assistant",
+      "family": "Family",
+      "medications": "Medications",
+      "share": "Doctor Ke Sath Share Karein",
+      "insights": "Insights",
+      "alerts": "Alerts",
+      "emergency": "Emergency",
+      "profile": "Profile Aur Settings",
+      "signOut": "Sign Out"
+    },
+    "common": {
+      "save": "Save karein",
+      "saveChanges": "Changes save karein",
+      "saving": "Save ho raha hai...",
+      "cancel": "Cancel",
+      "close": "Band karein",
+      "delete": "Delete karein",
+      "deleting": "Delete ho raha hai...",
+      "remove": "Hata dein",
+      "edit": "Edit karein",
+      "retry": "Dobara koshish karein",
+      "tryAgain": "Dobara koshish karein",
+      "gotIt": "Samajh gaya",
+      "continueLabel": "Aage barhein",
+      "previous": "Pichla",
+      "skipForNow": "Abhi skip karein",
+      "search": "Search karein",
+      "all": "Sab",
+      "none": "Koi nahi",
+      "viewAll": "Sab dekhein",
+      "loading": "Load ho raha hai...",
+      "sessionExpired": "Aap ka session khatam ho gaya. Dobara sign in karein.",
+      "notSignedIn": "Aap sign in nahi hain.",
+      "somethingWentWrong": "Kuch ghalat ho gaya. Dobara koshish karein.",
+      "download": "Download",
+      "accountMenu": "Account menu",
+      "expandSidebar": "Sidebar kholein",
+      "collapseSidebar": "Sidebar band karein",
+      "openMenu": "Menu kholein",
+      "closeMenu": "Menu band karein",
+      "yourAccount": "Aap ka account",
+      "switchProfile": "Profile switch karein",
+      "owner": "Owner",
+      "ownerYou": "Owner · Aap",
+      "familyMember": "Family member",
+      "member": "Member",
+      "addFamilyMember": "Family member add karein",
+      "checkingSession": "Aap ka session check ho raha hai"
+    },
+    "shell": {
+      "primaryNav": "Primary",
+      "moreNav": "Mazeed"
+    },
+    "recordTypes": {
+      "lab_report": "Lab Report",
+      "prescription": "Prescription",
+      "radiology": "Radiology",
+      "discharge_summary": "Discharge Summary",
+      "vaccination": "Vaccination",
+      "insurance": "Insurance",
+      "referral": "Referral",
+      "other": "Deegar"
+    },
+    "recordStatus": {
+      "pending": "Upload ho raha hai",
+      "processing": "Analyze ho raha hai",
+      "completed": "Tayyar",
+      "failed": "Nakaam"
+    },
+    "documentStatus": {
+      "pending": "Queue mein",
+      "processing": "Process ho raha hai",
+      "completed": "Mukammal",
+      "failed": "Nakaam"
+    },
+    "home": {
+      "welcomeBack": "Khush aamdeed, {name}",
+      "memberDashboard": "{name} ka Dashboard",
+      "description": "Yahan aap ki family ke health records ki taza soorat-e-haal hai.",
+      "loadError": "Dashboard load nahi ho saka.",
+      "totalDocuments": "Total Documents",
+      "uploadedLabel": "Upload shuda",
+      "medications": "Medications",
+      "activeLabel": "Active",
+      "uploadDocument": "Document Upload Karein",
+      "uploadDocumentSubtitle": "Reports aur Prescriptions",
+      "askAi": "AI Se Poochein",
+      "askAiSubtitle": "Fori medical insights",
+      "shareWithDoctor": "Doctor Ke Sath Share Karein",
+      "shareWithDoctorSubtitle": "Fori profile sharing",
+      "viewSummary": "Summary Dekhein",
+      "viewSummarySubtitle": "Health record ka jaiza",
+      "activeAllergies": "Aap ki active allergies hain",
+      "recentDocuments": "Recent Documents",
+      "noDocuments": "Abhi koi document nahi. Shuru karne ke liye apni pehli prescription ya lab report upload karein.",
+      "recentConversations": "Recent AI Conversations",
+      "openAssistant": "Assistant kholein",
+      "noConversations": "Abhi koi conversation nahi. AI assistant se apne health records ke bare mein sawal karein.",
+      "newConversation": "Nayi conversation",
+      "messagesCount": "{count} messages",
+      "greetingMorning": "Good morning",
+      "greetingAfternoon": "Good afternoon",
+      "greetingEvening": "Good evening",
+      "greetingNight": "Good night",
+      "subtitleOwner": "Yahan aap ke health records ki taza soorat-e-haal hai.",
+      "subtitleMember": "Yahan {name} ke health records ki taza soorat-e-haal hai.",
+      "dismiss": "Band karein",
+      "nudgeUnreadInstructionMessage": "Aap ke doctor ne nayi hidayat chhori hain.",
+      "nudgeUnreadInstructionButton": "Hidayat dekhein",
+      "nudgeNoDocumentsMessage": "Shuru karne ke liye apna pehla record upload karein.",
+      "nudgeNoDocumentsButton": "Document upload karein",
+      "nudgeNoMedicationsMessage": "0 active medications. Track karne ke liye apni medications add karein.",
+      "nudgeNoMedicationsButton": "Medication add karein",
+      "rotatingTips": [
+        "AI assistant se kahein ke koi bhi report aasan zaban mein samjhaye.",
+        "Aap ke records sirf aap aur aap ke chune huye doctors ko nazar aate hain.",
+        "Aap ne apne records organized rakhe hain, aise hi jari rakhein."
+      ],
+      "completeProfile": "Apni profile mukammal karein",
+      "completeProfileButton": "Profile mukammal karein",
+      "viewDetails": "Tafseelat dekhein",
+      "noMedicationsYet": "Abhi tak koi add nahi",
+      "addMedicationsHint": "Refills aur interactions track karne ke liye medications add karein."
+    },
+    "vault": {
+      "title": "Health Vault",
+      "description": "Aap ki family ka har upload kiya hua document, khud ba khud organize shuda.",
+      "uploadDocument": "Document Upload Karein",
+      "searchPlaceholder": "Documents search karein",
+      "emptyTitle": "Koi document nahi mila",
+      "emptyDescription": "Koi aur search ya category try karein, ya apne health vault mein naya document upload karein."
+    },
+    "document": {
+      "backToVault": "Health Vault par wapas",
+      "notFoundTitle": "Document nahi mila",
+      "notFoundDescription": "Mumkin hai ye document hata diya gaya ho. Apne saare uploaded documents dekhne ke liye Health Vault par wapas jayein.",
+      "viewOriginal": "Original dekhein",
+      "deleteConfirmTitle": "\"{title}\" delete karein?",
+      "deleteConfirmDescription": "Ye wapas nahi ho sakta.",
+      "deleteError": "Ye document delete nahi ho saka.",
+      "extracting": "AI is document se health data nikal raha hai…",
+      "processingFailedWithReason": "Processing nakaam: {reason}",
+      "processingFailed": "Is document ki AI processing nakaam ho gayi.",
+      "aiSummary": "AI Summary",
+      "explainWithAi": "AI se samjhein",
+      "explainPrefill": "Meri \"{title}\" ke bare mein mazeed bataein",
+      "icd11Prefix": "ICD-11: {code}",
+      "detailsTitle": "Document Details",
+      "titleEmpty": "Title khali nahi ho sakta.",
+      "saveError": "Changes save nahi ho sake. Dobara koshish karein.",
+      "fieldTitle": "Title",
+      "fieldType": "Type",
+      "fieldDate": "Date",
+      "fieldPatientName": "Patient ka naam",
+      "fieldLabOrg": "Issuing Lab / Org",
+      "fieldReferringDoctor": "Referring Doctor",
+      "fieldFile": "File",
+      "fieldStatus": "Status",
+      "labResultsAndVitals": "Lab Results aur Vitals",
+      "conditions": "Conditions",
+      "medications": "Medications",
+      "allergies": "Allergies",
+      "encounters": "Visits / Encounters",
+      "referencePrefix": "Ref:",
+      "activeChip": "Active",
+      "previewUnavailable": "Is file type ka preview mojood nahi. Aap original file download kar sakte hain.",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "resetZoom": "Zoom reset karein",
+      "interpretation": {
+        "N": "Normal",
+        "L": "Low",
+        "H": "High",
+        "LL": "Critical Low",
+        "HH": "Critical High",
+        "A": "Abnormal",
+        "AA": "Bohat Abnormal"
+      }
+    },
+    "aiReport": {
+      "backToDocument": "Document par wapas",
+      "title": "AI Report Summary",
+      "loadErrorTitle": "Record load nahi ho saka",
+      "analysingTitle": "AI aap ke document ka analysis kar raha hai",
+      "analysingDescription": "Aam tor par is mein chand seconds lagte hain. Tayyar hone par page refresh karein.",
+      "failedTitle": "Analysis nakaam",
+      "failedDescription": "Hum ye document process nahi kar sake. Ise dobara upload karein.",
+      "askAiInstead": "Is ke bajaye AI se poochein",
+      "noParametersTitle": "Koi lab parameter nahi mila",
+      "noParametersDescription": "Is document mein numeric lab results nahi hain. Aap phir bhi AI se is ki wazahat pooch sakte hain.",
+      "continueInChat": "Chat mein jari rakhein",
+      "viewRecordDetails": "Record ki details dekhein",
+      "analysisResult": "Analysis ka natija",
+      "overall": "Overall: {status}",
+      "disclaimer": "Ye summary AI ne aap ke results samjhane ke liye banai hai. Baqaida diagnosis ke liye apne doctor se mashwara karein.",
+      "continueExplanation": "Chat mein wazahat jari rakhein"
+    },
+    "upload": {
+      "title": "Document Upload Karein",
+      "description": "Prescription, lab report ya koi bhi medical document add karein - CurecordAI khud is ka title aur category set kar deta hai.",
+      "dropHere": "File yahan drag kar ke chhorein",
+      "fileHint": "PDF, JPG ya PNG, 50MB tak",
+      "browseFiles": "Files browse karein",
+      "selectFolder": "Folder select karein (optional)",
+      "generalRecords": "General Records",
+      "newFolder": "Naya Folder",
+      "uploadButton": "Document Upload Karein",
+      "uploading": "Upload ho raha hai...",
+      "checkingDocument": "Document check ho raha hai...",
+      "chooseFile": "Upload karne ke liye file select karein.",
+      "tooLarge": "File bohat bari hai. Maximum size 50MB hai.",
+      "unsupportedType": "Ye file type support nahi hoti. PDF, JPG, PNG, WebP ya DICOM (.dcm) file upload karein.",
+      "uploadFailed": "Upload nakaam. Dobara koshish karein.",
+      "duplicateRecord": "Ye document pehle hi aapke health vault mein upload ho chuki hai.",
+      "couldNotVerify": "Hum is document ko verify nahi kar sake. Dobara koshish karein.",
+      "successTitle": "Document upload ho gaya",
+      "successDescription": "\"{name}\" ka CurecordAI analysis kar raha hai aur ye thori der mein title aur category ke sath aap ke health vault mein aa jayega.",
+      "viewDocument": "Document Dekhein",
+      "uploadAnother": "Ek Aur Upload Karein",
+      "rejectedTitle": "Upload Nakaam",
+      "rejectedDescription": "Ye document aap ke health vault mein add nahi kiya gaya.",
+      "folder": {
+        "title": "Naya Folder Banayein",
+        "description": "Records ko bimari ke hisab se organize karein",
+        "nameLabel": "Folder ka naam",
+        "namePlaceholder": "maslan Cardiology, Orthopedic",
+        "selectIcon": "Icon select karein",
+        "nameRequired": "Folder ka naam zaroori hai.",
+        "createError": "Folder nahi ban saka. Dobara koshish karein.",
+        "creating": "Ban raha hai...",
+        "create": "Folder Banayein"
+      }
+    },
+    "assistant": {
+      "title": "AI Health Assistant",
+      "description": "Apne uploaded records ke bare mein kuch bhi poochein. Jawab aap ki apni health history par mabni hote hain.",
+      "howToUseAria": "AI Assistant kaise use karein",
+      "howToUseTitle": "Ise kaise use karein",
+      "conversations": "Conversations",
+      "closeHistory": "Conversation history band karein",
+      "openHistory": "Conversation history kholein",
+      "newConversation": "Nayi Conversation",
+      "startNewConversation": "Nayi conversation shuru karein",
+      "untitled": "Bina unwan",
+      "conversationOptions": "Conversation options",
+      "rename": "Naam badlein",
+      "pin": "Pin karein",
+      "unpin": "Unpin karein",
+      "deleteConfirmTitle": "{label} delete karein?",
+      "deleteConfirmDescription": "Ye wapas nahi ho sakta.",
+      "thisConversation": "ye conversation",
+      "deleteError": "Conversation delete nahi ho saki. Dobara koshish karein.",
+      "unavailable": "AI assistant is waqt available nahi hai.",
+      "disclaimer": "CurecordAI professional medical advice ka mutabadil nahi. Ahem faislon ki tasdeeq hamesha apne doctor se karein.",
+      "emptyTitle": "Apni sehat ke bare mein mujh se kuch bhi poochein",
+      "emptyDescription": "Wo jawab hasil karein jo aap ke Health Vault mein pehle se mojood records par mabni hon.",
+      "inputPlaceholder": "Apne health records ke bare mein poochein...",
+      "attachAria": "Health Vault se attach karein",
+      "sendAria": "Message bhejein",
+      "removeAttachment": "{title} hata dein",
+      "attachedDocument": "attached document",
+      "suggestedPrompts": {
+        "summarizeLatestLab": "Meri latest lab report ka summary batayein",
+        "explainXray": "Mera X-ray kya dikhata hai?",
+        "explainMedications": "Meri medications ki wazahat karein",
+        "anyConcerns": "Mere records ke mutabiq koi fikr ki baat hai?"
+      },
+      "time": {
+        "now": "abhi",
+        "minutes": "{value} min pehle",
+        "hours": "{value} ghantay pehle",
+        "days": "{value} din pehle",
+        "weeks": "{value} hafte pehle",
+        "months": "{value} mah pehle",
+        "years": "{value} saal pehle"
+      },
+      "attach": {
+        "title": "Health Vault se attach karein",
+        "description": "Apne sawal mein reference dene ke liye ek ya zyada documents select karein.",
+        "searchPlaceholder": "Documents search karein",
+        "emptyTitle": "Abhi koi document nahi",
+        "emptyDescription": "Conversation mein reference dene ke liye koi report ya prescription upload karein.",
+        "noMatches": "Aap ki search se koi document match nahi karta.",
+        "attachButton": "Attach karein"
+      },
+      "howTo": {
+        "title": "AI Health Assistant kaise use karein",
+        "askTitle": "Apni sehat ke bare mein poochein",
+        "askDescription": "Apni sehat ke bare mein kuch bhi poochein, assistant aap ke upload kiye hue documents ki bunyad par jawab dega.",
+        "attachTitle": "Health Vault se records attach karein",
+        "attachDescription": "Zyada targeted aur context-aware jawab ke liye apne sawal ke sath Health Vault ke specific documents attach karein.",
+        "summarizeTitle": "Reports ka summary",
+        "summarizeDescription": "Assistant se kahein ke lab report, prescription ya X-ray ko aasan zaban mein summarize kar de.",
+        "understandTitle": "Apni sehat ko samjhein",
+        "understandDescription": "Medical terms, results aur un ke matlab samajhne mein madad hasil karein."
+      }
+    },
+    "healthSummary": {
+      "title": "Health Summary",
+      "memberTitle": "{name} ka Health Summary",
+      "description": "Aap ke tamam records mein active maloomat se bana hua mukammal jaiza.",
+      "loadError": "Aap ka health summary load nahi ho saka.",
+      "emptyTitle": "Abhi koi health data nahi",
+      "emptyMemberTitle": "{name} ke liye abhi koi health data nahi",
+      "emptyDescription": "Mukammal health overview banane ke liye medical records upload karein.",
+      "overviewTitle": "Aap ka Health Overview",
+      "activeConditions": "Active Conditions",
+      "currentMedications": "Current Medications",
+      "allergies": "Allergies",
+      "recentLabs": "Recent Labs aur Vitals",
+      "disclaimer": "Ye overview aap ke uploaded records se AI ne banaya hai aur mukammal na ho sakta hai. Clinical faislon ke liye hamesha apne doctor se mashwara karein."
+    },
+    "medications": {
+      "title": "Medications",
+      "description": "Apne aur apni family ke liye medication reminders set karein - koi dose miss na ho.",
+      "addMedication": "Medication Add Karein",
+      "tabs": {
+        "active": "Active",
+        "paused": "Paused",
+        "completed": "Completed",
+        "all": "Sab"
+      },
+      "emptyTitle": "Yahan abhi koi medication nahi",
+      "emptyDescription": "Reminders shuru karne ke liye kisi uploaded document se medication add karein ya khud enter karein.",
+      "emptyAction": "Apni pehli medication add karein",
+      "you": "Aap",
+      "familyMember": "Family member",
+      "activeChip": "Active",
+      "asNeeded": "Zaroorat ke mutabiq",
+      "timesPerDay": "Rozana {count} baar",
+      "daily": "Rozana",
+      "everyNDays": "Har {days} din baad",
+      "days": {
+        "mon": "Pir",
+        "tue": "Mangal",
+        "wed": "Budh",
+        "thu": "Jumeraat",
+        "fri": "Juma",
+        "sat": "Hafta",
+        "sun": "Itwar"
+      },
+      "add": {
+        "back": "Medications par wapas",
+        "title": "Medication Add Karein",
+        "description": "Reminder set karein taake ye dose kabhi miss na ho.",
+        "whoFor": "Ye medication kis ke liye hai?",
+        "myself": "Mein khud",
+        "myselfHint": "Apni medications khud manage karein",
+        "familyMemberHint": "Kisi apne ki medications manage karein",
+        "noFamilyMembers": "Aap ne abhi tak koi family member add nahi kiya. Continue karne ke liye ek add karein.",
+        "selectFamilyMember": "Family member select karein",
+        "backStep": "Wapas",
+        "currentlySelected": "abhi selected hai",
+        "howToAdd": "Aap ye medication kaise add karna chahenge?",
+        "fromDocument": "Uploaded document se select karein",
+        "fromDocumentHint": "Aap ke records se pehle se extract ki gayi medications use karein",
+        "manual": "Khud add karein",
+        "manualHint": "Medication ki details khud likhein",
+        "selectDocument": "Document select karein (nayi se purani)",
+        "noDocuments": "Abhi koi document upload nahi hua.",
+        "selectMedication": "Is document se medication select karein",
+        "loadingExtracted": "Extract ki gayi medications load ho rahi hain...",
+        "noExtracted": "Is document se koi medication extract nahi ho saki. Koi aur document try karein ya khud add karein.",
+        "noDosageDetails": "Dosage ki detail mojood nahi",
+        "unknown": "Nameloom",
+        "chooseDifferentDocument": "Koi aur document select karein",
+        "loadMedicationsError": "Is document se medications load nahi ho sakin.",
+        "nameLabel": "Medication ka naam",
+        "dosageLabel": "Dosage",
+        "dosagePlaceholder": "maslan 500mg",
+        "formLabel": "Form",
+        "formPlaceholder": "maslan Tablet, Syrup",
+        "instructionsLabel": "Instructions (optional)",
+        "instructionsPlaceholder": "maslan khane ke baad lein",
+        "continueToSchedule": "Schedule par jayein",
+        "frequencyLabel": "Frequency",
+        "frequencyDaily": "Har roz",
+        "frequencySpecificDays": "Hafte ke makhsoos din",
+        "frequencyInterval": "Har N din baad",
+        "frequencyAsNeeded": "Zaroorat ke mutabiq (koi fixed reminder nahi)",
+        "intervalLabel": "Kitne din baad?",
+        "reminderTimes": "Reminder ke auqat",
+        "addAnotherTime": "Ek aur time add karein",
+        "startDate": "Start date",
+        "endDate": "End date (optional)",
+        "channels": "Reminder ke zarai",
+        "emailChannel": "Email reminder (is web app se)",
+        "pushChannel": "CurecordAI mobile app par alarm jaisa reminder",
+        "submit": "Medication Reminder Save Karein",
+        "nameRequired": "Medication ka naam zaroori hai.",
+        "timeRequired": "Kam az kam ek reminder time add karein.",
+        "dayRequired": "Hafte ka kam az kam ek din select karein.",
+        "saveError": "Ye medication reminder save nahi ho saka."
+      },
+      "detail": {
+        "forWhom": "{name} ke liye",
+        "dosage": "Dosage",
+        "form": "Form",
+        "instructions": "Instructions",
+        "frequency": "Frequency",
+        "times": "Auqat",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "ongoing": "Jari hai",
+        "timezone": "Timezone",
+        "reminders": "Reminders",
+        "email": "Email",
+        "mobileAlarm": "Mobile alarm",
+        "status": "Status",
+        "resume": "Dobara shuru karein",
+        "pause": "Rok dein",
+        "markCompleted": "Completed mark karein",
+        "deleteConfirmTitle": "Ye medication reminder delete karein?",
+        "deleteConfirmDescription": "Ye wapas nahi ho sakta.",
+        "updateError": "Ye medication update nahi ho saki.",
+        "deleteError": "Ye medication delete nahi ho saki."
+      }
+    },
+    "family": {
+      "title": "Family Management",
+      "description": "Apne walidain, life partner aur bachon ke health records ek hi jagah manage karein.",
+      "addMember": "Family Member Add Karein",
+      "emptyTitle": "Abhi koi family member nahi",
+      "emptyDescription": "Walid, walida, life partner ya bache ko add karein taake un ke health records bhi aap ke sath manage hon.",
+      "bloodGroup": "Blood group {group}",
+      "yearsOld": "{age} saal",
+      "removeAria": "{name} ko hata dein",
+      "removeConfirmTitle": "{name} ko hata dein?",
+      "removeConfirmDescription": "Is se un ke health records bhi aap ki family se hat jayenge. Ye wapas nahi ho sakta.",
+      "removeError": "{name} ko hataya nahi ja saka. Dobara koshish karein.",
+      "howItWorksTitle": "Family Management Kaise Kaam Karta Hai",
+      "howItWorksAria": "Family management kaise kaam karta hai",
+      "howItWorksItems": [
+        {
+          "title": "Alag login ki zaroorat nahi",
+          "description": "Family members ko apna alag account banane ki zaroorat nahi. Aap sab kuch apne hi login se manage kar sakte hain."
+        },
+        {
+          "title": "Alag profiles",
+          "description": "Har family member ke apne alag documents aur medications hoti hain, jo aap ke apne records se alag rakhi jati hain."
+        },
+        {
+          "title": "Mil kar manage karein",
+          "description": "Har family member ke liye documents upload karein, medications track karein, aur AI summaries dekhein, bilkul apni profile ki tarah."
+        },
+        {
+          "title": "Fori access share karein",
+          "description": "Kisi bhi family member ke records ke liye alag QR share generate karein, bilkul apne records ki tarah."
+        }
+      ],
+      "addShortcuts": [
+        { "title": "Parent add karein", "description": "Un ki medications aur appointments track karein." },
+        { "title": "Life partner add karein", "description": "Shared health history sath mil kar manage karein." },
+        { "title": "Bacha add karein", "description": "Un ke records ek hi jagah organized rakhein." }
+      ],
+      "fieldGender": "Gender",
+      "fieldBloodGroup": "Blood group",
+      "fieldAge": "Umar",
+      "notProvided": "Faraham nahi ki gayi",
+      "editAria": "{name} edit karein",
+      "add": {
+        "back": "Family par wapas",
+        "title": "Family Member Add Karein",
+        "description": "Jis family member ko aap manage karte hain, us ka health profile banayein.",
+        "fullName": "Poora naam",
+        "relation": "Rishta",
+        "role": "Role",
+        "roleDependent": "Dependent (mein un ke records manage karta hoon)",
+        "roleCaregiver": "Caregiver (mere records manage karne mein madad karte hain)",
+        "gender": "Gender",
+        "bloodGroup": "Blood group",
+        "dateOfBirth": "Date of birth",
+        "unknown": "Nameloom",
+        "nameTooShort": "Naam kam az kam 2 harf ka hona chahiye.",
+        "saveError": "Ye family member add nahi ho saka.",
+        "submitting": "Add ho raha hai...",
+        "submit": "Family Member Add Karein",
+        "relations": {
+          "Spouse": "Life partner",
+          "Parent": "Parent",
+          "Father": "Walid",
+          "Mother": "Walida",
+          "Child": "Bacha",
+          "Son": "Beta",
+          "Daughter": "Beti",
+          "Sibling": "Bhai/Behan",
+          "Other": "Deegar"
+        },
+        "infoTitle": "Relation aur role ki wazahat",
+        "infoBody": "Relation ye batata hai ke ye shakhs aap se kaise juda hai, jaise life partner, parent ya bacha. Role ye tay karta hai ke woh dependent hain jin ke records aap manage karte hain, ya caregiver jo aap ke records manage karne mein madad karte hain.",
+        "infoAria": "Relation aur Role ka matlab",
+        "editTitle": "Family Member Edit Karein",
+        "editDescription": "Is family member ka health profile update karein.",
+        "updateSuccess": "{name} ko update kar diya gaya hai",
+        "addSuccess": "{name} ko aap ki family mein add kar diya gaya hai",
+        "addPhoto": "Photo add karein",
+        "addPhotoHint": "Optional, jald aa raha hai",
+        "roleLockedHint": "Family member banne ke baad role tabdeel nahi kiya ja sakta.",
+        "saving": "Save ho raha hai...",
+        "saveChanges": "Tabdeeliyan save karein"
+      }
+    },
+    "share": {
+      "title": "Doctor Ke Sath Share Karein",
+      "description": "Mehfooz QR code ya link banayein taake koi bhi doctor {subject} organized history dekh sake.",
+      "subjectYour": "aap ki",
+      "subjectMember": "{name} ki",
+      "whatToShare": "Kya share karna hai",
+      "scopes": {
+        "full": "Mukammal Health History",
+        "last_1_year": "Pichla 1 Saal",
+        "last_6_months": "Pichle 6 Mahine",
+        "emergency_only": "Sirf Emergency Summary"
+      },
+      "sharingNote": "{subject} records share ho rahe hain. Kisi aur ke liye share karne ke liye upar se profile switch karein.",
+      "expiryNote": "Aap ki security ke liye har QR code banne ke thori der baad khud khatam ho jata hai.",
+      "generate": "QR Code Banayein",
+      "generating": "Ban raha hai...",
+      "generateError": "Share link nahi ban saka.",
+      "expires": "{when} ko expire hoga",
+      "copyLink": "Share link copy karein",
+      "linkCopied": "Link copy ho gaya",
+      "qrPlaceholder": "Select karein ke kya share karna hai aur doctor ko dene ke liye QR code banayein.",
+      "activeSessions": "Active Share Sessions",
+      "activeSessionsFor": "{name} ke Active Share Sessions",
+      "noSessionsTitle": "Koi active share session nahi",
+      "noSessionsDescription": "Aap ke banaye hue sessions expire ya revoke hone tak yahan nazar aayenge.",
+      "revoke": "Access revoke karein",
+      "revokeConfirmTitle": "Ye share link revoke karein?",
+      "revokeConfirmDescription": "Ise use karne wale har shakhs ki access foran khatam ho jayegi.",
+      "revokeLabel": "Revoke karein",
+      "instructionsTitle": "Doctor Ki Hidayaat",
+      "instructionsDescription": "Aap ka share kiya hua record dekhne ke baad doctor ne jo notes chhore.",
+      "noInstructionsTitle": "Abhi koi hidayat nahi",
+      "noInstructionsDescription": "Jab koi doctor shared record dekhne ke baad hidayaat chhorega, wo yahan nazar aayengi.",
+      "unread": "Unread",
+      "doctorPrefix": "Dr."
+    },
+    "insights": {
+      "title": "Insights",
+      "description": "Aap ki family ke health record ki activity aur vital trends par ek nazar.",
+      "loadError": "Insights load nahi ho sakin.",
+      "recordsByType": "Type Ke Hisab Se Records",
+      "recordsByTypeDescription": "Aap ke health vault mein upload kiye gaye documents.",
+      "noRecords": "Ye breakdown dekhne ke liye documents upload karein.",
+      "vitalTrends": "Vital Trends",
+      "noTrends": "Abhi koi lab result ya vital record nahi. Trends dekhne ke liye lab report upload karein.",
+      "last90Days": "Pichle 90 din.",
+      "dischargeShort": "Discharge",
+      "vitalChartAria": "{unit} ka waqt ke sath line chart"
+    },
+    "alerts": {
+      "title": "Alerts",
+      "description": "Aap ke documents, family aur account se mutaliq updates.",
+      "emptyTitle": "Sab kuch dekha ja chuka hai",
+      "emptyDescription": "Naye alerts aate hi yahan nazar aayenge.",
+      "markAsRead": "Read mark karein",
+      "dismiss": "Alert hata dein"
+    },
+    "emergency": {
+      "title": "Emergency",
+      "description": "Emergency mein fori dastyab ahem health maloomat.",
+      "emptyTitle": "Apna Emergency Widget set karein",
+      "emptyDescription": "Emergency widget aap ke phone ki lock screen par hota hai, is liye ye sirf CurecordAI mobile app se set ho sakta hai. Shuru karne ke liye app apne phone par install karein."
+    },
+    "profile": {
+      "title": "Profile Aur Settings",
+      "description": "Apni zati maloomat aur app preferences manage karein.",
+      "loadError": "Profile load nahi ho saka.",
+      "preferences": "Preferences",
+      "language": "Zaban",
+      "darkMode": "Dark Mode",
+      "darkModeDescription": "Light aur dark appearance ke darmiyan switch karein",
+      "saved": "Save ho gaya",
+      "personalInformation": "Zati Maloomat",
+      "fullName": "Poora naam",
+      "phoneNumber": "Phone number",
+      "dateOfBirth": "Date of birth",
+      "gender": "Gender",
+      "male": "Mard",
+      "female": "Aurat",
+      "preferNotToSay": "Batana nahi chahta",
+      "physicalMetrics": "Physical Metrics",
+      "heightCm": "Height (cm)",
+      "weightKg": "Weight (kg)",
+      "bloodGroup": "Blood group",
+      "unknown": "Nameloom",
+      "saveMetrics": "Metrics Save Karein",
+      "healthDetails": "Health Details",
+      "allergiesLabel": "Allergies (comma se alag karein)",
+      "allergiesPlaceholder": "Penicillin, Peanuts",
+      "conditionsLabel": "Mojooda conditions (comma se alag karein)",
+      "conditionsPlaceholder": "Hypertension, Asthma",
+      "saveHealthDetails": "Health Details Save Karein",
+      "changePhoto": "Profile photo tabdeel karein",
+      "cropPhotoTitle": "Apni photo adjust karein",
+      "zoom": "Zoom",
+      "cropError": "Ye photo crop nahi ho saki. Dusri photo try karein.",
+      "patientId": "Patient ID {id}",
+      "completion": "Profile completion",
+      "notifications": "Notifications",
+      "pushNotifications": "Push notifications",
+      "emailNotifications": "Email notifications",
+      "labResultAlerts": "Lab result alerts",
+      "drugInteractionAlerts": "Drug interaction alerts",
+      "saveInfoError": "Aap ki maloomat save nahi ho sakin.",
+      "saveMetricsError": "Aap ke physical metrics save nahi ho sake.",
+      "saveHealthError": "Aap ki health details save nahi ho sakin.",
+      "savePreferenceError": "Ye preference save nahi ho saki.",
+      "avatarError": "Aap ki photo upload nahi ho saki. 5MB se kam JPEG, PNG ya WebP try karein.",
+      "languageNames": {
+        "en": "English",
+        "ur": "اردو",
+        "roman_ur": "Roman Urdu"
+      }
+    },
+    "auth": {
+      "signInTitle": "Khush aamdeed",
+      "signInSubtitle": "Apni family ke health vault tak rasai ke liye sign in karein.",
+      "signUpTitle": "Apna account banayein",
+      "signUpSubtitle": "Shuru karna free hai. Apni family ke health records minton mein organize karein.",
+      "orContinueWith": "Ya is ke sath jari rakhein",
+      "noAccount": "Account nahi hai?",
+      "getStarted": "Shuru Karein",
+      "haveAccount": "Pehle se account hai?",
+      "signIn": "Sign In",
+      "signingIn": "Sign in ho raha hai...",
+      "emailTab": "Email",
+      "phoneTab": "Phone",
+      "emailLabel": "Email address",
+      "passwordLabel": "Password",
+      "createPasswordLabel": "Password banayein",
+      "confirmPasswordLabel": "Password confirm karein",
+      "passwordHint": "Kam az kam 8 harf, jin mein ek capital letter aur ek digit ho.",
+      "forgotPassword": "Password bhool gaye?",
+      "showPassword": "Password dikhayein",
+      "hidePassword": "Password chhupayein",
+      "fullNameLabel": "Poora naam",
+      "phoneLabel": "Phone number",
+      "phonePlaceholder": "3001234567",
+      "phoneHint": "Apna mulk select karein aur number shuru ke 0 ke baghair likhein.",
+      "selectCountryCode": "Country code select karein",
+      "otpLabelEmail": "{target} par bheja gaya 6 digit ka code enter karein",
+      "otpLabelPhone": "{target} par bheja gaya 6 digit ka code enter karein",
+      "verifyCode": "Code Verify Karein",
+      "verifying": "Verify ho raha hai...",
+      "editDetails": "Apni details edit karein",
+      "useDifferentNumber": "Koi aur number use karein",
+      "useDifferentEmail": "Koi aur email use karein",
+      "sendingCode": "Code bheja ja raha hai...",
+      "continueWithEmail": "Email Ke Sath Jari Rakhein",
+      "sendVerificationCode": "Verification Code Bhejein",
+      "creatingAccount": "Account ban raha hai...",
+      "completeSignUp": "Sign Up Mukammal Karein",
+      "continueWithApple": "Apple ke sath jari rakhein",
+      "errors": {
+        "enterEmailAndPassword": "Jari rakhne ke liye apna email aur password enter karein.",
+        "signInFailed": "Sign in nakaam. Dobara koshish karein.",
+        "enterFullName": "Apna poora naam enter karein.",
+        "enterFullNameToFinish": "Account mukammal karne ke liye apna poora naam enter karein.",
+        "invalidEmail": "Sahi email address enter karein.",
+        "invalidPhone": "Sahi phone number enter karein.",
+        "passwordsDoNotMatch": "Passwords aapas mein match nahi karte.",
+        "passwordTooShort": "Password kam az kam 8 harf ka hona chahiye.",
+        "passwordNeedsUppercase": "Password mein kam az kam ek capital letter hona chahiye.",
+        "passwordNeedsDigit": "Password mein kam az kam ek digit hona chahiye.",
+        "otpInvalid": "Hum ne email kiya hua 6 digit ka code enter karein.",
+        "otpInvalidSent": "Hum ne bheja hua 6 digit ka code enter karein.",
+        "couldNotSendCode": "Verification code nahi bheja ja saka.",
+        "codeMismatch": "Ye code sahi nahi tha. Dobara koshish karein.",
+        "couldNotVerifyCode": "Hum us code ko verify nahi kar sake. Dobara koshish karein.",
+        "registrationFailed": "Registration nakaam. Dobara koshish karein.",
+        "googleFailed": "Google sign-in nakaam.",
+        "appleFailed": "Apple sign-in nakaam."
+      },
+      "forgot": {
+        "title": "Password bhool gaye?",
+        "description": "Apne account ka email enter karein, hum aap ko password reset karne ka code bhejenge.",
+        "sendResetCode": "Reset Code Bhejein",
+        "couldNotSend": "Reset code nahi bheja ja saka.",
+        "resetTitle": "Apna password reset karein",
+        "resetDescription": "{email} par bheja gaya 6 digit ka code enter karein aur naya password chunein.",
+        "verificationCode": "Verification code",
+        "newPassword": "Naya password",
+        "resetPassword": "Password Reset Karein",
+        "resetting": "Reset ho raha hai...",
+        "codeFailed": "Ye code kaam nahi kar saka. Dobara koshish karein.",
+        "rememberedIt": "Yaad aa gaya?"
+      },
+      "onboarding": {
+        "stepOf": "Step {step} of {total}",
+        "step1Title": "Apne bare mein batayein",
+        "step1Description": "Is se hum aap ke health records ko aap ke mutabiq bana sakenge.",
+        "fullName": "Poora naam",
+        "yearOfBirth": "Paidaish ka saal",
+        "gender": "Gender",
+        "genderOptions": {
+          "male": "Mard",
+          "female": "Aurat",
+          "other": "Deegar",
+          "unknown": "Batana nahi chahta"
+        },
+        "invalidYear": "Sahi paidaish ka saal enter karein - aap ki umar kam az kam 13 saal honi chahiye.",
+        "selectGender": "Gender select karein.",
+        "step2Title": "Physical metrics",
+        "step2Description": "Optional hai, magar is se aap ke health trends track karne mein madad milti hai.",
+        "heightCm": "Height (cm)",
+        "weightKg": "Weight (kg)",
+        "bloodGroup": "Blood group",
+        "invalidHeight": "Height 50 se 300 cm ke darmiyan honi chahiye.",
+        "invalidWeight": "Weight 1 se 500 kg ke darmiyan hona chahiye.",
+        "step3Title": "Bas thora sa baqi!",
+        "step3Description": "Koi allergy ya mojooda condition add karein taake aap ke records mukammal rahein.",
+        "allergies": "Allergies",
+        "allergiesPlaceholder": "maslan Penicillin, Peanuts",
+        "allergiesHint": "Ek se zyada allergies comma se alag karein.",
+        "existingConditions": "Mojooda conditions",
+        "otherConditions": "Deegar conditions",
+        "otherConditionsPlaceholder": "maslan Migraine, Anemia",
+        "otherConditionsHint": "Ek se zyada conditions comma se alag karein.",
+        "conditionOptions": {
+          "Asthma": "Asthma",
+          "Diabetes": "Diabetes",
+          "Epilepsy": "Mirgi",
+          "Hypertension": "Hypertension",
+          "Thyroid Issue": "Thyroid ka masla"
+        },
+        "finish": "Mukammal Karein",
+        "finishing": "Mukammal ho raha hai...",
+        "saveError": "Aap ki details save nahi ho sakin. Aap inhein baad mein update kar sakte hain."
+      }
+    }
+  }
+}

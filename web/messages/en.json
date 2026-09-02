@@ -1,0 +1,1218 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "signIn": "Sign In",
+    "getStarted": "Get Started",
+    "primary": "Primary",
+    "mobile": "Mobile",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "footer": {
+    "tagline": "Your family's complete health history, organized and explained in plain language.",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "groups": {
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "account": "Account"
+    },
+    "links": {
+      "features": "Features",
+      "howItWorks": "How It Works",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "about": "About",
+      "contact": "Contact",
+      "blog": "Blog",
+      "privacy": "Privacy Policy",
+      "signIn": "Sign In",
+      "getStarted": "Get Started"
+    },
+    "copyright": "CurecordAI. All rights reserved."
+  },
+  "home": {
+    "meta": {
+      "title": "AI Health Record App for Families",
+      "description": "Upload prescriptions and lab reports, get AI explanations in Urdu or English, and manage your whole family's health records in one place. Free to start."
+    },
+    "badge": "AI-Powered Health Intelligence",
+    "heroTitle": "Your family's health,",
+    "heroTitleHighlight": "finally makes sense.",
+    "heroSubtitle": "Upload prescriptions, lab reports, and discharge summaries in seconds. CurecordAI organizes every family member's history and explains it in plain Urdu or English - instantly.",
+    "pinnedHeading": "Your Health. One Intelligent Conversation Away",
+    "pinnedBody": "Chat naturally with an AI health assistant that helps you understand symptoms, manage medications, track wellness, and stay connected to your healthcare - all in one intuitive experience.",
+    "dashboardAlt": "CurecordAI home dashboard on a phone screen",
+    "reportSummaryAlt": "CurecordAI AI report summary on a phone screen",
+    "aiChatAlt": "CurecordAI AI chat screen answering a question about a blood test",
+    "ctaPrimary": "Get Started Free",
+    "ctaSecondary": "See how it works",
+    "featuresHeading": "A closer look at what's inside CurecordAI",
+    "featuresBody": "One app to organize records, understand them, and share them - built for patients, not doctors.",
+    "featuresLink": "Explore every feature",
+    "howItWorksHeading": "How CurecordAI works",
+    "howItWorksBody": "Three steps, no technical setup.",
+    "howItWorksLink": "See the full walkthrough",
+    "pricingHeading": "Completely free, for everyone",
+    "pricingBody": "No paid plans, no hidden fees. Every feature is free for individuals and families alike.",
+    "pricingLink": "See full plan details",
+    "faqHeading": "Frequently asked questions",
+    "faqBody": "More questions? Visit the full",
+    "faqLink": "FAQ page",
+    "solutionHeading": "CurecordAI solves it - for every family member",
+    "solutionIncluded": "Included for every family member",
+    "solutions": {
+      "vault": {
+        "title": "One organized health vault",
+        "description": "Upload any document once. CurecordAI files it under the right family member automatically, so everything is always in one place."
+      },
+      "explain": {
+        "title": "Plain language explanations",
+        "description": "Ask the AI assistant what a lab result or diagnosis means. It answers in plain Urdu or English, based on your own records."
+      },
+      "share": {
+        "title": "Share your history in one tap",
+        "description": "Generate a secure link or QR code for any doctor. They see your complete, organized history instantly - no repeating yourself."
+      }
+    }
+  },
+  "faq": {
+    "meta": {
+      "title": "CurecordAI FAQ - Common Questions",
+      "description": "Get answers to common questions about CurecordAI - how to upload records, how the AI assistant works, privacy, family management, and WhatsApp access."
+    },
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "description": "Everything you need to know about using CurecordAI for yourself and your family.",
+    "footerPrompt": "Want to see it in action? Explore our",
+    "footerFeatures": "features",
+    "footerHowItWorks": "how it works",
+    "footerPricing": "pricing",
+    "items": [
+      {
+        "question": "What is CurecordAI and how does it work?",
+        "answer": "CurecordAI is an AI powered personal health record app for patients and families in Pakistan. You upload any medical document including prescriptions, lab reports, and discharge summaries. The AI reads the document, extracts medications, diagnoses, and lab results, and organizes everything in one searchable health vault per family member."
+      },
+      {
+        "question": "Is CurecordAI available on Android and iOS?",
+        "answer": "Yes. CurecordAI is available as an Android app on Google Play, an iOS app on the Apple App Store, and as a website you can use in any browser."
+      },
+      {
+        "question": "Can I use CurecordAI on WhatsApp?",
+        "answer": "Yes. CurecordAI has a WhatsApp AI agent. You can upload documents and ask health questions directly through WhatsApp without downloading a separate app."
+      },
+      {
+        "question": "How is CurecordAI different from ChatGPT for health questions?",
+        "answer": "ChatGPT can only give generic, population level answers because it has no access to your personal medical records. CurecordAI answers every question based on your own uploaded health history, so answers are specific to your actual diagnoses, medications, and lab results."
+      },
+      {
+        "question": "Can I manage records for my whole family?",
+        "answer": "Yes. You can add family members such as your parents, spouse, and children to your account and keep each person's medical history organized separately under one family vault."
+      },
+      {
+        "question": "How do I share my records with a doctor?",
+        "answer": "Open the Share with Doctor screen, choose what to share and for how long, and CurecordAI generates a secure QR code or link. The doctor scans it or opens the link to see your organized history instantly, with no account needed on their end."
+      },
+      {
+        "question": "What types of documents can I upload?",
+        "answer": "You can upload prescriptions, medical reports, X-rays, and lab results. Each type is filed automatically into its own folder in your health vault."
+      },
+      {
+        "question": "Does CurecordAI support Urdu?",
+        "answer": "Yes. The AI health assistant explains your medical documents in plain Urdu or English, so lab results and doctor's notes make sense in the language you're most comfortable with."
+      },
+      {
+        "question": "Is my health data private and secure?",
+        "answer": "Yes. Your documents are stored securely and only accessible to you and the people you explicitly choose to share them with. CurecordAI never sells or exposes your health data to third parties. See our Privacy Policy for full details."
+      },
+      {
+        "question": "Is CurecordAI free to use?",
+        "answer": "Yes, CurecordAI is completely free - including uploading records, the AI assistant, doctor sharing, and adding family members. There are no paid plans."
+      }
+    ]
+  },
+  "common": {
+    "getStartedFree": "Get Started Free",
+    "seeHowItWorks": "See How It Works"
+  },
+  "cta": {
+    "title": "Start organizing your family's health records today",
+    "description": "Free to get started. No credit card required."
+  },
+  "about": {
+    "meta": {
+      "title": "About Us",
+      "description": "CurecordAI was built to help Pakistani families organize their medical history and understand it in plain language, with AI that respects patient privacy."
+    },
+    "eyebrow": "About Us",
+    "title": "Health records should be simple, not stressful",
+    "description": "CurecordAI started with a simple observation: families keep their most important medical documents scattered across drawers, phones, and WhatsApp chats - and no one but a doctor can make sense of them.",
+    "missionHeading": "Our mission",
+    "missionBody": "We built CurecordAI so that any patient or family member in Pakistan can upload a document, understand what it means in their own language, and hand their complete medical history to any doctor in one tap - without needing technical skill or medical training.",
+    "values": {
+      "patients": {
+        "title": "Patients first",
+        "description": "Every screen is designed for someone who is not a doctor and not a technical person - including elderly parents and grandparents."
+      },
+      "privacy": {
+        "title": "Privacy by default",
+        "description": "Your health data belongs to you. It is never sold, and it is only ever shared with people you explicitly choose."
+      },
+      "family": {
+        "title": "Built for the whole family",
+        "description": "Health records rarely belong to one person. CurecordAI is built around the family unit, not just an individual account."
+      }
+    },
+    "ctaTitle": "Join the families organizing their health with CurecordAI",
+    "ctaDescription": "Free to start. Add your first document in under a minute."
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact Us",
+      "description": "Get in touch with the CurecordAI team for support, partnership inquiries, or feedback about your family health record app."
+    },
+    "eyebrow": "Contact",
+    "title": "We're here to help",
+    "description": "Questions about your account, a partnership idea, or feedback on the app - send us a message.",
+    "formHeading": "Send us a message",
+    "otherHeading": "Other ways to reach us",
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "successTitle": "Message received",
+      "successBody": "Thank you for reaching out. Our team will get back to you at the email you provided within one business day.",
+      "errorRequired": "Please fill in every field before sending.",
+      "errorEmail": "Please enter a valid email address.",
+      "errorGeneric": "Could not send your message. Please try again."
+    }
+  },
+  "features": {
+    "meta": {
+      "title": "Features: AI Medical Records, Family Vault",
+      "description": "Every CurecordAI feature in detail: AI report summaries, medication reminders, an emergency widget, family profiles, one tap doctor sharing, and a searchable health vault."
+    },
+    "eyebrow": "Features",
+    "title": "Everything you need to manage your family's health",
+    "description": "One app to organize records, understand them, and share them - built for patients, not doctors.",
+    "footerPrompt": "Want to see the steps in action?",
+    "footerHowItWorks": "See how it works",
+    "footerOr": "or check",
+    "footerPricing": "pricing",
+    "faqHeading": "Common questions about CurecordAI features",
+    "faqs": [
+      {
+        "question": "What file types can I upload to CurecordAI?",
+        "answer": "You can upload a photo taken on your phone or a PDF of any prescription, lab report, X-ray, or discharge summary, and CurecordAI reads and files it into the right folder automatically."
+      }
+    ],
+    "items": {
+      "organize": {
+        "title": "Organize Records",
+        "description": "Every prescription, lab report, and discharge summary sorted automatically into one searchable health vault."
+      },
+      "assistant": {
+        "title": "AI Health Assistant",
+        "description": "Ask questions about any diagnosis, medication, or lab result and get a clear answer in plain Urdu or English."
+      },
+      "personalized": {
+        "title": "Personalized Answers",
+        "description": "Not generic like ChatGPT. Every answer is based on your own uploaded medical history, not population averages."
+      },
+      "family": {
+        "title": "Family Vault",
+        "description": "Manage records for your parents, spouse, and children under one account, each with their own organized history."
+      },
+      "sharing": {
+        "title": "One Tap Doctor Sharing",
+        "description": "Generate a secure QR code or link so any doctor can view your complete history instantly during a visit."
+      },
+      "whatsapp": {
+        "title": "WhatsApp Access",
+        "description": "Upload documents and ask health questions directly on WhatsApp - no app download required."
+      },
+      "analytics": {
+        "title": "Health Analytics",
+        "description": "See how key vitals like weight and blood pressure trend over time in a simple chart, instead of comparing one report against another by hand."
+      },
+      "emergency": {
+        "title": "Emergency Widget",
+        "description": "Add allergies, medications, chronic conditions, blood group, and emergency contacts to a lock-screen widget so first responders can see them instantly, without unlocking your phone. Set up from the CurecordAI mobile app."
+      },
+      "reminders": {
+        "title": "Medication Reminders",
+        "description": "Set a reminder for each medication with the exact days and times it's needed, and track whether a dose was taken - across your own profile and every family member's."
+      }
+    }
+  },
+  "howItWorks": {
+    "meta": {
+      "title": "How CurecordAI Works: Upload, Ask, Share",
+      "description": "See exactly how CurecordAI turns a prescription or lab report into an AI-explained summary you can understand and share with your doctor."
+    },
+    "eyebrow": "How It Works",
+    "title": "From paper records to answers in three steps",
+    "description": "No technical setup, no learning curve. If you can send a WhatsApp photo, you can use CurecordAI.",
+    "stepsHeading": "Upload, ask, share - every time",
+    "stepLabel": "Step {number}",
+    "steps": {
+      "upload": {
+        "title": "Upload",
+        "description": "Take a photo or upload a PDF of any prescription, lab report, or medical document. The AI reads and organizes it automatically."
+      },
+      "ask": {
+        "title": "Ask",
+        "description": "Ask the AI assistant anything about your health history - what a result means, which medicine to take, or what changed over time."
+      },
+      "share": {
+        "title": "Share",
+        "description": "Generate a secure QR code or link so any doctor can see your complete, organized medical history in one tap."
+      }
+    },
+    "familyHeading": "What this looks like for a family",
+    "familyBody": "Add a parent, spouse, or child to your account and repeat the same three steps for them. Each family member gets their own organized health vault, and the AI assistant keeps every answer specific to that person's own history.",
+    "familyLink": "See what's in the family vault",
+    "scenarios": {
+      "parent": {
+        "title": "Adding a parent's prescription",
+        "description": "An adult child with Caregiver access uploads a parent's new prescription, asks the assistant what it's for, and keeps it filed under that parent's profile - separate from their own records."
+      },
+      "specialist": {
+        "title": "Before a specialist visit",
+        "description": "Instead of trying to remember every past diagnosis and medication, pull up the organized history in the vault and share it directly."
+      },
+      "report": {
+        "title": "Understanding a confusing report",
+        "description": "A lab report full of clinical terms becomes a plain-language summary with a clear status per marker, instead of something you'd otherwise have to search online term-by-term."
+      }
+    }
+  },
+  "pricing": {
+    "meta": {
+      "title": "CurecordAI Pricing - Free to Get Started",
+      "description": "CurecordAI is completely free - no credit card required. Manage your own health vault, or add up to 6 family members at no cost."
+    },
+    "eyebrow": "Pricing",
+    "title": "Completely free, no surprises",
+    "description": "No paid plans, no hidden fees. Every feature is free for individuals and families alike.",
+    "mostPopular": "Most Popular",
+    "footerPrompt": "Curious exactly what's included? See the full",
+    "footerFeatures": "feature list",
+    "footerMiddle": ", or check the",
+    "footerFaq": "FAQ",
+    "footerEnd": "for common questions.",
+    "plans": {
+      "individual": {
+        "name": "Individual",
+        "price": "Free",
+        "period": "forever",
+        "description": "Everything a single user needs to get organized.",
+        "features": [
+          "Unlimited document uploads",
+          "AI health assistant",
+          "One health vault",
+          "One tap doctor sharing",
+          "WhatsApp access"
+        ],
+        "cta": "Get Started Free"
+      },
+      "family": {
+        "name": "Family",
+        "price": "Free",
+        "period": "forever",
+        "description": "For households managing health records for parents, spouse, and children.",
+        "features": [
+          "Everything in Individual",
+          "Up to 6 family member vaults",
+          "Priority AI response time",
+          "Extended document history",
+          "Emergency health card for each member"
+        ],
+        "cta": "Add Your Family"
+      }
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy",
+      "description": "Read the CurecordAI privacy policy to understand how we collect, store, and protect your family's health records and personal information."
+    },
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "description": "Last updated July 2026. This policy explains how CurecordAI collects, uses, and protects your information.",
+    "sections": [
+      {
+        "title": "Information we collect",
+        "body": "We collect the information you provide when you create an account, including your name, phone number or email, and profile details. We also store the medical documents you choose to upload, such as prescriptions, lab reports, and discharge summaries, along with any family member profiles you create."
+      },
+      {
+        "title": "How we use your information",
+        "body": "We use your information to organize your uploaded documents, power the AI health assistant with answers based on your own records, and enable secure sharing with doctors you choose. We do not use your health data to train models for other users, and we do not sell your data to third parties."
+      },
+      {
+        "title": "How your data is stored",
+        "body": "Documents are stored in encrypted cloud storage. Only a reference to each file is kept in our database - the file itself is served through short-lived, secure links generated on demand. Access to your account requires authentication, and sensitive actions are logged for security auditing."
+      },
+      {
+        "title": "Sharing your records",
+        "body": "Your records are never visible to anyone unless you explicitly generate a share link or QR code from the Share with Doctor screen. You control what is shared and for how long, and you can revoke access at any time."
+      },
+      {
+        "title": "Family member data",
+        "body": "When you add a family member profile, that person's records are managed under your account. You are responsible for having the appropriate authority to manage health information on their behalf, such as for a minor child or a dependent parent."
+      },
+      {
+        "title": "Your rights",
+        "body": "You may access, update, or delete your account and associated data at any time from your Profile and Settings. You can also request a full export or deletion of your data by contacting our support team."
+      },
+      {
+        "title": "Changes to this policy",
+        "body": "We may update this privacy policy from time to time. Material changes will be communicated through the app or by email before they take effect."
+      },
+      {
+        "title": "Contact us",
+        "body": "If you have any questions about this privacy policy or how your data is handled, contact us at support@curecordai.com."
+      }
+    ]
+  },
+  "blog": {
+    "meta": {
+      "title": "Health Records Blog for Pakistani Families",
+      "description": "Practical guides on organizing medical records, understanding lab reports, and managing your family's health - from the team building CurecordAI."
+    },
+    "eyebrow": "Blog",
+    "title": "Guides for organizing and understanding your health",
+    "description": "Practical articles on managing family medical records, reading lab reports, and getting the most out of every doctor visit.",
+    "readArticle": "Read article",
+    "post": {
+      "writtenBy": "Written by {author}",
+      "published": "Published {date}",
+      "updated": "Updated {date}",
+      "disclaimer": "This article is written and published by the CurecordAI team for general educational purposes. It is not personal medical advice and does not replace a consultation with a qualified doctor. Always confirm any health decision with a healthcare professional who knows your medical history.",
+      "ctaTitle": "Ready to try it yourself?",
+      "ctaBody": "Upload your first document and see CurecordAI organize it automatically.",
+      "related": "Related articles"
+    }
+  },
+  "platforms": {
+    "heading": "Available on Android, iOS, and Web",
+    "body": "Start on your phone, continue on the web. Your family's health vault stays in sync everywhere.",
+    "comingSoon": "Launching Soon!",
+    "webNote": "Use it right in your browser"
+  },
+  "problem": {
+    "heading": "Managing family health records is harder than it should be",
+    "body": "Scattered paperwork, confusing lab results, and repeating the same history at every visit - every family ends up piecing it together from memory. Watch how CurecordAI brings it all into one place.",
+    "empty": "Ready to collect your records",
+    "points": {
+      "records": {
+        "compact": "Records",
+        "title": "Records scattered everywhere",
+        "description": "Prescriptions in a drawer, lab reports on WhatsApp, discharge papers lost in folders. Nothing is in one place when you need it."
+      },
+      "reports": {
+        "compact": "Medical Reports",
+        "title": "Medical reports are confusing",
+        "description": "Lab values and doctor's notes are full of jargon. Patients are left guessing what a result actually means."
+      },
+      "history": {
+        "compact": "History",
+        "title": "Repeating history at every visit",
+        "description": "Every new doctor asks the same questions because there is no quick way to share an organized medical history."
+      }
+    }
+  },
+  "showcase": {
+    "items": {
+      "records": {
+        "label": "Records Vault",
+        "title": "Records Vault",
+        "description": "Securely organize prescriptions, lab reports, scans, vaccination records, and every important medical document in one encrypted location. Instantly access your complete health history whenever you need it.",
+        "alt": "CurecordAI Records Vault screen showing prescriptions, lab reports, and medical documents organized in one place"
+      },
+      "summary": {
+        "label": "AI Medical Summary",
+        "title": "AI Medical Summary",
+        "description": "Transform lengthy medical reports into easy-to-understand summaries. AI automatically highlights diagnoses, medications, abnormal lab values, important findings, and recommended follow-ups, helping patients understand their health within seconds.",
+        "alt": "CurecordAI AI Medical Summary screen highlighting diagnoses, medications, and abnormal lab values in plain language"
+      },
+      "analytics": {
+        "label": "Health Analytics",
+        "title": "Health Analytics",
+        "description": "Track key vitals like weight and blood pressure over time with clear trend charts, pulled automatically from your uploaded lab reports - so you can see how a number is moving instead of comparing one report against another by hand.",
+        "alt": "CurecordAI Health Analytics screen showing a weight and blood pressure trend chart over time"
+      },
+      "emergency": {
+        "label": "Emergency Widget",
+        "title": "Emergency Widget",
+        "description": "Provide first responders with instant access to critical medical information directly from your lock screen. Display allergies, medications, chronic conditions, blood group, emergency contacts, and other life-saving details without unlocking the phone.",
+        "alt": "CurecordAI Emergency Widget on a lock screen showing allergies, medications, and emergency contacts"
+      },
+      "family": {
+        "label": "Family Profiles",
+        "title": "Family Profiles",
+        "description": "Manage medical records for parents, children, spouses, and loved ones from a single secure account. Easily switch between profiles while keeping everyone's medical history organized and private.",
+        "alt": "CurecordAI Family Profiles screen for managing medical records of parents, children, and spouses"
+      },
+      "sharing": {
+        "label": "QR Medical Sharing",
+        "title": "QR Medical Sharing",
+        "description": "Generate secure QR codes to instantly share selected medical records with doctors, hospitals, and healthcare providers. Every shared record remains encrypted, fully controlled by the user, and can expire automatically for enhanced privacy.",
+        "alt": "CurecordAI QR Medical Sharing screen generating a secure QR code to share records with a doctor"
+      },
+      "assistant": {
+        "label": "AI Medical Assistant",
+        "title": "AI Medical Assistant",
+        "description": "Chat naturally with an AI assistant that understands your complete medical history. Ask questions about reports, medications, allergies, lab results, symptoms, or previous diagnoses and receive personalized, context-aware guidance based on your stored health records.",
+        "alt": "CurecordAI AI Medical Assistant chat screen answering a question about a lab report"
+      }
+    }
+  },
+  "app": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "upload": "Upload",
+      "vault": "Health Vault",
+      "assistant": "AI Assistant",
+      "family": "Family",
+      "medications": "Medications",
+      "share": "Share with Doctor",
+      "insights": "Insights",
+      "alerts": "Alerts",
+      "emergency": "Emergency",
+      "profile": "Profile & Settings",
+      "signOut": "Sign Out"
+    },
+    "common": {
+      "save": "Save",
+      "saveChanges": "Save Changes",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "close": "Close",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "remove": "Remove",
+      "edit": "Edit",
+      "retry": "Retry",
+      "tryAgain": "Try Again",
+      "gotIt": "Got it",
+      "continueLabel": "Continue",
+      "previous": "Previous",
+      "skipForNow": "Skip for now",
+      "search": "Search",
+      "all": "All",
+      "none": "None",
+      "viewAll": "View all",
+      "loading": "Loading...",
+      "sessionExpired": "Your session expired. Please sign in again.",
+      "notSignedIn": "You are not signed in.",
+      "somethingWentWrong": "Something went wrong. Please try again.",
+      "download": "Download",
+      "accountMenu": "Account menu",
+      "expandSidebar": "Expand sidebar",
+      "collapseSidebar": "Collapse sidebar",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu",
+      "yourAccount": "Your account",
+      "switchProfile": "Switch profile",
+      "owner": "Owner",
+      "ownerYou": "Owner · You",
+      "familyMember": "Family member",
+      "member": "Member",
+      "addFamilyMember": "Add family member",
+      "checkingSession": "Checking your session"
+    },
+    "shell": {
+      "primaryNav": "Primary",
+      "moreNav": "More"
+    },
+    "recordTypes": {
+      "lab_report": "Lab Report",
+      "prescription": "Prescription",
+      "radiology": "Radiology",
+      "discharge_summary": "Discharge Summary",
+      "vaccination": "Vaccination",
+      "insurance": "Insurance",
+      "referral": "Referral",
+      "other": "Other"
+    },
+    "recordStatus": {
+      "pending": "Uploading",
+      "processing": "Analyzing",
+      "completed": "Ready",
+      "failed": "Failed"
+    },
+    "documentStatus": {
+      "pending": "Queued",
+      "processing": "Processing",
+      "completed": "Completed",
+      "failed": "Failed"
+    },
+    "home": {
+      "welcomeBack": "Welcome back, {name}",
+      "memberDashboard": "{name}'s Dashboard",
+      "description": "Here's what's happening with your family's health records.",
+      "loadError": "Could not load dashboard.",
+      "totalDocuments": "Total Documents",
+      "uploadedLabel": "Uploaded",
+      "medications": "Medications",
+      "activeLabel": "Active",
+      "uploadDocument": "Upload Document",
+      "uploadDocumentSubtitle": "Reports & Prescriptions",
+      "askAi": "Ask AI",
+      "askAiSubtitle": "Instant Medical Insights",
+      "shareWithDoctor": "Share with Doctor",
+      "shareWithDoctorSubtitle": "Quick Profile Share",
+      "viewSummary": "View Summary",
+      "viewSummarySubtitle": "Health Record Preview",
+      "activeAllergies": "You have active allergies",
+      "recentDocuments": "Recent Documents",
+      "noDocuments": "No documents yet. Upload your first prescription or lab report to get started.",
+      "recentConversations": "Recent AI Conversations",
+      "openAssistant": "Open assistant",
+      "noConversations": "No conversations yet. Ask the AI assistant a question about your health records.",
+      "newConversation": "New conversation",
+      "messagesCount": "{count} messages",
+      "greetingMorning": "Good morning",
+      "greetingAfternoon": "Good afternoon",
+      "greetingEvening": "Good evening",
+      "greetingNight": "Good night",
+      "subtitleOwner": "Here's what's happening with your health records.",
+      "subtitleMember": "Here's what's happening with {name}'s health records.",
+      "dismiss": "Dismiss",
+      "nudgeUnreadInstructionMessage": "Your doctor left new instructions.",
+      "nudgeUnreadInstructionButton": "View instructions",
+      "nudgeNoDocumentsMessage": "Upload your first record to get started.",
+      "nudgeNoDocumentsButton": "Upload document",
+      "nudgeNoMedicationsMessage": "0 active medications. Add yours to stay on track.",
+      "nudgeNoMedicationsButton": "Add medication",
+      "rotatingTips": [
+        "Try asking the AI assistant to explain any report in plain language.",
+        "Your records are only visible to you and doctors you choose to share with.",
+        "You have kept your records organized, nice work staying on top of things."
+      ],
+      "completeProfile": "Complete your profile",
+      "completeProfileButton": "Complete profile",
+      "viewDetails": "View details",
+      "noMedicationsYet": "None added yet",
+      "addMedicationsHint": "Add medications to track refills and interactions."
+    },
+    "vault": {
+      "title": "Health Vault",
+      "description": "Every document your family has uploaded, organized automatically.",
+      "uploadDocument": "Upload Document",
+      "searchPlaceholder": "Search documents",
+      "emptyTitle": "No documents found",
+      "emptyDescription": "Try a different search or category, or upload a new document to your health vault."
+    },
+    "document": {
+      "backToVault": "Back to Health Vault",
+      "notFoundTitle": "Document not found",
+      "notFoundDescription": "This document may have been removed. Return to your health vault to see everything you've uploaded.",
+      "viewOriginal": "View original",
+      "deleteConfirmTitle": "Delete \"{title}\"?",
+      "deleteConfirmDescription": "This can't be undone.",
+      "deleteError": "Could not delete this document.",
+      "extracting": "AI is extracting health data from this document…",
+      "processingFailedWithReason": "Processing failed: {reason}",
+      "processingFailed": "AI processing failed for this document.",
+      "aiSummary": "AI Summary",
+      "explainWithAi": "Explain with AI",
+      "explainPrefill": "Tell me more about my \"{title}\"",
+      "icd11Prefix": "ICD-11: {code}",
+      "detailsTitle": "Document Details",
+      "titleEmpty": "Title can't be empty.",
+      "saveError": "Could not save changes. Please try again.",
+      "fieldTitle": "Title",
+      "fieldType": "Type",
+      "fieldDate": "Date",
+      "fieldPatientName": "Patient Name",
+      "fieldLabOrg": "Issuing Lab / Org",
+      "fieldReferringDoctor": "Referring Doctor",
+      "fieldFile": "File",
+      "fieldStatus": "Status",
+      "labResultsAndVitals": "Lab Results & Vitals",
+      "conditions": "Conditions",
+      "medications": "Medications",
+      "allergies": "Allergies",
+      "encounters": "Visits / Encounters",
+      "referencePrefix": "Ref:",
+      "activeChip": "Active",
+      "previewUnavailable": "A preview isn't available for this file type. You can download the original instead.",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "resetZoom": "Reset zoom",
+      "interpretation": {
+        "N": "Normal",
+        "L": "Low",
+        "H": "High",
+        "LL": "Critical Low",
+        "HH": "Critical High",
+        "A": "Abnormal",
+        "AA": "Very Abnormal"
+      }
+    },
+    "aiReport": {
+      "backToDocument": "Back to Document",
+      "title": "AI Report Summary",
+      "loadErrorTitle": "Could not load record",
+      "analysingTitle": "AI is analysing your document",
+      "analysingDescription": "This usually takes a few seconds. Refresh the page when ready.",
+      "failedTitle": "Analysis failed",
+      "failedDescription": "We could not process this document. Please try re-uploading it.",
+      "askAiInstead": "Ask AI instead",
+      "noParametersTitle": "No lab parameters found",
+      "noParametersDescription": "This document does not contain numeric lab results. You can still ask the AI to explain it.",
+      "continueInChat": "Continue in Chat",
+      "viewRecordDetails": "View Record Details",
+      "analysisResult": "Analysis Result",
+      "overall": "Overall: {status}",
+      "disclaimer": "This summary is generated by AI to help you understand your results. Please consult with your physician for a formal diagnosis.",
+      "continueExplanation": "Continue explanation in Chat"
+    },
+    "upload": {
+      "title": "Upload a Document",
+      "description": "Add a prescription, lab report, or any other medical document - CurecordAI titles and categorizes it for you.",
+      "dropHere": "Drag and drop a file here",
+      "fileHint": "PDF, JPG, or PNG up to 50MB",
+      "browseFiles": "Browse files",
+      "selectFolder": "Select Folder (optional)",
+      "generalRecords": "General Records",
+      "newFolder": "New Folder",
+      "uploadButton": "Upload Document",
+      "uploading": "Uploading...",
+      "checkingDocument": "Checking document...",
+      "chooseFile": "Choose a file to upload.",
+      "tooLarge": "File is too large. Maximum size is 50MB.",
+      "unsupportedType": "Unsupported file type. Upload a PDF, JPG, PNG, WebP, or DICOM (.dcm) file.",
+      "uploadFailed": "Upload failed. Please try again.",
+      "duplicateRecord": "This document has already been uploaded to your health vault.",
+      "couldNotVerify": "We couldn't verify this document. Please try again.",
+      "successTitle": "Document uploaded",
+      "successDescription": "\"{name}\" is being analyzed by CurecordAI and will appear in your health vault, titled and categorized automatically, in a moment.",
+      "viewDocument": "View Document",
+      "uploadAnother": "Upload Another",
+      "rejectedTitle": "Upload Failed",
+      "rejectedDescription": "This document wasn't added to your health vault.",
+      "folder": {
+        "title": "Create New Folder",
+        "description": "Organize records by health condition",
+        "nameLabel": "Folder Name",
+        "namePlaceholder": "e.g. Cardiology, Orthopedic",
+        "selectIcon": "Select Icon",
+        "nameRequired": "Folder name is required.",
+        "createError": "Failed to create folder. Please try again.",
+        "creating": "Creating...",
+        "create": "Create Folder"
+      }
+    },
+    "assistant": {
+      "title": "AI Health Assistant",
+      "description": "Ask anything about your uploaded records. Answers are based on your own health history.",
+      "howToUseAria": "How to use AI Assistant",
+      "howToUseTitle": "How to use this",
+      "conversations": "Conversations",
+      "closeHistory": "Close conversation history",
+      "openHistory": "Open conversation history",
+      "newConversation": "New Conversation",
+      "startNewConversation": "Start new conversation",
+      "untitled": "Untitled",
+      "conversationOptions": "Conversation options",
+      "rename": "Rename",
+      "pin": "Pin",
+      "unpin": "Unpin",
+      "deleteConfirmTitle": "Delete {label}?",
+      "deleteConfirmDescription": "This can't be undone.",
+      "thisConversation": "this conversation",
+      "deleteError": "Couldn't delete the conversation. Please try again.",
+      "unavailable": "The AI assistant is unavailable right now.",
+      "disclaimer": "CurecordAI is not a substitute for professional medical advice. Always confirm important decisions with your doctor.",
+      "emptyTitle": "Ask me anything about your health",
+      "emptyDescription": "Get answers grounded in the records you've already uploaded to your Health Vault.",
+      "inputPlaceholder": "Ask about your health records...",
+      "attachAria": "Attach from Health Vault",
+      "sendAria": "Send message",
+      "removeAttachment": "Remove {title}",
+      "attachedDocument": "attached document",
+      "suggestedPrompts": {
+        "summarizeLatestLab": "Summarize my latest lab report",
+        "explainXray": "What does my X-ray show?",
+        "explainMedications": "Explain my medications",
+        "anyConcerns": "Any concerns based on my records?"
+      },
+      "time": {
+        "now": "now",
+        "minutes": "{value}m ago",
+        "hours": "{value}h ago",
+        "days": "{value}d ago",
+        "weeks": "{value}w ago",
+        "months": "{value}mo ago",
+        "years": "{value}y ago"
+      },
+      "attach": {
+        "title": "Attach from Health Vault",
+        "description": "Select one or more documents to reference in your question.",
+        "searchPlaceholder": "Search documents",
+        "emptyTitle": "No documents yet",
+        "emptyDescription": "Upload a report or prescription to reference it in a conversation.",
+        "noMatches": "No documents match your search.",
+        "attachButton": "Attach"
+      },
+      "howTo": {
+        "title": "How to use AI Health Assistant",
+        "askTitle": "Ask about your health",
+        "askDescription": "Ask anything about your health, and the assistant answers based on the documents you've already uploaded.",
+        "attachTitle": "Attach records from Health Vault",
+        "attachDescription": "Attach specific documents from your Health Vault to a question for more targeted, context-aware answers.",
+        "summarizeTitle": "Summarize reports",
+        "summarizeDescription": "Ask the assistant to summarize a lab report, prescription, or X-ray in plain language.",
+        "understandTitle": "Understand your health",
+        "understandDescription": "Get help understanding medical terms, results, and what they mean for your overall health."
+      }
+    },
+    "healthSummary": {
+      "title": "Health Summary",
+      "memberTitle": "{name}'s Health Summary",
+      "description": "A whole-person overview built from everything active across your records.",
+      "loadError": "Could not load your health summary.",
+      "emptyTitle": "No health data yet",
+      "emptyMemberTitle": "No health data yet for {name}",
+      "emptyDescription": "Upload medical records to build a complete health overview.",
+      "overviewTitle": "Your Health Overview",
+      "activeConditions": "Active Conditions",
+      "currentMedications": "Current Medications",
+      "allergies": "Allergies",
+      "recentLabs": "Recent Labs & Vitals",
+      "disclaimer": "This overview is generated from your uploaded records by AI and may not be complete. Always consult your doctor for clinical decisions."
+    },
+    "medications": {
+      "title": "Medications",
+      "description": "Manage medication reminders for you and your family - never miss a dose.",
+      "addMedication": "Add Medication",
+      "tabs": {
+        "active": "Active",
+        "paused": "Paused",
+        "completed": "Completed",
+        "all": "All"
+      },
+      "emptyTitle": "No medications here yet",
+      "emptyDescription": "Add a medication from an uploaded document or enter one manually to start getting reminders.",
+      "emptyAction": "Add your first medication",
+      "you": "You",
+      "familyMember": "Family member",
+      "activeChip": "Active",
+      "asNeeded": "As needed",
+      "timesPerDay": "{count} time(s)/day",
+      "daily": "Daily",
+      "everyNDays": "Every {days} day(s)",
+      "days": {
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri",
+        "sat": "Sat",
+        "sun": "Sun"
+      },
+      "add": {
+        "back": "Back to Medications",
+        "title": "Add Medication",
+        "description": "Set up a reminder so this dose never gets missed.",
+        "whoFor": "Who is this medication for?",
+        "myself": "Myself",
+        "myselfHint": "Manage your own medications",
+        "familyMemberHint": "Manage medications for someone you care for",
+        "noFamilyMembers": "You have not added any family members yet. Add one to continue.",
+        "selectFamilyMember": "Select a family member",
+        "backStep": "Back",
+        "currentlySelected": "currently selected",
+        "howToAdd": "How would you like to add this medication?",
+        "fromDocument": "Select from an uploaded document",
+        "fromDocumentHint": "Reuse medications already extracted from your records",
+        "manual": "Add manually",
+        "manualHint": "Enter medication details yourself",
+        "selectDocument": "Select a document (newest first)",
+        "noDocuments": "No documents uploaded yet.",
+        "selectMedication": "Select a medication from this document",
+        "loadingExtracted": "Loading extracted medications...",
+        "noExtracted": "No medications were extracted from this document. Try another document or add manually.",
+        "noDosageDetails": "No dosage details",
+        "unknown": "Unknown",
+        "chooseDifferentDocument": "Choose a different document",
+        "loadMedicationsError": "Could not load medications from this document.",
+        "nameLabel": "Medication name",
+        "dosageLabel": "Dosage",
+        "dosagePlaceholder": "e.g. 500mg",
+        "formLabel": "Form",
+        "formPlaceholder": "e.g. Tablet, Syrup",
+        "instructionsLabel": "Instructions (optional)",
+        "instructionsPlaceholder": "e.g. Take after food",
+        "continueToSchedule": "Continue to schedule",
+        "frequencyLabel": "Frequency",
+        "frequencyDaily": "Every day",
+        "frequencySpecificDays": "Specific days of the week",
+        "frequencyInterval": "Every N days",
+        "frequencyAsNeeded": "As needed (no fixed reminder)",
+        "intervalLabel": "Every how many days?",
+        "reminderTimes": "Reminder times",
+        "addAnotherTime": "Add another time",
+        "startDate": "Start date",
+        "endDate": "End date (optional)",
+        "channels": "Reminder channels",
+        "emailChannel": "Email reminder (this web app)",
+        "pushChannel": "Alarm-style reminder on the CurecordAI mobile app",
+        "submit": "Save Medication Reminder",
+        "nameRequired": "Medication name is required.",
+        "timeRequired": "Add at least one reminder time.",
+        "dayRequired": "Select at least one day of the week.",
+        "saveError": "Could not save this medication reminder."
+      },
+      "detail": {
+        "forWhom": "For {name}",
+        "dosage": "Dosage",
+        "form": "Form",
+        "instructions": "Instructions",
+        "frequency": "Frequency",
+        "times": "Times",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "ongoing": "Ongoing",
+        "timezone": "Timezone",
+        "reminders": "Reminders",
+        "email": "Email",
+        "mobileAlarm": "Mobile alarm",
+        "status": "Status",
+        "resume": "Resume",
+        "pause": "Pause",
+        "markCompleted": "Mark completed",
+        "deleteConfirmTitle": "Delete this medication reminder?",
+        "deleteConfirmDescription": "This cannot be undone.",
+        "updateError": "Could not update this medication.",
+        "deleteError": "Could not delete this medication."
+      }
+    },
+    "family": {
+      "title": "Family Management",
+      "description": "Manage health records for your parents, spouse, and children in one place.",
+      "addMember": "Add Family Member",
+      "emptyTitle": "No family members yet",
+      "emptyDescription": "Add a parent, spouse, or child to start managing their health records alongside your own.",
+      "bloodGroup": "Blood group {group}",
+      "yearsOld": "{age} years old",
+      "removeAria": "Remove {name}",
+      "removeConfirmTitle": "Remove {name}?",
+      "removeConfirmDescription": "This will also remove their health records from your family. This can't be undone.",
+      "removeError": "Could not remove {name}. Please try again.",
+      "howItWorksTitle": "How Family Management Works",
+      "howItWorksAria": "How family management works",
+      "howItWorksItems": [
+        {
+          "title": "No separate login needed",
+          "description": "Family members do not need their own account. You manage everything from your own login."
+        },
+        {
+          "title": "Individual profiles",
+          "description": "Each family member gets their own separate documents and medications, kept apart from your own records."
+        },
+        {
+          "title": "Manage together",
+          "description": "Upload documents, track medications, and view AI summaries for each family member, just like your own profile."
+        },
+        {
+          "title": "Share access instantly",
+          "description": "Generate a QR share for any family member's records individually, same as your own."
+        }
+      ],
+      "addShortcuts": [
+        { "title": "Add a parent", "description": "Track their medications and appointments." },
+        { "title": "Add a spouse", "description": "Manage shared health history together." },
+        { "title": "Add a child", "description": "Keep their records organized in one place." }
+      ],
+      "fieldGender": "Gender",
+      "fieldBloodGroup": "Blood group",
+      "fieldAge": "Age",
+      "notProvided": "Not provided",
+      "editAria": "Edit {name}",
+      "add": {
+        "back": "Back to Family",
+        "title": "Add Family Member",
+        "description": "Create a health profile for a family member you manage.",
+        "fullName": "Full name",
+        "relation": "Relation",
+        "role": "Role",
+        "roleDependent": "Dependent (I manage their records)",
+        "roleCaregiver": "Caregiver (helps manage my records)",
+        "gender": "Gender",
+        "bloodGroup": "Blood group",
+        "dateOfBirth": "Date of birth",
+        "unknown": "Unknown",
+        "nameTooShort": "Name must be at least 2 characters.",
+        "saveError": "Could not add this family member.",
+        "submitting": "Adding...",
+        "submit": "Add Family Member",
+        "relations": {
+          "Spouse": "Spouse",
+          "Parent": "Parent",
+          "Father": "Father",
+          "Mother": "Mother",
+          "Child": "Child",
+          "Son": "Son",
+          "Daughter": "Daughter",
+          "Sibling": "Sibling",
+          "Other": "Other"
+        },
+        "infoTitle": "Relation and role explained",
+        "infoBody": "Relation is how this person relates to you, such as spouse, parent, or child. Role decides whether they are a dependent whose records you manage, or a caregiver who helps manage your own records.",
+        "infoAria": "What Relation and Role mean",
+        "editTitle": "Edit Family Member",
+        "editDescription": "Update this family member's health profile.",
+        "updateSuccess": "{name} has been updated",
+        "addSuccess": "{name} has been added to your family",
+        "addPhoto": "Add photo",
+        "addPhotoHint": "Optional, coming soon",
+        "roleLockedHint": "Role cannot be changed after a family member is created.",
+        "saving": "Saving...",
+        "saveChanges": "Save changes"
+      }
+    },
+    "share": {
+      "title": "Share with Doctor",
+      "description": "Generate a secure QR code or link so any doctor can view {subject} organized history.",
+      "subjectYour": "your",
+      "subjectMember": "{name}'s",
+      "whatToShare": "What to share",
+      "scopes": {
+        "full": "Complete Health History",
+        "last_1_year": "Last 1 Year",
+        "last_6_months": "Last 6 Months",
+        "emergency_only": "Emergency Summary Only"
+      },
+      "sharingNote": "Sharing {subject} records. Switch profiles from the top switcher to share for someone else.",
+      "expiryNote": "Each QR code expires automatically a short time after it's generated, for your security.",
+      "generate": "Generate QR Code",
+      "generating": "Generating...",
+      "generateError": "Could not generate a share link.",
+      "expires": "Expires {when}",
+      "copyLink": "Copy share link",
+      "linkCopied": "Link copied",
+      "qrPlaceholder": "Choose what to share and generate a QR code to hand to your doctor.",
+      "activeSessions": "Active Share Sessions",
+      "activeSessionsFor": "Active Share Sessions for {name}",
+      "noSessionsTitle": "No active share sessions",
+      "noSessionsDescription": "Sessions you generate will appear here until they expire or are revoked.",
+      "revoke": "Revoke access",
+      "revokeConfirmTitle": "Revoke this share link?",
+      "revokeConfirmDescription": "Anyone using it will immediately lose access.",
+      "revokeLabel": "Revoke",
+      "instructionsTitle": "Doctor Instructions",
+      "instructionsDescription": "Notes a doctor left after viewing a record you shared with them.",
+      "noInstructionsTitle": "No instructions yet",
+      "noInstructionsDescription": "When a doctor leaves instructions after viewing a shared record, they'll show up here.",
+      "unread": "Unread",
+      "doctorPrefix": "Dr."
+    },
+    "insights": {
+      "title": "Insights",
+      "description": "A quick look at your family's health record activity and vital trends.",
+      "loadError": "Could not load insights.",
+      "recordsByType": "Records by Type",
+      "recordsByTypeDescription": "Documents uploaded across your health vault.",
+      "noRecords": "Upload documents to see this breakdown.",
+      "vitalTrends": "Vital Trends",
+      "noTrends": "No lab results or vitals recorded yet. Upload a lab report to see trends here.",
+      "last90Days": "Last 90 days.",
+      "dischargeShort": "Discharge",
+      "vitalChartAria": "Line chart of {unit} over time"
+    },
+    "alerts": {
+      "title": "Alerts",
+      "description": "Updates about your documents, family, and account.",
+      "emptyTitle": "You're all caught up",
+      "emptyDescription": "New alerts will show up here as they happen.",
+      "markAsRead": "Mark as read",
+      "dismiss": "Dismiss alert"
+    },
+    "emergency": {
+      "title": "Emergency",
+      "description": "Key health information available quickly in an emergency.",
+      "emptyTitle": "Set up your Emergency Widget",
+      "emptyDescription": "The emergency widget lives on your phone's lock screen, so it can only be set up from the CurecordAI mobile app. Install the app on your phone to get started."
+    },
+    "profile": {
+      "title": "Profile & Settings",
+      "description": "Manage your personal information and app preferences.",
+      "loadError": "Could not load profile.",
+      "preferences": "Preferences",
+      "language": "Language",
+      "darkMode": "Dark Mode",
+      "darkModeDescription": "Switch between light and dark appearance",
+      "saved": "Saved",
+      "personalInformation": "Personal Information",
+      "fullName": "Full name",
+      "phoneNumber": "Phone number",
+      "dateOfBirth": "Date of birth",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "preferNotToSay": "Prefer not to say",
+      "physicalMetrics": "Physical Metrics",
+      "heightCm": "Height (cm)",
+      "weightKg": "Weight (kg)",
+      "bloodGroup": "Blood group",
+      "unknown": "Unknown",
+      "saveMetrics": "Save Metrics",
+      "healthDetails": "Health Details",
+      "allergiesLabel": "Allergies (comma separated)",
+      "allergiesPlaceholder": "Penicillin, Peanuts",
+      "conditionsLabel": "Existing conditions (comma separated)",
+      "conditionsPlaceholder": "Hypertension, Asthma",
+      "saveHealthDetails": "Save Health Details",
+      "changePhoto": "Change profile photo",
+      "cropPhotoTitle": "Adjust your photo",
+      "zoom": "Zoom",
+      "cropError": "Could not crop this image. Please try another photo.",
+      "patientId": "Patient ID {id}",
+      "completion": "Profile completion",
+      "notifications": "Notifications",
+      "pushNotifications": "Push notifications",
+      "emailNotifications": "Email notifications",
+      "labResultAlerts": "Lab result alerts",
+      "drugInteractionAlerts": "Drug interaction alerts",
+      "saveInfoError": "Could not save your information.",
+      "saveMetricsError": "Could not save your physical metrics.",
+      "saveHealthError": "Could not save your health details.",
+      "savePreferenceError": "Could not save this preference.",
+      "avatarError": "Could not upload your photo. Try a JPEG, PNG, or WebP under 5MB.",
+      "languageNames": {
+        "en": "English",
+        "ur": "Urdu",
+        "roman_ur": "Roman Urdu"
+      }
+    },
+    "auth": {
+      "signInTitle": "Welcome back",
+      "signInSubtitle": "Sign in to access your family health vault.",
+      "signUpTitle": "Create your account",
+      "signUpSubtitle": "Free to start. Organize your family's health records in minutes.",
+      "orContinueWith": "Or continue with",
+      "noAccount": "Don't have an account?",
+      "getStarted": "Get Started",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign In",
+      "signingIn": "Signing in...",
+      "emailTab": "Email",
+      "phoneTab": "Phone",
+      "emailLabel": "Email address",
+      "passwordLabel": "Password",
+      "createPasswordLabel": "Create a password",
+      "confirmPasswordLabel": "Confirm password",
+      "passwordHint": "At least 8 characters, with one uppercase letter and one digit.",
+      "forgotPassword": "Forgot password?",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "fullNameLabel": "Full name",
+      "phoneLabel": "Phone number",
+      "phonePlaceholder": "3001234567",
+      "phoneHint": "Select your country and enter your number without the leading 0.",
+      "selectCountryCode": "Select country code",
+      "otpLabelEmail": "Enter the 6-digit code sent to {target}",
+      "otpLabelPhone": "Enter the 6-digit code sent to {target}",
+      "verifyCode": "Verify Code",
+      "verifying": "Verifying...",
+      "editDetails": "Edit your details",
+      "useDifferentNumber": "Use a different number",
+      "useDifferentEmail": "Use a different email",
+      "sendingCode": "Sending code...",
+      "continueWithEmail": "Continue with Email",
+      "sendVerificationCode": "Send Verification Code",
+      "creatingAccount": "Creating account...",
+      "completeSignUp": "Complete Sign Up",
+      "continueWithApple": "Continue with Apple",
+      "errors": {
+        "enterEmailAndPassword": "Enter your email and password to continue.",
+        "signInFailed": "Sign in failed. Please try again.",
+        "enterFullName": "Enter your full name.",
+        "enterFullNameToFinish": "Enter your full name to finish creating your account.",
+        "invalidEmail": "Enter a valid email address.",
+        "invalidPhone": "Enter a valid phone number.",
+        "passwordsDoNotMatch": "Passwords do not match.",
+        "passwordTooShort": "Password must be at least 8 characters.",
+        "passwordNeedsUppercase": "Password must contain at least one uppercase letter.",
+        "passwordNeedsDigit": "Password must contain at least one digit.",
+        "otpInvalid": "Enter the 6-digit code we emailed you.",
+        "otpInvalidSent": "Enter the 6-digit code we sent you.",
+        "couldNotSendCode": "Could not send the verification code.",
+        "codeMismatch": "That code didn't match. Please try again.",
+        "couldNotVerifyCode": "We couldn't verify that code. Please try again.",
+        "registrationFailed": "Registration failed. Please try again.",
+        "googleFailed": "Google sign-in failed.",
+        "appleFailed": "Apple sign-in failed."
+      },
+      "forgot": {
+        "title": "Forgot your password?",
+        "description": "Enter your account email and we'll send you a code to reset your password.",
+        "sendResetCode": "Send Reset Code",
+        "couldNotSend": "Could not send the reset code.",
+        "resetTitle": "Reset your password",
+        "resetDescription": "Enter the 6-digit code we sent to {email} and choose a new password.",
+        "verificationCode": "Verification code",
+        "newPassword": "New password",
+        "resetPassword": "Reset Password",
+        "resetting": "Resetting...",
+        "codeFailed": "That code didn't work. Please try again.",
+        "rememberedIt": "Remembered it?"
+      },
+      "onboarding": {
+        "stepOf": "Step {step} of {total}",
+        "step1Title": "Tell us about yourself",
+        "step1Description": "This helps us personalize your health records.",
+        "fullName": "Full name",
+        "yearOfBirth": "Year of birth",
+        "gender": "Gender",
+        "genderOptions": {
+          "male": "Male",
+          "female": "Female",
+          "other": "Other",
+          "unknown": "Prefer not to say"
+        },
+        "invalidYear": "Enter a valid birth year - you must be at least 13 years old.",
+        "selectGender": "Select a gender.",
+        "step2Title": "Physical metrics",
+        "step2Description": "Optional, but helps us track your health trends.",
+        "heightCm": "Height (cm)",
+        "weightKg": "Weight (kg)",
+        "bloodGroup": "Blood group",
+        "invalidHeight": "Height must be between 50 and 300 cm.",
+        "invalidWeight": "Weight must be between 1 and 500 kg.",
+        "step3Title": "Almost there!",
+        "step3Description": "Add any allergies or existing conditions so your records stay complete.",
+        "allergies": "Allergies",
+        "allergiesPlaceholder": "e.g. Penicillin, Peanuts",
+        "allergiesHint": "Separate multiple allergies with commas.",
+        "existingConditions": "Existing conditions",
+        "otherConditions": "Other conditions",
+        "otherConditionsPlaceholder": "e.g. Migraine, Anemia",
+        "otherConditionsHint": "Separate multiple conditions with commas.",
+        "conditionOptions": {
+          "Asthma": "Asthma",
+          "Diabetes": "Diabetes",
+          "Epilepsy": "Epilepsy",
+          "Hypertension": "Hypertension",
+          "Thyroid Issue": "Thyroid Issue"
+        },
+        "finish": "Finish",
+        "finishing": "Finishing...",
+        "saveError": "Could not save your details. You can update them later."
+      }
+    }
+  }
+}
