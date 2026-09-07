@@ -1,0 +1,1398 @@
+{
+  "@@locale": "ur_Latn",
+  "navDashboard": "Dashboard",
+  "navRecords": "Records",
+  "navAi": "AI",
+  "navMedications": "Dawaiyan",
+  "navInsights": "Insights",
+  "navSettings": "Settings",
+  "navAiAssistant": "AI Assistant",
+  "appName": "CurecordAI",
+  "settingsSectionAccount": "ACCOUNT",
+  "settingsProfileInformation": "Profile Information",
+  "settingsProfileInformationSubtitle": "Apni medical details update karein",
+  "settingsFamilyManagement": "Family Management",
+  "settingsFamilyManagementSubtitle": "Family members add ya edit karein",
+  "settingsSectionPreferences": "PREFERENCES",
+  "settingsLanguage": "Language",
+  "settingsLanguageSubtitle": "English / Urdu / Roman Urdu",
+  "langEnglish": "English",
+  "langUrdu": "اردو",
+  "langRomanUrdu": "Roman Urdu",
+  "settingsTheme": "Theme",
+  "settingsThemeCurrentDark": "Current: Dark Mode",
+  "settingsThemeCurrentLight": "Current: Light Mode",
+  "settingsSectionMedical": "MEDICAL",
+  "settingsEmergencyCard": "Emergency Card Settings",
+  "settingsEmergencyCardSubtitle": "SOS contacts aur Medical ID",
+  "settingsSectionPrivacyData": "PRIVACY & DATA",
+  "settingsDataPrivacy": "Data aur Privacy",
+  "settingsDataPrivacySubtitle": "Hum aap ka health data kaise handle karte hain",
+  "settingsExportData": "Mera Data Export Karein",
+  "settingsExportDataSubtitle": "Apne health data ki copy download karein",
+  "settingsConsentManagement": "Consent Management",
+  "settingsConsentManagementSubtitle": "Apni data consents review aur manage karein",
+  "settingsLogOut": "Log Out",
+  "settingsLogOutConfirmTitle": "Log Out",
+  "settingsLogOutConfirmBody": "Kya aap waqai log out karna chahte hain?",
+  "commonCancel": "Cancel",
+  "commonErrorOccurred": "Ek khrabi pesh aa gayi",
+  "settingsExportDataTitle": "Mera Data Export Karein",
+  "settingsExportDataBody": "Hum aap ke health data ki mukammal copy tayar karenge. Is mein 30 din tak lag sakte hain. Tayar hone par aapko batadiya jayega.",
+  "settingsRequestExport": "Export Request Karein",
+  "settingsExportRequestedSnack": "Export request ho gayi hai. Tayar hone par aapko batadiya jayega.",
+  "settingsExportInProgressError": "Ek export pehle se jari hai.",
+  "settingsExportFailedError": "Export request nakaam ho gayi. Dobara koshish karein.",
+  "settingsAvatarUploadFailed": "Photo upload nahi ho saki",
+  "settingsManagedByYou": "Aap ke zair-e-intezam",
+  "settingsProfileCompletion": "Profile Completion",
+  "settingsProfileCompletionHint": "Behtar dekhbhal ke liye apni medical history mukammal karein.",
+  "settingsPrivacyPolicy": "Privacy Policy",
+  "settingsTermsOfService": "Terms of Service",
+  "settingsSupport": "Support",
+  "settingsAppVersion": "CurecordAI v1.0.0",
+  "authWelcomeBack": "Khush Aamdeed",
+  "authLoginSubtitle": "Apne medical records dekhne ke liye login karein.",
+  "authContinueWithPhone": "Phone Number Se Jari Rakhein",
+  "authContinueWithEmail": "Email Se Jari Rakhein",
+  "authNewToApp": "CurecordAI mein naye hain? ",
+  "authSignUp": "Sign Up Karein",
+  "authCreateAccountTitle": "Apna Account Banayein",
+  "authCreateAccountSubtitle": "Apne medical records manage karne ke liye sign up karein.",
+  "authAlreadyHaveAccount": "Pehle se account hai? ",
+  "authLogIn": "Log In Karein",
+  "otpVerifyTitle": "Apna Number Verify Karein",
+  "otpSubtitlePrefix": "6-digit code is number par bheja gaya: ",
+  "otpResendCodeIn": "Code dobara bhejne mein ",
+  "otpResendSms": "SMS Dobara Bhejein",
+  "otpVerify": "Verify Karein",
+  "otpTermsPrefix": "Jari rakh kar aap is se muttafiq hain: ",
+  "otpTermsLink": "Terms & Privacy Policy",
+  "otpIncompleteError": "Baraye meherbani mukammal 6-digit code darj karein",
+  "otpAlreadyRegisteredError": "Yeh number pehle se register hai. Baraye meherbani login karein.",
+  "otpNotFoundError": "Is number ke liye koi account nahi mila. Baraye meherbani sign up karein.",
+  "otpInvalidError": "Ghalat code. Dobara koshish karein.",
+  "otpResendFailedError": "Code dobara bhejne mein nakami. Dobara koshish karein.",
+  "homeRecentActivity": "Recent Activity",
+  "homeUploadDocument": "Document Upload Karein",
+  "homeUploadDocumentSubtitle": "Reports aur Prescriptions",
+  "homeAskAi": "AI Se Poochein",
+  "homeAskAiSubtitle": "Foran Medical Insights",
+  "homeGenerateQr": "QR Banayein",
+  "homeGenerateQrSubtitle": "Foran Profile Share Karein",
+  "homeViewSummary": "Summary Dekhein",
+  "homeViewSummarySubtitle": "Health Record Preview",
+  "homeMedications": "Medications",
+  "homeMedicationsSubtitle": "Reminders aur Schedules",
+  "homeDetected": "Detected",
+  "homeMedicationsActive": "Active",
+  "homeYourDashboard": "Aap Ka Dashboard",
+  "homeGreetingMorning": "Good Morning",
+  "homeGreetingAfternoon": "Dopeher Bakhair",
+  "homeGreetingEvening": "Sham Bakhair",
+  "homeGreetingNight": "Shab Bakhair",
+  "homeNudgeUnreadInstructionMessage": "Aapke doctor ne nayi hidayat chhodi hain.",
+  "homeNudgeUnreadInstructionButton": "Hidayat Dekhein",
+  "homeNudgeNoDocumentsMessage": "Shuru karne ke liye apna pehla record upload karein.",
+  "homeNudgeNoDocumentsButton": "Document Upload Karein",
+  "homeNudgeNoMedicationsMessage": "0 active dawaiyan. Track par rehne ke liye apni dawaiyan shamil karein.",
+  "homeNudgeNoMedicationsButton": "Dawa Shamil Karein",
+  "homeRotatingTip1": "Kisi bhi report ko aasan zaban mein samajhne ke liye AI assistant se poochein.",
+  "homeRotatingTip2": "Aapke records sirf aap aur aapke muntakhib doctors ko nazar aate hain.",
+  "homeRotatingTip3": "Aapne apne records ko munazzam rakha hai, bohat khoob.",
+  "homeTotalDocuments": "Kul Dastawezat",
+  "homeUploadedLabel": "Upload Shuda",
+  "homeActiveLabel": "Faal",
+  "homeNoMedicationsYet": "Abhi tak koi shamil nahi",
+  "homeAddMedicationsHint": "Refill aur interactions track karne ke liye apni dawaiyan shamil karein.",
+  "homeMedicationsReviewedAgo": "{time} pehle jaiza liya gaya",
+  "@homeMedicationsReviewedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "homeActiveAllergiesAlert": "Aapko faal allergy hai",
+  "homeViewDetails": "Tafseelat Dekhein",
+  "homeRecentDocuments": "Haleya Dastawezat",
+  "homeNoDocumentsMessage": "Abhi tak koi dastawez nahi. Shuru karne ke liye apna pehla nuskha ya lab report upload karein.",
+  "homeRecentConversations": "Haleya AI Guftagu",
+  "homeOpenAssistant": "Assistant Kholein",
+  "homeNoConversationsMessage": "Abhi tak koi guftagu nahi. Apne health records ke bare mein AI assistant se sawal poochein.",
+  "homeConversationsLoadFailed": "Halia guftagu load nahi ho sakin",
+  "homeMessagesCount": "{count} paighamat",
+  "@homeMessagesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeShareWithDoctor": "Doctor Ke Sath Share Karein",
+  "homeShareWithDoctorSubtitle": "Foori Profile Share",
+  "homeNewTag": "Naya",
+  "homeViewAll": "Sab Dekhein",
+  "homeProfileCompletePrefix": "Aap ka profile ",
+  "homeProfileCompleteSuffix": " mukammal hai. Baqi tafseelat mukammal karein ",
+  "homeHereLink": "yahan",
+  "homeSwitchProfile": "Profile Tabdeel Karein",
+  "homeOwnerYou": "Owner · Aap",
+  "homeAddFamilyMember": "Family Member Add Karein",
+  "homeNoRecentActivity": "Koi recent activity nahi",
+  "homeMemberNoRecentActivity": "{name} ki koi recent activity nahi",
+  "@homeMemberNoRecentActivity": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeUploadFirstRecord": "Shuru karne ke liye apni pehli medical document upload karein",
+  "homeUploadRecord": "Record Upload Karein",
+  "homeDefaultRecordType": "Medical Record",
+  "homeMemberDashboardTitle": "{name} Ka Dashboard",
+  "@homeMemberDashboardTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeOwnerHasAllergies": "Aap ko active allergies hain",
+  "homeMemberHasAllergies": "{name} ko active allergies hain",
+  "@homeMemberHasAllergies": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "errorNoInternet": "Internet connection nahi hai",
+  "commonOr": "ya",
+  "commonSkip": "Skip karein",
+  "commonNext": "Agay",
+  "commonPrevious": "Pichla",
+  "commonGetStarted": "Shuru karein",
+  "commonSkipForNow": "Abhi ke liye skip karein",
+  "commonFinish": "Mukammal karein",
+  "authIncorrectEmailOrPassword": "Email ya password ghalat hai",
+  "authGoogleSignInFailed": "Google sign-in nahi ho saka. Dobara koshish karein.",
+  "authEmailLoginTitle": "Email Login",
+  "authEmailLoginSubtitle": "Continue karne ke liye apna email aur password likhein",
+  "authLogin": "Login",
+  "authSigningIn": "Sign in ho raha hai...",
+  "authGoogle": "Google",
+  "authApple": "Apple",
+  "authEmailAlreadyRegistered": "Ye email pehle se registered hai. Login karein.",
+  "authSignUpFailed": "Sign up nahi ho saka. Dobara koshish karein.",
+  "authSignupSubtitle": "Continue karne ke liye apni details bharein",
+  "authSignUpButton": "Sign up karein",
+  "authPhoneLoginTitle": "Phone Login",
+  "authPhoneLoginSubtitle": "Apne medical records dekhne ke liye phone number se login karein",
+  "authSendOtp": "OTP bhejein",
+  "authPhoneAlreadyRegistered": "Ye number pehle se registered hai. Login kar ke dekhein.",
+  "authPhoneSignupSubtitle": "Hum aap ko verification code bhejenge.",
+  "authCreateAccountLower": "Apna account banayein",
+  "authPhoneVerifiedSetupProfile": "Aap ka phone verify ho gaya hai. Ab profile set karte hain.",
+  "authCreateAccountButton": "Account banayein",
+  "authTermsFooter": "Continue karne ka matlab hai ke aap hamari Terms of Service\naur Privacy Policy se agree karte hain",
+  "authRegistrationFailed": "Registration nahi ho saki. Dobara koshish karein.",
+  "fieldEmail": "Email",
+  "hintEmail": "Aap ka email address",
+  "fieldPassword": "Password",
+  "hintPassword": "Aap ka password",
+  "fieldFullName": "Poora naam",
+  "hintFullName": "Aap ka poora naam",
+  "fieldConfirmPassword": "Password confirm karein",
+  "hintConfirmPassword": "Password dobara likhein",
+  "fieldPhoneNumber": "Phone number",
+  "hintPhoneNumber": "Phone number",
+  "validationEmailRequired": "Email zaroori hai",
+  "validationEmailInvalid": "Sahi email likhein",
+  "validationPasswordRequired": "Password zaroori hai",
+  "validationNameMinLength": "Poora naam kam az kam 2 characters ka hona chahiye",
+  "validationPasswordMin8": "Kam az kam 8 characters",
+  "validationPasswordUppercase": "Kam az kam 1 capital letter hona chahiye",
+  "validationPasswordNumber": "Kam az kam 1 number hona chahiye",
+  "validationPasswordsMismatch": "Dono password match nahi kar rahe",
+  "validationPhoneRequired": "Apna phone number likhein",
+  "validationFullNameMinLength": "Apna poora naam likhein (kam az kam 2 characters)",
+  "otpVerifyEmailTitle": "Apna Email verify karein",
+  "otpResendCode": "Code dobara bhejein",
+  "otpSendFailedError": "OTP nahi bheja ja saka. Number check kar ke dobara koshish karein.",
+  "splashTagline": "Aap ki sehat, hamesha aap ke saath",
+  "successAllSet": "Sab tayyar hai!",
+  "successWelcomeBack": "Khush aamdeed!",
+  "successNewUserBody": "Aap ka account kamyabi se ban gaya hai.\nSehat ka safar ab shuru.",
+  "successReturningUserBody": "Aap kamyabi se login ho gaye hain.\nAap ke medical records tayyar hain.",
+  "successGoToDashboard": "Dashboard par jayein",
+  "carousel1Title": "Apne saare Medical\nRecords mehfooz rakhein",
+  "carousel1Subtitle": "Nuskhe, reports aur X-rays sab aik mehfooz jaga par rakhein.",
+  "carousel2Title": "Doctor ke saath\nfauran share karein",
+  "carousel2Subtitle": "QR code banayein taake doctor bina kisi app ke aap ki history dekh sakein.",
+  "carousel3Title": "Apna Emergency\nWidget set karein",
+  "carousel3Subtitle": "Zaroori health info hamesha saamne rakhein, lock screen par bhi.",
+  "onboardingStep1Of3": "Step 1 of 3",
+  "onboardingStep2Of3": "Step 2 of 3",
+  "onboardingStep3Of3": "Step 3 of 3",
+  "onboardingTellUsTitle": "Apne baare mein batayein",
+  "onboardingTellUsSubtitle": "Is se hum aap ka health vault aap ke mutabiq bana sakenge.",
+  "fieldFullNameRequired": "Poora naam *",
+  "fieldYearOfBirthRequired": "Saal-e-paidaish *",
+  "hintYearOfBirth": "Saal-e-paidaish",
+  "fieldGenderRequired": "Gender *",
+  "hintSelectGender": "Gender select karein",
+  "genderMale": "Mard",
+  "genderFemale": "Aurat",
+  "genderOther": "Deegar",
+  "genderPreferNotToSay": "Batana nahi chahta/chahti",
+  "validationYearRequired": "Saal-e-paidaish zaroori hai",
+  "validationYearInvalid": "4 hindson wala sahi saal likhein",
+  "validationYearRange": "1900 aur {year} ke darmiyan saal likhein",
+  "@validationYearRange": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "validationMinAge13": "Aap ki umar kam az kam 13 saal honi chahiye",
+  "validationGenderRequired": "Apna gender select karein",
+  "onboardingPhysicalMetricsTitle": "Physical Metrics",
+  "onboardingPhysicalMetricsSubtitle": "Aap ka wellness journey behtar banane mein hamari madad karein...",
+  "fieldHeightCm": "Qad (cm)",
+  "hintHeightCm": "Qad cm mein",
+  "fieldWeightKg": "Wazan (kg)",
+  "hintWeightKg": "Wazan kg mein",
+  "fieldBloodGroup": "Blood Group",
+  "hintSelectBloodGroup": "Blood group select karein",
+  "onboardingPhysicalDataNotice": "Aap ka physical data sirf BMI nikalne aur nutrition tips behtar banane ke liye use hota hai. Saara data encrypted hai.",
+  "validationHeightRange": "Qad 50 se 300 cm ke darmiyan likhein",
+  "validationWeightRange": "Wazan 1 se 500 kg ke darmiyan likhein",
+  "onboardingAlmostThereTitle": "Bas thora sa baaqi!",
+  "onboardingAlmostThereSubtitle": "Ye maloomat aap ko personalized health insights dene ke liye use hoti hain...",
+  "fieldAllergies": "Allergies",
+  "hintAllergiesExample": "Maslan Pollen, Penicillin...",
+  "helperSeparateWithCommas": "Har cheez ko comma se alag karein",
+  "fieldExistingConditions": "Mojooda bimariyan",
+  "hintAddOtherConditions": "Koi aur bimari add karein...",
+  "badgeHipaaSecureStorage": "HIPAA Compliant\nMehfooz Storage",
+  "badgeEncryptedPersonalData": "Encrypted\nZaati Data",
+  "onboardingSaveProfileFailed": "Profile save nahi ho saki. Baad mein settings se update kar lein.",
+  "conditionAsthma": "Asthma",
+  "conditionDiabetes": "Diabetes",
+  "conditionEpilepsy": "Mirgi",
+  "conditionHypertension": "Blood Pressure",
+  "conditionThyroidIssue": "Thyroid ka masla",
+  "commonRetry": "Dobara koshish karein",
+  "commonDelete": "Delete karein",
+  "monthJan": "Jan",
+  "monthFeb": "Feb",
+  "monthMar": "Mar",
+  "monthApr": "Apr",
+  "monthMay": "May",
+  "monthJun": "Jun",
+  "monthJul": "Jul",
+  "monthAug": "Aug",
+  "monthSep": "Sep",
+  "monthOct": "Oct",
+  "monthNov": "Nov",
+  "monthDec": "Dec",
+  "recordsTabAll": "Sab",
+  "recordsTabPrescriptions": "Nuskhe",
+  "recordsTabMedicalReports": "Medical Reports",
+  "recordsTabXRays": "X-Rays",
+  "recordsTabLab": "Lab",
+  "recordsTabOther": "Deegar",
+  "recordsFolder": "Folder",
+  "recordsFolderName": "Folder ka naam",
+  "recordsFolderNameHint": "Maslan Cardiology, Orthopedic",
+  "recordsFolderNameRequired": "Folder ka naam likhein.",
+  "recordsCreateFolderFailed": "Folder nahi ban saka. Dobara koshish karein.",
+  "recordsCreateNewFolder": "Naya folder banayein",
+  "recordsCreateFolderSubtitle": "Bimari ke hisab se records organize karein",
+  "recordsSelectIcon": "Icon select karein",
+  "recordsCreateFolder": "Folder banayein",
+  "recordsLoadFailed": "Records load nahi ho sake",
+  "recordsEmptyDescription": "Koi document nahi mila. Ek mukhtalif search ya category try karein, ya apne health vault mein nayi document upload karein.",
+  "recordsSearchPlaceholder": "Documents Talash Karein",
+  "recordsUntitled": "Bina unwaan",
+  "recordsAnalysing": "Analyse ho raha hai…",
+  "recordsViewAiSummary": "AI Summary dekhein",
+  "recordsExplainWithAi": "AI se samjhein",
+  "recordsDeleteTitle": "Record delete karein",
+  "recordsDeleteBody": "Ye record hamesha ke liye delete ho jayega. Kya aap sure hain?",
+  "recordsDeleteFailed": "Record delete nahi ho saka.",
+  "recordsViewDetails": "Tafseelat dekhein",
+  "recordsAiSummary": "AI Summary",
+  "uploadTitle": "Medical Record add karein",
+  "uploadTitleForMember": "{name} ke liye upload karein",
+  "@uploadTitleForMember": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "uploadSubtitle": "Apne health records apne mehfooz vault mein upload karein.",
+  "uploadSubtitleForMember": "{name} ke records un ke mehfooz vault mein upload karein.",
+  "@uploadSubtitleForMember": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "uploadOfflineNotice": "Document upload karne ke liye internet chahiye taake wo mehfooz tareeqe se store aur analyse ho sake. Dobara connect kar ke koshish karein.",
+  "uploadFileTooLarge": "File bohat bari hai. Zyada se zyada 50 MB allowed hai.",
+  "uploadImageTooLarge": "Image bohat bari hai. Zyada se zyada 50 MB allowed hai.",
+  "uploadFilePickerFailed": "File picker nahi khul saka. Dobara koshish karein.",
+  "uploadCameraFailed": "Camera nahi khul saka. Dobara koshish karein.",
+  "uploadSelectFileFirst": "Upload karne ke liye file select karein.",
+  "uploadFileReadFailed": "Select ki gayi file parhi nahi ja saki. Dobara koshish karein.",
+  "uploadStagePreparing": "Upload ki tayyari…",
+  "uploadStageUploading": "File upload ho rahi hai…",
+  "uploadStageAnalysing": "AI aap ki document analyse kar raha hai…",
+  "uploadFailedShort": "Upload fail ho gaya.",
+  "uploadFailedConnection": "Upload fail ho gaya. Apna connection check kar ke dobara koshish karein.",
+  "uploadFailedRetry": "Upload fail ho gaya. Dobara koshish karein.",
+  "uploadCamera": "Camera",
+  "uploadGallery": "Gallery",
+  "uploadSelectFolder": "Folder select karein (optional)",
+  "uploadGeneralRecords": "General Records",
+  "uploadProcessing": "Process ho raha hai…",
+  "uploadPrivacyFirst": "Privacy sab se pehle",
+  "uploadPrivacyNote": "Documents encrypt kar ke mehfooz rakhi jati hain.",
+  "uploadTakePhotoOrChooseFile": "Photo lein ya file choose karein",
+  "uploadFileTypesHint": "PDF, JPG, PNG, WebP, ya DICOM - max 50 MB",
+  "uploadUnsupportedType": "Ghair maanoos file qisam. PDF, JPG, PNG, WebP, ya DICOM (.dcm) file choose karein.",
+  "uploadDuplicateMessage": "Yeh document pehle hi aapke health vault mein upload ho chuki hai.",
+  "uploadRejectedTitle": "Upload Nakaam",
+  "uploadRejectedBody": "Yeh document aapke health vault mein shamil nahi ki gayi.",
+  "uploadCouldNotVerify": "Hum is document ki tasdeeq nahi kar sake. Dobara koshish karein.",
+  "uploadTryAgain": "Dobara Koshish Karein",
+  "uploadCancel": "Cancel Karein",
+  "recordTypeLabReport": "Lab Report",
+  "recordTypePrescription": "Nuskha",
+  "recordTypeRadiology": "Radiology",
+  "recordTypeDischargeSummary": "Discharge Summary",
+  "recordTypeVaccination": "Vaccination",
+  "recordTypeInsurance": "Insurance",
+  "recordTypeReferral": "Referral",
+  "recordTypeOther": "Deegar",
+  "recordWord": "Record",
+  "recordPreviewLoadFailed": "Ye record load nahi ho saka.",
+  "recordViewFullRecord": "Poora record dekhein",
+  "recordStillProcessing": "Abhi process ho raha hai - AI summary tayyar hote hi nazar aa jayegi.",
+  "recordProcessingFailed": "Processing fail ho gayi.",
+  "recordIssuedBy": "Jari karne wala",
+  "recordDoctor": "Doctor",
+  "viewerUnsupportedFileType": "Is file type ka preview abhi available nahi hai.",
+  "viewerLoadFailed": "Document load nahi ho saki. Dobara koshish karein.",
+  "chatAttachRecords": "Records attach karein",
+  "chatAttachRecordsSubtitle": "Select karein ke is sawal ke liye AI kin records par focus kare.",
+  "chatNoRecordsForPatient": "Is patient ke liye abhi koi record nahi mila.",
+  "chatCouldNotLoadRecords": "Records load nahi ho sake.",
+  "chatQuickChipLastReport": "Meri last report explain karein",
+  "chatQuickChipEmergencyInfo": "Emergency info dikhayein",
+  "chatDefaultUntitledRecord": "Untitled record",
+  "chatAskAboutYourHealth": "Apni health ke baare mein poochein",
+  "chatAskAboutMembersHealth": "{name} ki health ke baare mein poochein",
+  "@chatAskAboutMembersHealth": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatHealthAssistantTitle": "Health Assistant",
+  "chatOfflineNotice": "AI assistant ko aapke records parhne aur jawab dene ke liye connection chahiye. Dobara connect ho kar koshish karein.",
+  "chatSessionHistoryTooltip": "Session History",
+  "chatNewSessionTooltip": "New Session",
+  "chatInputHint": "Apne health records ke baare mein poochein...",
+  "chatSessionStartFailed": "Sorry, chat session start nahi ho saka. Dobara koshish karein.",
+  "chatGenericError": "Sorry, ek error aa gaya. Dobara koshish karein.",
+  "chatSourcesLabel": "Sources",
+  "chatRenameConversationTitle": "Conversation ka naam tabdeel karein",
+  "chatConversationTitleHint": "Conversation title",
+  "commonSave": "Save karein",
+  "chatRenameFailed": "Chat ka naam tabdeel nahi ho saka.",
+  "chatUnpinFailed": "Chat unpin nahi ho saki.",
+  "chatPinFailed": "Chat pin nahi ho saki.",
+  "chatDeleteConversationTitle": "Conversation delete karein?",
+  "chatDeleteConversationBody": "Ye wapas nahi ho sakta. Ye conversation hamesha ke liye delete ho jayegi.",
+  "chatDeleteFailed": "Chat delete nahi ho saki.",
+  "chatSessionHistoryTitle": "Conversations",
+  "chatCouldNotLoadHistory": "Session history load nahi ho saki.",
+  "chatNoPreviousSessions": "Abhi tak koi purana session nahi hai.",
+  "chatNewConversation": "Nayi conversation",
+  "chatRename": "Naam tabdeel karein",
+  "chatPin": "Pin karein",
+  "chatUnpin": "Unpin karein",
+  "chatAttachButton": "Attach karein",
+  "chatAttachCountButton": "Attach karein ({count})",
+  "@chatAttachCountButton": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatYourHealthAssistant": "Aapka Health Assistant",
+  "chatEmptyStateSubtitle": "Apne health records ke baare mein kuch bhi poochein.\nMain aasan zaban mein samjhaun ga.",
+  "chatSuggestionSummarizeLabs": "Mere recent lab results ka khulasa batayein",
+  "chatSuggestionActiveConditions": "Meri current active conditions kya hain?",
+  "chatSuggestionExplainMeds": "Meri medications explain karein",
+  "chatSuggestionCriticalAllergies": "Kya mujhe koi critical allergy hai?",
+  "chatEmptyTitle": "Apni sehat ke baare mein kuch bhi poochein",
+  "chatEmptyDescription": "Un records ki bunyad par jawabat hasil karein jo aap pehle se Health Vault mein upload kar chuke hain.",
+  "chatSuggestionSummarizeLatestLab": "Meri taza tareen lab report ka khulasa batayein",
+  "chatSuggestionExplainXray": "Mera X-ray kya zahir karta hai?",
+  "chatSuggestionAnyConcerns": "Kya mere records ki bunyad par koi tashweesh hai?",
+  "chatDisclaimerBanner": "CurecordAI pesha war tibbi mashware ka mutabadil nahi hai. Aham faislon ki hamesha apne doctor se tasdeeq karein.",
+  "chatUntitledConversation": "Bila unwan",
+  "chatAttachSearchPlaceholder": "Documents talash karein",
+  "chatAttachNoMatches": "Aapki talash se koi document match nahi karta.",
+  "chatTimeNow": "abhi",
+  "chatTimeMinutesAgo": "{value}m pehle",
+  "@chatTimeMinutesAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeHoursAgo": "{value}h pehle",
+  "@chatTimeHoursAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeDaysAgo": "{value}d pehle",
+  "@chatTimeDaysAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeWeeksAgo": "{value}w pehle",
+  "@chatTimeWeeksAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeMonthsAgo": "{value}mo pehle",
+  "@chatTimeMonthsAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeYearsAgo": "{value}y pehle",
+  "@chatTimeYearsAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "aiSummaryAppBarTitle": "AI Report Summary",
+  "aiSummaryLoadFailed": "Record load nahi ho saka",
+  "aiSummaryProcessing": "AI aapki document ka analysis kar raha hai",
+  "aiSummaryProcessingSubtitle": "Isme aam taur par chand seconds lagte hain. Ready hone par refresh ke liye neeche khinchein.",
+  "aiSummaryFailedTitle": "Analysis fail ho gayi",
+  "aiSummaryFailedSubtitle": "Hum is document ko process nahi kar sake. Please dobara upload karein.",
+  "aiSummaryAskAiInstead": "Iske bajaye AI se poochein",
+  "aiSummaryNoLabParams": "Koi lab parameters nahi milay",
+  "aiSummaryNoLabParamsSubtitle": "Is document mein numeric lab results shamil nahi hain. Aap phir bhi AI se explain karne ko keh sakte hain.",
+  "aiSummaryContinueInChat": "Chat mein jaari rakhein",
+  "aiSummaryViewRecordDetails": "Record ki details dekhein",
+  "aiSummaryResultLabel": "ANALYSIS RESULT",
+  "aiSummaryOverallLabel": "Overall: {status}",
+  "@aiSummaryOverallLabel": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSummaryDisclaimer": "Ye summary AI ne generate ki hai taake aap apne results samajh sakein. Formal diagnosis ke liye apne doctor se mashwara karein.",
+  "aiSummaryContinueExplanation": "Chat mein explanation jaari rakhein",
+  "commonYou": "Aap",
+  "medFamilyMemberFallback": "Family member",
+  "medAddTitle": "Medication Add Karein",
+  "medNameRequired": "Medication ka naam zaroori hai.",
+  "medSelectDayRequired": "Hafte ka kam az kam aik din select karein.",
+  "medSaveFailed": "Ye medication reminder save nahi ho saka.",
+  "medWhoIsFor": "Ye medication kiske liye hai?",
+  "medMyself": "Mere liye",
+  "medHowToAdd": "Aap ye medication kaise add karna chahte hain?",
+  "medSelectFromDocument": "Uploaded document se select karein",
+  "medSelectFromDocumentSubtitle": "Apne records se pehle se nikali gayi medications dobara use karein",
+  "medAddManually": "Manually add karein",
+  "medAddManuallySubtitle": "Khud medication ki details darj karein",
+  "medCouldNotLoadDocuments": "Documents load nahi ho sake.",
+  "medNoDocumentsUploaded": "Abhi tak koi document upload nahi hui.",
+  "medSelectDocument": "Ek document select karein (newest pehle)",
+  "medCouldNotLoadMedications": "Medications load nahi ho sakein.",
+  "medSelectMedicationFromDocument": "Is document se ek medication select karein",
+  "medNoMedicationsExtracted": "Is document se koi medication nahi nikali ja saki.",
+  "medUnknownMedication": "Unknown",
+  "medChooseDifferentDocument": "Koi doosri document choose karein",
+  "medFieldName": "Medication ka naam",
+  "medFieldDosage": "Dosage",
+  "medDosageHint": "misal ke taur par 500mg",
+  "medFieldForm": "Form",
+  "medFormHint": "misal ke taur par Tablet, Syrup",
+  "medFieldInstructions": "Instructions (optional)",
+  "medContinueToSchedule": "Schedule ki taraf jaari rakhein",
+  "medFrequencyLabel": "Frequency",
+  "medFreqDaily": "Roz",
+  "medFreqSpecificDays": "Hafte ke mukhtas din",
+  "medFreqInterval": "Har N din baad",
+  "medFreqAsNeeded": "Zaroorat ke mutabiq (koi fixed reminder nahi)",
+  "medEveryLabel": "Har",
+  "medDaysUnit": "din",
+  "medReminderTimes": "Reminder ke waqt",
+  "medAddAnotherTime": "Aik aur waqt add karein",
+  "medStartDate": "Shuru hone ki tareekh",
+  "medEndDateOptional": "Khatam hone ki tareekh (optional)",
+  "medOngoing": "Jaari",
+  "medEmailReminder": "Email reminder (web app)",
+  "medPushReminder": "Is device par alarm-style reminder",
+  "medSaving": "Save ho raha hai...",
+  "medSaveReminder": "Medication Reminder Save Karein",
+  "dayMon": "Peer",
+  "dayTue": "Mangal",
+  "dayWed": "Budh",
+  "dayThu": "Jumeraat",
+  "dayFri": "Jumma",
+  "daySat": "Hafta",
+  "daySun": "Itwaar",
+  "medicationsTitle": "Medications",
+  "medicationsLoadFailed": "Abhi medications load nahi ho sakin",
+  "medicationsEmptyTitle": "Abhi tak koi medication nahi",
+  "medicationsEmptySubtitle": "Reminders shuru karne ke liye document se ya manually ek medication add karein.",
+  "medicationsAddButton": "Medication Add Karein",
+  "medFreqAsNeededSummary": "Zaroorat ke mutabiq",
+  "medFreqDailySummary": "Roz · {times}",
+  "@medFreqDailySummary": {
+    "placeholders": {
+      "times": {
+        "type": "String"
+      }
+    }
+  },
+  "medFreqIntervalSummary": "Har {days} din baad · {times}",
+  "@medFreqIntervalSummary": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      },
+      "times": {
+        "type": "String"
+      }
+    }
+  },
+  "medDetailTitle": "Medication",
+  "medUpdateFailed": "Ye medication update nahi ho saki.",
+  "medDeleteConfirmTitle": "Medication delete karein?",
+  "medDeleteConfirmBody": "Ye reminder remove ho jayega. Ye wapas nahi ho sakta.",
+  "medDeleteFailed": "Ye medication delete nahi ho saki.",
+  "medLoadFailed": "Ye medication load nahi ho saki.",
+  "medForMember": "{name} ke liye",
+  "@medForMember": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medRowDosage": "Dosage",
+  "medRowForm": "Form",
+  "medRowInstructions": "Instructions",
+  "medRowFrequency": "Frequency",
+  "medRowTimes": "Waqt",
+  "medRowStartDate": "Shuru hone ki tareekh",
+  "medRowEndDate": "Khatam hone ki tareekh",
+  "medRowTimezone": "Timezone",
+  "medRowReminders": "Reminders",
+  "medRowStatus": "Status",
+  "medReminderEmail": "Email",
+  "medReminderMobileAlarm": "Mobile alarm",
+  "medReminderNone": "Koi nahi",
+  "medResume": "Dobara shuru karein",
+  "medPause": "Pause karein",
+  "medMarkCompleted": "Completed mark karein",
+  "medNotifChannelName": "Dawa ki Yaad Dahaniyan",
+  "medNotifChannelDescription": "Alarm jaisi yaad dahaniyan taake aap kabhi dawa ki khuraak na bhoolein",
+  "medNotifReminderTitle": "Dawa ki yaad dahani",
+  "medNotifReminderBody": "{medicationName} lene ka waqt ho gaya hai",
+  "@medNotifReminderBody": {
+    "placeholders": {
+      "medicationName": {
+        "type": "String"
+      }
+    }
+  },
+  "medNotifReminderBodyWithDosage": "{medicationName} ({dosage}) lene ka waqt ho gaya hai",
+  "@medNotifReminderBodyWithDosage": {
+    "placeholders": {
+      "medicationName": {
+        "type": "String"
+      },
+      "dosage": {
+        "type": "String"
+      }
+    }
+  },
+  "commonClose": "Band karein",
+  "medTabActive": "Active",
+  "medTabPaused": "Paused",
+  "medTabCompleted": "Completed",
+  "medTabAll": "Tamam",
+  "medNoActiveMedications": "Koi active medications nahi",
+  "medNoPausedMedications": "Koi paused medications nahi",
+  "medNoCompletedMedications": "Koi completed medications nahi",
+  "medOtherTabsNote": "Doosre tabs mein aapke paas {summary} maujood hain.",
+  "@medOtherTabsNote": {
+    "placeholders": {
+      "summary": {
+        "type": "String"
+      }
+    }
+  },
+  "medExplainerAllergiesTitle": "Aapki allergies ke khilaf check ki gayi",
+  "medExplainerAllergiesDescription": "Aap jo medications track karte hain woh aapke AI health summary mein aapki darj shuda allergies ke sath zahir hoti hain, jisse aap aur aapki care team ke liye mumkina taqabul ko notice karna aasan ho jata hai.",
+  "medExplainerDocumentsTitle": "Aapke documents ke mutabiq",
+  "medExplainerDocumentsDescription": "Upload ki gayi prescription se medication import karne se woh us document se link ho jati hai, jisse aapki medications ki list aapke baqi health records ke mutabiq rehti hai.",
+  "medNotProvided": "Faraham nahi ki gayi",
+  "medMyselfHint": "Apni medications manage karein",
+  "medFamilyMemberHint": "Aapke zair nigrani kisi fard ki medications manage karein",
+  "medNoFamilyMembersYet": "Aapne abhi tak koi family member add nahi kiya. Jari rakhne ke liye ek add karein.",
+  "medCurrentlySelected": "filhaal muntakhib",
+  "medFamilyMemberTileTitle": "Family member",
+  "medSelectFamilyMemberPrompt": "Ek family member select karein",
+  "medBackStep": "Peeche",
+  "medAddDescription": "Ek reminder set karein taake yeh dose kabhi na chootay.",
+  "medEditTitle": "Medication Edit Karein",
+  "medEditDescription": "Is medication reminder ki tafseelat update karein.",
+  "medSaveChanges": "Changes save karein",
+  "medNoDosageDetails": "Dosage ki koi tafseel nahi",
+  "medSectionDetails": "Medication ki tafseelat",
+  "medSectionSchedule": "Schedule",
+  "medSectionNotifications": "Notifications",
+  "medAddedSnack": "{name} add ho gayi hai",
+  "@medAddedSnack": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medAddedForMember": "{name} ko {memberName} ke liye add kar diya gaya hai",
+  "@medAddedForMember": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "memberName": {
+        "type": "String"
+      }
+    }
+  },
+  "familyManagementTitle": "Family Management",
+  "familyManagementSubtitle": "Apne health circle ka intezam karein. Medical records share karein, dependents manage karein, aur alerts hasil karein.",
+  "familyMemberFallbackName": "Member",
+  "familyMemberRemoved": "Member remove ho gaya",
+  "familyMemberRemoveFailed": "Member remove karne mein nakami",
+  "familyPrivacyPolicy": "Privacy Policy",
+  "familyTermsOfService": "Terms of Service",
+  "familySupport": "Support",
+  "familyAppVersion": "CurecordAI v1.0.0",
+  "familyManagedByGuardian": "Parent/guardian ke zair-e-intezam",
+  "familyHasAccessToRecords": "Aapke records tak rasai rakhta hai",
+  "familyAddMemberTitle": "Family Member Add Karein",
+  "familyAddMemberSubtitle": "Kisi partner, relative ko invite karein, ya apne unified health sync profile mein bachcha add karein.",
+  "familyRemoveMemberTitle": "Member remove karein?",
+  "familyRemoveMemberBody": "Kya aap waqai {name} ko apne health circle se remove karna chahte hain? Unke health records mehfooz rahenge.",
+  "@familyRemoveMemberBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "familyRemove": "Remove karein",
+  "commonDone": "Done",
+  "famPhotoUploadTitle": "Photo add karein",
+  "famPhotoUploadHint": "Optional, jald aa raha hai",
+  "famFullNameLabel": "Pura Naam *",
+  "famValidationNameMin": "Please pura naam darj karein (kam az kam 2 huroof)",
+  "famDobLabel": "Tareekh Paidaish",
+  "famDobPlaceholder": "DD / MM / YYYY",
+  "famAddSubtitle": "Bachche, walidain, ya bhai behan ko unke health records manage karne ke liye add karein.",
+  "famNameHintFamily": "misal ke taur par John Doe",
+  "famValidationRelationshipRequired": "Please ek relationship select karein",
+  "famAddedSnack": "{name} ko aapki family mein add kar diya gaya hai",
+  "@famAddedSnack": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "famAddFailed": "Family member add karne mein nakami. Dobara koshish karein.",
+  "famRelationshipLabel": "Relationship *",
+  "famRelationshipPlaceholder": "Relationship select karein",
+  "famSelectRelationshipTitle": "Relationship Select Karein",
+  "famGenderLabel": "Gender",
+  "famGenderPlaceholder": "Gender select karein",
+  "famSelectGenderTitle": "Gender Select Karein",
+  "famBloodGroupLabel": "Blood Group",
+  "famPrivacyAgreementMember": "Member add kar ke, aap CurecordAI ki family privacy policy se agree karte hain.",
+  "famRoleLabel": "Role",
+  "famRoleDependent": "Dependent (main inke records manage karta hoon)",
+  "famRoleCaregiver": "Caregiver (mere records manage karne mein madad karta hai)",
+  "famRoleLockedHint": "Member banane ke baad role tabdeel nahi kiya ja sakta.",
+  "famEditMemberTitle": "Family Member Edit Karein",
+  "famEditMemberSubtitle": "Is family member ki health profile update karein.",
+  "famUpdateSuccess": "{name} ko update kar diya gaya hai",
+  "@famUpdateSuccess": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "famUpdateFailed": "Family member update karne mein nakami. Dobara koshish karein.",
+  "famSaveChanges": "Changes save karein",
+  "relSon": "Beta",
+  "relDaughter": "Beti",
+  "relFather": "Walid",
+  "relMother": "Walida",
+  "relWife": "Biwi",
+  "relHusband": "Shohar",
+  "relBrother": "Bhai",
+  "relSister": "Behan",
+  "relGrandfather": "Dada",
+  "relGrandmother": "Dadi",
+  "relOther": "Doosra",
+  "relSpouse": "Spouse",
+  "relParent": "Walidain",
+  "relChild": "Bachcha",
+  "relSibling": "Bhai Behan",
+  "familyEmptyTitle": "Abhi tak koi family member nahi",
+  "familyEmptyDescription": "Apne records ke sath sath unke health records manage karna shuru karne ke liye walid, spouse, ya bachcha add karein.",
+  "familyAddShortcutParentTitle": "Walidain add karein",
+  "familyAddShortcutParentDescription": "Unki medications aur appointments track karein.",
+  "familyAddShortcutSpouseTitle": "Spouse add karein",
+  "familyAddShortcutSpouseDescription": "Mushtarka health history mil kar manage karein.",
+  "familyAddShortcutChildTitle": "Bachcha add karein",
+  "familyAddShortcutChildDescription": "Unke records ek jagah organized rakhein.",
+  "familyFieldGender": "Gender",
+  "familyFieldBloodGroup": "Blood group",
+  "familyFieldAge": "Umar",
+  "familyNotProvided": "Faraham nahi ki gayi",
+  "familyYearsOld": "{age} saal ki umar",
+  "@familyYearsOld": {
+    "placeholders": {
+      "age": {
+        "type": "int"
+      }
+    }
+  },
+  "familyEditAria": "{name} ko edit karein",
+  "@familyEditAria": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "caregiverAddTitle": "Caregiver Add Karein",
+  "caregiverAddSubtitle": "Apne health records share karne ke liye koi doctor ya caregiver add karein.",
+  "caregiverValidationTypeRequired": "Please caregiver ki type select karein",
+  "caregiverAddedSnack": "Caregiver add ho gaya",
+  "caregiverAddFailed": "Caregiver add karne mein nakami. Dobara koshish karein.",
+  "caregiverTypeLabel": "Type *",
+  "caregiverTypePlaceholder": "Type select karein",
+  "caregiverSelectTypeTitle": "Type Select Karein",
+  "caregiverRelationshipLabel": "Relationship (optional)",
+  "caregiverRelationshipHint": "misal ke taur par Family Doctor",
+  "caregiverNameHint": "misal ke taur par Dr. John Smith",
+  "caregiverAccessPermissionTitle": "Access Permission",
+  "caregiverAccessPermissionSubtitle": "Jab aap apne records share karein to ye shakhs kya dekh sakta hai?",
+  "caregiverAccessFullTitle": "Full Access",
+  "caregiverAccessFullSubtitle": "Tamam records - conditions, medications, allergies aur documents",
+  "caregiverAccessVitalsTitle": "Sirf Vitals",
+  "caregiverAccessVitalsSubtitle": "Sirf blood pressure, heart rate, SpO2 aur basic vitals",
+  "caregiverAccessReadOnlyTitle": "Sirf Dekhne Ke Liye",
+  "caregiverAccessReadOnlySubtitle": "Tamam records dekh sakta hai lekin kuch add ya edit nahi kar sakta",
+  "caregiverPrivacyAgreement": "Caregiver add kar ke, aap CurecordAI ki family privacy policy se agree karte hain.",
+  "caregiverTypeDoctor": "Doctor",
+  "caregiverTypeNurse": "Nurse",
+  "caregiverTypeHomeAide": "Home Aide",
+  "caregiverTypeSpecialist": "Specialist",
+  "caregiverTypeTherapist": "Therapist",
+  "caregiverTypeOther": "Doosra",
+  "emergencyInfoTitle": "Emergency Info",
+  "emergencyInfoTitleFor": "{name} ki Emergency Info",
+  "@emergencyInfoTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "emergencyWidgetSetupTitle": "Emergency Widget Setup",
+  "emergencyWidgetSetupSubtitle": "Choose karein ke aap ki lock screen par kya dikhaya jaye",
+  "emergencyLockScreenHint": "Emergency info neeche visible hai",
+  "emergencyInfoLabel": "EMERGENCY INFO",
+  "emergencyBloodGroupLabel": "BLOOD GROUP",
+  "emergencyNotSet": "Set nahi hai",
+  "emergencyAllergiesLabel": "ALLERGIES",
+  "emergencyNoneKnown": "Koi maloom nahi",
+  "emergencyContactLabel": "EMERGENCY CONTACT",
+  "emergencyToggleBloodGroupTitle": "Blood Group",
+  "emergencyToggleBloodGroupSubtitle": "First responders ke liye apna blood group display karein",
+  "emergencyToggleAllergiesTitle": "Allergies",
+  "emergencyToggleAllergiesSubtitle": "Zaroori medication aur food allergies dikhayein",
+  "emergencyToggleContactTitle": "Emergency Contact",
+  "emergencyToggleContactSubtitle": "Primary contact ka naam aur phone number",
+  "emergencyToggleChronicTitle": "Chronic Conditions",
+  "emergencyToggleChronicSubtitle": "Important ongoing health issues display karein",
+  "emergencyEnableWidgetTitle": "Lock Screen Widget enable karein",
+  "emergencyEnableWidgetSubtitle": "Emergency info ko security bypass karne ki ijazat dein",
+  "emergencyContactsSectionTitle": "EMERGENCY CONTACTS",
+  "commonAdd": "Add karein",
+  "emergencyContactNameHint": "Contact ka naam",
+  "emergencyContactPhoneHint": "Phone number",
+  "emergencyRelFamily": "Family",
+  "emergencyRelFriend": "Friend",
+  "emergencyRelDoctor": "Doctor",
+  "emergencyRelNurse": "Nurse",
+  "emergencyAddContactButton": "Contact add karein",
+  "emergencyNoContacts": "Koi emergency contact add nahi kiya gaya",
+  "emergencySaveSettingsButton": "Settings save karein",
+  "emergencySettingsSaved": "Settings save ho gayin",
+  "emergencySettingsSaveFailed": "Settings save karne mein nakami hui",
+  "emergencyAddContactFailed": "Contact add karne mein nakami hui",
+  "commonUnknown": "Unknown",
+  "alertCenterTitle": "Alert Center",
+  "alertCenterSubtitle": "Apni health priorities manage karein",
+  "alertMarkAllRead": "Sab ko read mark karein",
+  "alertEmptyTitle": "Sab kuch dekh liya!",
+  "alertEmptySubtitle": "Aap ke paas koi notification nahi hai",
+  "alertYesterday": "Kal",
+  "alertEarlier": "Pehle ki",
+  "alertPriorityHigh": "HIGH PRIORITY",
+  "alertPriorityAttention": "ATTENTION",
+  "alertPrioritySystemUpdate": "SYSTEM UPDATE",
+  "alertCategoryMedication": "Medication",
+  "alertCategoryVitals": "Vitals",
+  "alertCategoryProfile": "Profile",
+  "alertCategoryRecords": "Records",
+  "alertDefaultTitle": "Notification",
+  "alertTimeMinutesAgo": "{minutes}m pehle",
+  "@alertTimeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "alertTimeHoursAgo": "{hours}h pehle",
+  "@alertTimeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "alertTimeDaysAgo": "{days}d pehle",
+  "@alertTimeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "shareScopeLast1Year": "Pichla 1 saal",
+  "shareScopeLast6Months": "Pichlay 6 mahine",
+  "shareScopeFullHistory": "Mukammal history",
+  "shareScopeEmergencyOnly": "Sirf Emergency Info",
+  "shareRecordsTitle": "Records share karein",
+  "shareOfflineMessage": "Doctor ke sath records share karne ke liye secure link banane ke liye connection chahiye. Dobara connect karein aur try karein.",
+  "shareRecordsTitleFor": "{name} ke records share karein",
+  "@shareRecordsTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareFailedGenerateQr": "QR code generate karne mein nakami hui",
+  "shareDoctorInstructionsTitle": "Doctor Instructions",
+  "shareSubtitleOwner": "Apne health records apne doctor ya caregiver ke sath share karein",
+  "shareSubtitleFor": "{name} ke health records unke doctor ya caregiver ke sath share karein",
+  "@shareSubtitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareGenerateQrButton": "QR Code generate karein",
+  "shareGeneratingButton": "Generate ho raha hai...",
+  "shareEncryptedNote": "Aap ka data encrypted hai. QR code 10 minute mein expire ho jayega aur sirf verified practitioners hi ise scan kar sakte hain.",
+  "shareActiveSessionsTitle": "ACTIVE SESSIONS",
+  "shareNoActiveSessions": "Koi active sharing session nahi",
+  "shareShowDoctorTitle": "Yeh apne doctor ko dikhayein",
+  "shareShowDoctorSubtitle": "Doctor koi bhi app install kiye baghair ise scan kar sakta hai",
+  "shareValidityExpired": "Expire ho gaya",
+  "shareValidityMinSec": "{mins} min {secs} sec",
+  "@shareValidityMinSec": {
+    "placeholders": {
+      "mins": {
+        "type": "int"
+      },
+      "secs": {
+        "type": "String"
+      }
+    }
+  },
+  "shareValiditySeconds": "{secs} seconds",
+  "@shareValiditySeconds": {
+    "placeholders": {
+      "secs": {
+        "type": "int"
+      }
+    }
+  },
+  "shareValidFor": "{text} tak valid",
+  "@shareValidFor": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "shareCodeExpired": "Code expire ho gaya",
+  "shareRegenerateCode": "Code dobara generate karein",
+  "shareLinkCopied": "Link clipboard par copy ho gaya",
+  "shareCopyLink": "Link copy karein",
+  "shareScanned": "{count} baar scan hua",
+  "@shareScanned": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shareRevoke": "Revoke karein",
+  "shareInstructionsLoadError": "Instructions load nahi ho sakin",
+  "shareInstructionsEmpty": "Jab koi doctor aap ke shared record ko dekhne ke baad instructions chhorega, to woh yahan dikhengi.",
+  "shareDoctorNameFallback": "Doctor",
+  "shareDoctorInstructionRow": "Dr. {name} · {institution}",
+  "@shareDoctorInstructionRow": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "institution": {
+        "type": "String"
+      }
+    }
+  },
+  "profileMyProfileTitle": "Meri Profile",
+  "commonEdit": "Edit karein",
+  "commonUser": "User",
+  "profilePatientId": "Patient ID: {id}",
+  "@profilePatientId": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "profileSectionPersonalDetails": "PERSONAL DETAILS",
+  "profileLabelDob": "Date of Birth",
+  "profileLabelGender": "Gender",
+  "profileLabelPhone": "Phone",
+  "profileSectionPhysicalMetrics": "PHYSICAL METRICS",
+  "profileLabelHeight": "Height",
+  "profileLabelWeight": "Weight",
+  "profileLabelBloodGroup": "Blood Group",
+  "profileLabelBmi": "BMI",
+  "profileBmiUnderweight": "Underweight",
+  "profileBmiNormal": "Normal",
+  "profileBmiOverweight": "Overweight",
+  "profileBmiObese": "Obese",
+  "profileSectionHealthDetails": "HEALTH DETAILS",
+  "profileFailedUploadPhoto": "Photo upload karne mein nakami hui",
+  "profileCropPhotoTitle": "Photo Crop Karein",
+  "profileCompletionTitle": "Profile Completion",
+  "profileCompletionTapToComplete": "Apni medical profile complete karne ke liye tap karein",
+  "profileAllergiesLabel": "Allergies",
+  "profileNoneRecorded": "Kuch record nahi hai",
+  "profileConditionsLabel": "Conditions",
+  "profileNoMemberSelected": "Koi family member select nahi kiya gaya",
+  "profileMemberTitleFor": "{name} ki Profile",
+  "@profileMemberTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "profileSelectGenderTitle": "Gender select karein",
+  "profileSelectBloodGroupTitle": "Blood Group select karein",
+  "profileFailedLoad": "Profile load karne mein nakami hui",
+  "profileInformationTitle": "Profile Information",
+  "profileFailedToLoadWith": "Load karne mein nakami hui: {error}",
+  "@profileFailedToLoadWith": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "profileUpdatedSuccess": "Profile successfully update ho gayi",
+  "profileUpdateErrorWith": "Error: {error}",
+  "@profileUpdateErrorWith": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "profileFailedUpdatePicture": "Profile picture update karne mein nakami hui.",
+  "profileSectionPersonalDetailsLabel": "Personal Details",
+  "profileFieldFullName": "Pura Naam",
+  "profileHintFullName": "Apna pura naam darj karein",
+  "profileValidationRequired": "Zaroori hai",
+  "profileFieldDob": "Date of Birth",
+  "profileDobPlaceholder": "DD / MM / YYYY",
+  "profileFieldGender": "Gender",
+  "profileHintSelectGender": "Gender select karein",
+  "profileFieldPhoneNumber": "Phone Number",
+  "profileSectionPhysicalMetricsLabel": "Physical Metrics",
+  "profileFieldHeightCm": "Height (cm)",
+  "profileHintHeightExample": "misal ke taur par 175",
+  "profileFieldWeightKg": "Weight (kg)",
+  "profileHintWeightExample": "misal ke taur par 70",
+  "profileFieldBloodGroupLabel": "Blood Group",
+  "profileHintSelectBloodGroup": "Blood Group select karein",
+  "profileSectionHealthDetailsLabel": "Health Details",
+  "profileFieldAllergies": "Allergies",
+  "profileHintAllergiesExample": "misal ke taur par, Pollen, Penicillin...",
+  "profileFieldExistingConditions": "Existing Conditions",
+  "profileHintAddOtherConditions": "Doosre conditions add karein...",
+  "profileSaveChangesButton": "Changes save karein",
+  "profileConditionAsthma": "Asthma",
+  "profileConditionDiabetes": "Diabetes (sugar)",
+  "profileConditionEpilepsy": "Epilepsy (mirgi)",
+  "profileConditionHypertension": "Hypertension (BP)",
+  "profileConditionThyroidIssue": "Thyroid ka masla",
+  "insightsTitle": "Sehat ke Rujhanat",
+  "insightsTitleFor": "{name} ke Rujhanat",
+  "@insightsTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsCouldNotLoad": "Insights load nahi ho sake",
+  "insightsOverview": "Overview",
+  "insightsTotalRecords": "Total Records",
+  "insightsThisMonth": "Is Mahine",
+  "insightsActiveConditions": "Faal Bimariyan",
+  "insightsUnreadAlerts": "Ghair Parhe Alerts",
+  "insightsRecordsByType": "Qisam ke Hisab se Records",
+  "insightsCouldNotLoadChart": "Chart data load nahi ho saka",
+  "insightsNoRecordsYet": "Abhi tak koi record nahi",
+  "insightsVitalTrends": "Aham Rujhanat",
+  "insightsBloodGlucose": "Blood Glucose",
+  "insightsHemoglobin": "Hemoglobin",
+  "insightsBloodPressureSystolic": "Blood Pressure (Systolic)",
+  "insightsFailedToLoad": "Load karna nakaam raha",
+  "insightsNoDataRecordedYet": "Abhi tak koi data darj nahi",
+  "insightsChartLabelLab": "Lab",
+  "insightsChartLabelRx": "Nuskha",
+  "insightsChartLabelRad": "Radio",
+  "insightsChartLabelVax": "Vaccine",
+  "insightsChartLabelOther": "Digar",
+  "healthSummaryTitle": "Sehat ka Khulasa",
+  "healthSummaryTitleFor": "{name} ka Sehat ka Khulasa",
+  "@healthSummaryTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "healthSummaryCouldNotLoad": "Aap ka sehat ka khulasa load nahi ho saka",
+  "healthSummaryActiveConditions": "Faal Bimariyan",
+  "healthSummaryCurrentMedications": "Mojooda Dawaiyan",
+  "healthSummaryAllergies": "Allergies",
+  "healthSummaryRecentLabsVitals": "Haliya Labs aur Vitals",
+  "healthSummaryDisclaimer": "Yeh khulasa aap ke upload kiye gaye records se AI ke zariye tayyar kiya gaya hai aur mukammal nahi ho sakta. Clinical faislon ke liye hamesha apne doctor se rujoo karein.",
+  "healthSummaryYourOverview": "Aap ka Sehat ka Khulasa",
+  "healthSummaryNoDataYet": "Abhi tak koi sehat ka data nahi",
+  "healthSummaryNoDataYetFor": "{name} ke liye abhi tak koi sehat ka data nahi",
+  "@healthSummaryNoDataYetFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "healthSummaryUploadPrompt": "Mukammal sehat ka khulasa banane ke liye tibbi records upload karein.",
+  "profileCompletionPersonalDetailsTitle": "Zaati Tafseelat",
+  "profileCompletionPersonalDetailsSubtitle": "Aayein apni bunyadi maloomat se shuru karte hain.",
+  "profileCompletionFullNameRequired": "Poora naam lazmi hai",
+  "profileCompletionDobFormat": "DD / MM / YYYY",
+  "profileCompletionDobRequired": "Tareekh paidaish lazmi hai",
+  "profileCompletionGenderRequired": "Baraye meherbani gender muntakhib karein",
+  "profileCompletionPhoneHint": "000-000-0000",
+  "profileCompletionPhoneRequired": "Phone number lazmi hai",
+  "profileCompletionStep1Note": "Yeh maloomat doctors ko aap ki durust shanakht mein madad deti hai.",
+  "profileCompletionNext": "Aage →",
+  "profileCompletionStep1HelpTitle": "Step 1 Madad",
+  "profileCompletionStep1HelpBody": "Apni zaati tafseelat sahih tareeqe se darj karein. Is se sehat ke maahireen ko aap ki shanakht aur apki care personalize karne mein madad milti hai.",
+  "profileCompletionStep2SkipNotice": "Aap yeh baad mein apne profile se mukammal kar sakte hain",
+  "profileCompletionPhysicalMetricsTitle": "Jismani A'adad o Shumar",
+  "profileCompletionPhysicalMetricsSubtitle": "Apne aham jismani ashariye faraham kar ke hamein apka wellness safar personalize karne mein madad dein.",
+  "profileCompletionStep2Note": "Aap ka jismani data sirf BMI nikalne aur ghizai tajaweez ko customize karne ke liye istemal hota hai. Tamam data encrypted hai.",
+  "profileCompletionStep2HelpTitle": "Step 2 Madad",
+  "profileCompletionStep2HelpBody": "Jismani a'adad o shumar aap ka BMI nikalne aur ghizai tajaweez tarteeb dene mein madad karte hain. Tamam khaane ikhtiyari hain - aap unhein chhor kar baad mein mukammal kar sakte hain.",
+  "profileCompletionSaveError": "Khrabi: {error}",
+  "@profileCompletionSaveError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "profileCompletionSuccessTitle": "Profile Update Ho Gaya!",
+  "profileCompletionSuccessBody": "Aap ka sehat ka profile save ho gaya hai.",
+  "profileCompletionGoToProfile": "Profile Par Jayein",
+  "profileCompletionAlmostThere": "Bas thora sa reh gaya hai!",
+  "profileCompletionStep3Subtitle": "Hum yeh maloomat aap ko personalized sehat ke rujhanat aur hifazati alerts dene ke liye istemal karte hain.",
+  "profileCompletionSeparateWithCommas": "Ashiya ko commas se alag karein",
+  "profileCompletionHipaaCompliant": "HIPAA Compliant",
+  "profileCompletionSecureStorage": "Mehfooz Zakheera",
+  "profileCompletionEncrypted": "Encrypted",
+  "profileCompletionPersonalData": "Zaati Data",
+  "profileCompletionSaving": "Save ho raha hai...",
+  "profileCompletionFinish": "Mukammal Karein →",
+  "profileCompletionStep3HelpTitle": "Step 3 Madad",
+  "profileCompletionStep3HelpBody": "Aap ki sehat ki tafseelat personalized hifazati alerts aur tajaweez banane mein madad deti hain. Aap yeh kabhi bhi apne profile se update kar sakte hain.",
+  "privacyPolicyAppBarTitle": "Data aur Privacy",
+  "privacyPolicyHeading": "CurecordAI aap ka data kaise sambhalta hai",
+  "privacyPolicyIntro": "Yeh page batata hai ke hum kaunsa sehat ka data jama karte hain, ise kaise istemal kiya jata hai, aur is par aap ke paas kya ikhtiyarat hain.",
+  "privacyPolicyDataWeCollectTitle": "Hum Jo Data Jama Karte Hain",
+  "privacyPolicyDataWeCollectBody": "Aap ka zaati sehat record faraham karne ke liye, hum aap ki faraham kardah profile tafseelat (naam, tareekh paidaish, gender, contact maloomat), aap ke upload kiye gaye tibbi documents, un documents se nikala gaya structured clinical data (bimariyan, dawaiyan, lab results, allergies, aur visit history), aur in-app AI assistant ke sath aap ki guftagu mehfooz karte hain. Hum aap ke account ko mehfooz rakhne ke liye bunyadi device aur session metadata (IP address, device ki qisam, login timestamps) bhi record karte hain.",
+  "privacyPolicyHowWeUseDataTitle": "Hum Aap Ka Data Kaise Istemal Karte Hain",
+  "privacyPolicyHowWeUseDataBody": "Aap ka data sirf un features ko chalane ke liye istemal hota hai jo aap istemal karte hain: upload kiye gaye documents se structured sehat ki maloomat nikalna, AI khulase banana, AI Chat mein aap ke records ke mutaliq sawalat ka jawab dena, aap ka profile completion score nikalna, aap ka Emergency Medical Card bharna, aur family members, caregivers ya clinicians ke sath mehfooz ishtirak mumkin banana jise aap wazeh tor par ijazat dete hain.",
+  "privacyPolicyAiProcessingTitle": "AI Processing",
+  "privacyPolicyAiProcessingBody": "Jab koi document process hota hai ya aap AI Chat mein sawal karte hain, to mutaliqa document ka content ya record data sirf clinical data nikalne ya jawab banane ke liye hamare AI processing provider ko bheja jata hai. Yeh data sirf aap ki request poori karne ke liye istemal hota hai - yeh kisi third-party AI models ko train karne ke liye istemal nahi hota, aur AI provider ise us ek request ko process karne ke liye darkar waqt se zyada mehfooz nahi rakhta.",
+  "privacyPolicyStorageSecurityTitle": "Storage aur Security",
+  "privacyPolicyStorageSecurityBody": "Upload kiye gaye documents encrypted cloud storage mein mehfooz kiye jate hain, aur transit mein maujood tamam data TLS encryption se mehfooz hai. Aap ke records tak rasai sirf aap ke account aur un family members ya caregivers tak mehdood hai jinhein aap wazeh tor par rasai dete hain. Aap kabhi bhi log out kar ke is device ka login session cancel kar sakte hain, jo foran mutaliqa access aur refresh tokens ko ghair faal kar deta hai.",
+  "privacyPolicyFamilyAccessTitle": "Family aur Caregiver Access",
+  "privacyPolicyFamilyAccessBody": "Agar aap apne account mein family members ya caregivers shamil karte hain, to woh sirf un records aur data ko dekh sakte hain jo aap ne un ke liye banai gayi family member profile tak mehdood kiye hon. Har family member profile mein kya maujood hai yeh aap ke control mein rehta hai aur aap kabhi bhi Family Management se access khatam kar sakte hain.",
+  "privacyPolicySharingCliniciansTitle": "Clinicians ke Sath Ishtirak",
+  "privacyPolicySharingCliniciansBody": "Apne dashboard se QR code banana muntakhib records ke liye ek waqt ki hadd wala, cancel kiya ja sakne wala share link banata hai. Ise scan karne wale clinicians sirf us share mein shamil records dekh sakte hain - kabhi bhi aap ka mukammal account nahi - aur aap kabhi bhi access cancel kar sakte hain.",
+  "privacyPolicyYourRightsTitle": "Aap Ke Huqooq",
+  "privacyPolicyYourRightsBody": "Aap kabhi bhi Settings → Export My Data se apne sehat ke data ka mukammal export request kar sakte hain, Consent Management se mukhtalif razamandiyan dekh aur wapas le sakte hain, aur woh records mustaqil tor par delete kar sakte hain jo aap ab mehfooz nahi rakhna chahte. Delete kardah records foran active istemal se hata diye jate hain aur hamare standard retention schedule par backups se saaf kar diye jate hain.",
+  "privacyPolicyDataRetentionTitle": "Data Retention",
+  "privacyPolicyDataRetentionBody": "Hum aap ka data us waqt tak mehfooz rakhte hain jab tak aap ka account faal rehta hai. Agar aap koi record delete karte hain, to yeh foran app se chhupa diya jata hai aur upar bayan kardah retention ki muddat ke andar hamare systems se mustaqil tor par saaf kar diya jata hai. Agar aap apna account delete karte hain, to tamam mutaliqa zaati aur tibbi data mustaqil delete ke liye schedule kar diya jata hai.",
+  "privacyPolicyContactTitle": "Rabta",
+  "privacyPolicyContactBody": "Agar aap ke paas is baare mein sawalat hain ke aap ka data kaise sambhala jata hai, to neeche diye gaye Support link se hamari support team se rabta karein aur hamein madad kar ke khushi hogi.",
+  "privacyControlsTitle": "Privacy Controls",
+  "privacyControlsBiometricLockTitle": "Biometric Lock",
+  "privacyControlsBiometricLockSubtitle": "Kholne ke liye Face ID ya fingerprint istemal karein",
+  "privacyControlsAppLockTitle": "Background Par App Lock",
+  "privacyControlsAppLockSubtitle": "Task badalte waqt app lock karein",
+  "privacyControlsScreenshotTitle": "Screenshot Rok Tham",
+  "privacyControlsScreenshotSubtitle": "App mein screenshots rokein",
+  "privacyControlsNote": "Privacy settings aap ke tibbi data ko mehfooz rakhne mein madad deti hain. Biometric lock yaqeeni banata hai ke sirf aap hi app tak rasai hasil kar sakein. Tabdiliyan khud kar mehfooz ho jati hain.",
+  "dataSharingTitle": "Data Sharing",
+  "dataSharingSubtitle": "Muntazim karein ke kaunse doctors aur hospitals aap ke records tak rasai rakh sakte hain",
+  "dataSharingAddNewAccess": "Nayi Rasai Shamil Karein",
+  "dataSharingRevokeAccessTitle": "Rasai Cancel Karein",
+  "dataSharingRevokeAccessConfirm": "{name} ke liye rasai khatam karein?",
+  "@dataSharingRevokeAccessConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "dataSharingRevoke": "Cancel Karein",
+  "dataSharingRevokeFailed": "Rasai cancel karna nakaam raha",
+  "dataSharingAccessFull": "Mukammal",
+  "dataSharingAccessRead": "Sirf Dekhna",
+  "dataSharingUntil": "{date} tak",
+  "@dataSharingUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "dataSharingEmptyTitle": "Abhi tak koi mushtarka rasai nahi",
+  "dataSharingEmptyBody": "Doctors ya hospitals ko rasai dene ke liye \"Nayi Rasai Shamil Karein\" par tap karein.",
+  "dataSharingAddFailed": "Rasai shamil karna nakaam raha",
+  "dataSharingDoctorHospitalName": "Doctor / Hospital ka Naam",
+  "dataSharingEnterName": "Naam darj karein",
+  "dataSharingAccessType": "Rasai ki Qisam",
+  "dataSharingGrantedUntilOptional": "Kab Tak Di Gayi (ikhtiyari)",
+  "dataSharingNoExpiry": "Koi meyad khatam nahi",
+  "dataSharingGrantAccess": "Rasai Dein",
+  "consentManagementTitle": "Consent Management",
+  "consentOptionalSectionTitle": "IKHTIYARI RAZAMANDIYAN",
+  "consentRequiredSectionTitle": "LAZMI MOAHADE",
+  "consentAnalyticsTitle": "Analytics aur Istemal ka Data",
+  "consentAnalyticsSubtitle": "Gumnaam istemal ke aadad o shumar share kar ke app behtar banane mein madad karein",
+  "consentMarketingTitle": "Marketing Muashalat",
+  "consentMarketingSubtitle": "CurecordAI se updates, tajaweez aur sehat ki khabrein hasil karein",
+  "consentTermsOfServiceTitle": "Khidmaat ki Sharait",
+  "consentTermsOfServiceSubtitle": "CurecordAI istemal karne ke liye lazmi",
+  "consentPrivacyPolicyTitle": "Privacy Policy",
+  "consentPrivacyPolicySubtitle": "Hum aap ke tibbi data ko kaise sambhalte hain",
+  "consentDataProcessingTitle": "Data Processing",
+  "consentDataProcessingSubtitle": "Khidmaat faraham karne ke liye aap ki sehat ki maloomat ki processing",
+  "consentWithdrawalNote": "Razamandi wapas lena foran nafiz hota hai. App istemal karte hue lazmi moahade wapas nahi liye ja sakte.",
+  "consentUpdateFailed": "Razamandi update karna nakaam raha. Dobara koshish karein.",
+  "consentAccepted": "Manzoor Shuda",
+  "consentNotSet": "Tay Nahi",
+  "recordDetailIcd11Code": "ICD-11: {code}",
+  "@recordDetailIcd11Code": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "errorSaveChangesFailed": "Tabdeeliyan save nahi ho sakin.",
+  "recordDeletePermanentBody": "Is se yeh record hamesha ke liye delete ho jayega. Yeh action wapas nahi kiya ja sakta.",
+  "recordDocumentLinkUnavailable": "Document ka link available nahi hai.",
+  "recordDetailsTitle": "Record Ki Tafseelat",
+  "recordLoadFailed": "Record load nahi ho saka.",
+  "recordDocumentWord": "Document",
+  "recordDocumentDetails": "Document Ki Tafseelat",
+  "fieldTitle": "Title",
+  "fieldType": "Type",
+  "fieldDate": "Tareekh",
+  "commonTapToSet": "Set karne ke liye tap karein",
+  "fieldPatientName": "Mareez Ka Naam",
+  "fieldIssuingLabOrg": "Lab / Organization",
+  "fieldReferringDoctor": "Refer Karne Wala Doctor",
+  "fieldFile": "File",
+  "fieldStatus": "Status",
+  "recordAiExtracting": "AI aap ki document se maloomat nikal raha hai...",
+  "recordAiProcessingFailed": "AI processing fail ho gayi. Dobara koshish karein.",
+  "recordViewOriginal": "Original Dekhein",
+  "commonSaveChanges": "Tabdeeliyan Save Karein",
+  "clinicalLabResultsVitals": "Lab Results Aur Vitals",
+  "clinicalConditions": "Conditions",
+  "clinicalMedications": "Medications",
+  "clinicalVisitsEncounters": "Visits Aur Encounters",
+  "clinicalEditCondition": "Condition Edit Karein",
+  "clinicalEditMedication": "Medication Edit Karein",
+  "clinicalEditObservation": "Observation Edit Karein",
+  "clinicalEditAllergy": "Allergy Edit Karein",
+  "clinicalEditVisit": "Visit Edit Karein",
+  "clinicalConditionField": "Condition",
+  "clinicalSeverity": "Shiddat",
+  "clinicalMedicationField": "Medication",
+  "clinicalDosage": "Dosage",
+  "clinicalFrequency": "Frequency",
+  "clinicalTestVitalName": "Test / Vital Ka Naam",
+  "clinicalValue": "Value",
+  "clinicalUnit": "Unit",
+  "clinicalInterpretation": "Tashreeh",
+  "clinicalSubstance": "Substance",
+  "clinicalCriticality": "Criticality",
+  "clinicalReaction": "Reaction",
+  "clinicalHospitalClinic": "Hospital / Clinic",
+  "clinicalVisitType": "Visit Ki Qisam",
+  "clinicalAiExtractedHint": "Aap ki document se AI ke zariye nikala gaya hai. Jaiza lein aur zaroorat parne par theek karein.",
+  "commonNotSet": "Set Nahi Hai",
+  "interpNormal": "Normal",
+  "interpLow": "Kam",
+  "interpHigh": "Zyada",
+  "interpCriticalLow": "Critical Kam",
+  "interpCriticalHigh": "Critical Zyada",
+  "interpAbnormal": "Abnormal",
+  "interpVeryAbnormal": "Bohat Abnormal",
+  "commonActive": "Active",
+  "recordTypeSheetTitle": "Record Ki Qisam Muntakhib Karein",
+  "statusPending": "Pending",
+  "statusProcessing": "Processing Ho Rahi Hai",
+  "statusCompleted": "Complete",
+  "statusFailed": "Fail",
+  "recordProcessingFailedWithReason": "Processing fail ho gayi: {reason}",
+  "@recordProcessingFailedWithReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "clinicalRefRange": "Ref: {range}",
+  "@clinicalRefRange": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "clinicalDoctorPrefix": "Dr. {name}",
+  "@clinicalDoctorPrefix": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "commonGotIt": "Samajh gaya",
+  "chatInfoAria": "AI Health Assistant istemal karne ka tareeqa",
+  "chatInfoModalTitle": "AI Health Assistant istemal karne ka tareeqa",
+  "chatInfoAskTitle": "Apni sehat ke baare mein poochein",
+  "chatInfoAskDescription": "Apni sehat ke baare mein kuch bhi poochein, assistant aapke pehle se upload kiye gaye documents ki bunyad par jawab dega.",
+  "chatInfoAttachTitle": "Health Vault se records attach karein",
+  "chatInfoAttachDescription": "Zyada durust aur mutaliq jawabat ke liye apne sawal ke sath Health Vault se khaas documents attach karein.",
+  "chatInfoSummarizeTitle": "Reports ka khulasa karein",
+  "chatInfoSummarizeDescription": "Assistant se kahein ke lab report, nuskha, ya X-ray ka khulasa aasan zaban mein bataye.",
+  "chatInfoUnderstandTitle": "Apni sehat ko samjhein",
+  "chatInfoUnderstandDescription": "Medical istilahat, natayij, aur aapki majmui sehat ke liye unka matlab samajhne mein madad hasil karein.",
+  "familyInfoAria": "Family management kaise kaam karta hai",
+  "familyInfoModalTitle": "Family management kaise kaam karta hai",
+  "familyInfoNoLoginTitle": "Alag login ki zaroorat nahi",
+  "familyInfoNoLoginDescription": "Family members ko apna account banane ki zaroorat nahi. Aap apne login se sab kuch manage kar sakte hain.",
+  "familyInfoProfilesTitle": "Anfiradi profiles",
+  "familyInfoProfilesDescription": "Family ke har fard ke apne alag documents aur medications hote hain, jo aapke apne records se alag rakhe jate hain.",
+  "familyInfoTogetherTitle": "Mil kar manage karein",
+  "familyInfoTogetherDescription": "Documents upload karein, medications track karein, aur family ke har fard ke liye AI summaries dekhein, bilkul apni profile ki tarah.",
+  "familyInfoShareTitle": "Foran access share karein",
+  "familyInfoShareDescription": "Kisi bhi family member ke records ke liye alag se QR share banayein, bilkul apne records ki tarah.",
+  "medicationsInfoAria": "Medications kaise kaam karti hain",
+  "medicationsInfoModalTitle": "Medications kaise kaam karti hain",
+  "medicationsInfoWhoTitle": "Yeh kis ke liye hai",
+  "medicationsInfoWhoDescription": "Medications aapke liye ya aapke zair intezam kisi family member ke liye add ki ja sakti hain.",
+  "medicationsInfoAddTitle": "Manually add karein ya import karein",
+  "medicationsInfoAddDescription": "Khud tafseelat darj karein, ya pehle se upload ki gayi document se hasil karein.",
+  "medicationsInfoTrackTitle": "Status track karein",
+  "medicationsInfoTrackDescription": "Medications ko upar diye gaye tabs ke zariye Active, Paused, ya Completed ke taur par nishan zad kiya ja sakta hai."
+}

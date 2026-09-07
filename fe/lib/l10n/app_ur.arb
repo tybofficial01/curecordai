@@ -1,0 +1,1398 @@
+{
+  "@@locale": "ur",
+  "navDashboard": "ڈیش بورڈ",
+  "navRecords": "ریکارڈز",
+  "navAi": "AI",
+  "navMedications": "ادویات",
+  "navInsights": "بصیرت",
+  "navSettings": "ترتیبات",
+  "navAiAssistant": "AI اسسٹنٹ",
+  "appName": "CurecordAI",
+  "settingsSectionAccount": "اکاؤنٹ",
+  "settingsProfileInformation": "پروفائل کی معلومات",
+  "settingsProfileInformationSubtitle": "اپنی طبی تفصیلات اپ ڈیٹ کریں",
+  "settingsFamilyManagement": "خاندانی انتظام",
+  "settingsFamilyManagementSubtitle": "خاندان کے افراد شامل یا ترمیم کریں",
+  "settingsSectionPreferences": "ترجیحات",
+  "settingsLanguage": "زبان",
+  "settingsLanguageSubtitle": "انگریزی / اردو / رومن اردو",
+  "langEnglish": "English",
+  "langUrdu": "اردو",
+  "langRomanUrdu": "رومن اردو",
+  "settingsTheme": "تھیم",
+  "settingsThemeCurrentDark": "موجودہ: ڈارک موڈ",
+  "settingsThemeCurrentLight": "موجودہ: لائٹ موڈ",
+  "settingsSectionMedical": "طبی",
+  "settingsEmergencyCard": "ایمرجنسی کارڈ کی ترتیبات",
+  "settingsEmergencyCardSubtitle": "ایس او ایس رابطے اور میڈیکل آئی ڈی",
+  "settingsSectionPrivacyData": "رازداری اور ڈیٹا",
+  "settingsDataPrivacy": "ڈیٹا اور رازداری",
+  "settingsDataPrivacySubtitle": "ہم آپ کا صحت کا ڈیٹا کیسے استعمال کرتے ہیں",
+  "settingsExportData": "میرا ڈیٹا ایکسپورٹ کریں",
+  "settingsExportDataSubtitle": "اپنے صحت کے ڈیٹا کی کاپی ڈاؤن لوڈ کریں",
+  "settingsConsentManagement": "رضامندی کا انتظام",
+  "settingsConsentManagementSubtitle": "اپنی ڈیٹا رضامندیوں کا جائزہ لیں",
+  "settingsLogOut": "لاگ آؤٹ",
+  "settingsLogOutConfirmTitle": "لاگ آؤٹ",
+  "settingsLogOutConfirmBody": "کیا آپ واقعی لاگ آؤٹ کرنا چاہتے ہیں؟",
+  "commonCancel": "منسوخ کریں",
+  "commonErrorOccurred": "ایک خرابی پیش آگئی",
+  "settingsExportDataTitle": "میرا ڈیٹا ایکسپورٹ کریں",
+  "settingsExportDataBody": "ہم آپ کے صحت کے ڈیٹا کی مکمل کاپی تیار کریں گے۔ اس میں 30 دن تک لگ سکتے ہیں۔ تیار ہونے پر آپ کو مطلع کیا جائے گا۔",
+  "settingsRequestExport": "ایکسپورٹ کی درخواست دیں",
+  "settingsExportRequestedSnack": "ایکسپورٹ کی درخواست موصول ہوگئی۔ تیار ہونے پر آپ کو مطلع کیا جائے گا۔",
+  "settingsExportInProgressError": "ایک ایکسپورٹ پہلے سے جاری ہے۔",
+  "settingsExportFailedError": "ایکسپورٹ کی درخواست ناکام ہوگئی۔ دوبارہ کوشش کریں۔",
+  "settingsAvatarUploadFailed": "تصویر اپ لوڈ نہیں ہو سکی",
+  "settingsManagedByYou": "آپ کے زیرِ انتظام",
+  "settingsProfileCompletion": "پروفائل کی تکمیل",
+  "settingsProfileCompletionHint": "بہتر دیکھ بھال کے لیے اپنی طبی تاریخ مکمل کریں۔",
+  "settingsPrivacyPolicy": "رازداری کی پالیسی",
+  "settingsTermsOfService": "شرائطِ خدمت",
+  "settingsSupport": "معاونت",
+  "settingsAppVersion": "CurecordAI v1.0.0",
+  "authWelcomeBack": "خوش آمدید",
+  "authLoginSubtitle": "اپنے طبی ریکارڈز دیکھنے کے لیے لاگ ان کریں۔",
+  "authContinueWithPhone": "فون نمبر سے جاری رکھیں",
+  "authContinueWithEmail": "ای میل سے جاری رکھیں",
+  "authNewToApp": "CurecordAI میں نئے ہیں؟ ",
+  "authSignUp": "سائن اپ کریں",
+  "authCreateAccountTitle": "اپنا اکاؤنٹ بنائیں",
+  "authCreateAccountSubtitle": "اپنے طبی ریکارڈز کا انتظام شروع کرنے کے لیے سائن اپ کریں۔",
+  "authAlreadyHaveAccount": "پہلے سے اکاؤنٹ ہے؟ ",
+  "authLogIn": "لاگ ان کریں",
+  "otpVerifyTitle": "اپنا نمبر تصدیق کریں",
+  "otpSubtitlePrefix": "6 ہندسوں کا کوڈ اس نمبر پر بھیجا گیا: ",
+  "otpResendCodeIn": "کوڈ دوبارہ بھیجنے میں ",
+  "otpResendSms": "ایس ایم ایس دوبارہ بھیجیں",
+  "otpVerify": "تصدیق کریں",
+  "otpTermsPrefix": "جاری رکھ کر آپ اس سے متفق ہیں: ",
+  "otpTermsLink": "شرائط اور رازداری کی پالیسی",
+  "otpIncompleteError": "براہ کرم مکمل 6 ہندسوں کا کوڈ درج کریں",
+  "otpAlreadyRegisteredError": "یہ نمبر پہلے سے رجسٹرڈ ہے۔ براہ کرم لاگ ان کریں۔",
+  "otpNotFoundError": "اس نمبر کے لیے کوئی اکاؤنٹ نہیں ملا۔ براہ کرم سائن اپ کریں۔",
+  "otpInvalidError": "غلط کوڈ۔ دوبارہ کوشش کریں۔",
+  "otpResendFailedError": "کوڈ دوبارہ بھیجنے میں ناکامی۔ دوبارہ کوشش کریں۔",
+  "homeRecentActivity": "حالیہ سرگرمی",
+  "homeUploadDocument": "دستاویز اپ لوڈ کریں",
+  "homeUploadDocumentSubtitle": "رپورٹس اور نسخے",
+  "homeAskAi": "AI سے پوچھیں",
+  "homeAskAiSubtitle": "فوری طبی معلومات",
+  "homeGenerateQr": "QR بنائیں",
+  "homeGenerateQrSubtitle": "فوری پروفائل شیئرنگ",
+  "homeViewSummary": "خلاصہ دیکھیں",
+  "homeViewSummarySubtitle": "صحت ریکارڈ کا جائزہ",
+  "homeMedications": "ادویات",
+  "homeMedicationsSubtitle": "یاددہانیاں اور شیڈول",
+  "homeDetected": "شناخت شدہ",
+  "homeMedicationsActive": "فعال",
+  "homeYourDashboard": "آپ کا ڈیش بورڈ",
+  "homeGreetingMorning": "صبح بخیر",
+  "homeGreetingAfternoon": "دوپہر بخیر",
+  "homeGreetingEvening": "شام بخیر",
+  "homeGreetingNight": "شب بخیر",
+  "homeNudgeUnreadInstructionMessage": "آپ کے ڈاکٹر نے نئی ہدایات چھوڑی ہیں۔",
+  "homeNudgeUnreadInstructionButton": "ہدایات دیکھیں",
+  "homeNudgeNoDocumentsMessage": "شروع کرنے کے لیے اپنا پہلا ریکارڈ اپلوڈ کریں۔",
+  "homeNudgeNoDocumentsButton": "دستاویز اپلوڈ کریں",
+  "homeNudgeNoMedicationsMessage": "0 فعال ادویات۔ ٹریک پر رہنے کے لیے اپنی ادویات شامل کریں۔",
+  "homeNudgeNoMedicationsButton": "دوا شامل کریں",
+  "homeRotatingTip1": "کسی بھی رپورٹ کو آسان زبان میں سمجھنے کے لیے AI اسسٹنٹ سے پوچھیں۔",
+  "homeRotatingTip2": "آپ کے ریکارڈز صرف آپ اور آپ کے منتخب کردہ ڈاکٹروں کو نظر آتے ہیں۔",
+  "homeRotatingTip3": "آپ نے اپنے ریکارڈز کو منظم رکھا ہے، بہت خوب۔",
+  "homeTotalDocuments": "کل دستاویزات",
+  "homeUploadedLabel": "اپلوڈ شدہ",
+  "homeActiveLabel": "فعال",
+  "homeNoMedicationsYet": "ابھی تک کوئی شامل نہیں",
+  "homeAddMedicationsHint": "دوبارہ بھرنے اور تعاملات کو ٹریک کرنے کے لیے اپنی ادویات شامل کریں۔",
+  "homeMedicationsReviewedAgo": "{time} پہلے جائزہ لیا گیا",
+  "@homeMedicationsReviewedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "homeActiveAllergiesAlert": "آپ کو فعال الرجی ہے",
+  "homeViewDetails": "تفصیلات دیکھیں",
+  "homeRecentDocuments": "حالیہ دستاویزات",
+  "homeNoDocumentsMessage": "ابھی تک کوئی دستاویز نہیں۔ شروع کرنے کے لیے اپنا پہلا نسخہ یا لیب رپورٹ اپلوڈ کریں۔",
+  "homeRecentConversations": "حالیہ AI گفتگو",
+  "homeOpenAssistant": "اسسٹنٹ کھولیں",
+  "homeNoConversationsMessage": "ابھی تک کوئی گفتگو نہیں۔ اپنے صحت کے ریکارڈز کے بارے میں AI اسسٹنٹ سے سوال پوچھیں۔",
+  "homeConversationsLoadFailed": "حالیہ گفتگو لوڈ نہیں ہو سکیں",
+  "homeMessagesCount": "{count} پیغامات",
+  "@homeMessagesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeShareWithDoctor": "ڈاکٹر کے ساتھ شیئر کریں",
+  "homeShareWithDoctorSubtitle": "فوری پروفائل شیئر",
+  "homeNewTag": "نیا",
+  "homeViewAll": "سب دیکھیں",
+  "homeProfileCompletePrefix": "آپ کا پروفائل ",
+  "homeProfileCompleteSuffix": " مکمل ہے۔ باقی تفصیلات مکمل کریں ",
+  "homeHereLink": "یہاں",
+  "homeSwitchProfile": "پروفائل تبدیل کریں",
+  "homeOwnerYou": "مالک · آپ",
+  "homeAddFamilyMember": "خاندان کا رکن شامل کریں",
+  "homeNoRecentActivity": "کوئی حالیہ سرگرمی نہیں",
+  "homeMemberNoRecentActivity": "{name} کی کوئی حالیہ سرگرمی نہیں",
+  "@homeMemberNoRecentActivity": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeUploadFirstRecord": "شروع کرنے کے لیے اپنی پہلی طبی دستاویز اپ لوڈ کریں",
+  "homeUploadRecord": "ریکارڈ اپ لوڈ کریں",
+  "homeDefaultRecordType": "طبی ریکارڈ",
+  "homeMemberDashboardTitle": "{name} کا ڈیش بورڈ",
+  "@homeMemberDashboardTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeOwnerHasAllergies": "آپ کو فعال الرجیز ہیں",
+  "homeMemberHasAllergies": "{name} کو فعال الرجیز ہیں",
+  "@homeMemberHasAllergies": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "errorNoInternet": "انٹرنیٹ کنکشن دستیاب نہیں",
+  "commonOr": "یا",
+  "commonSkip": "چھوڑ دیں",
+  "commonNext": "اگلا",
+  "commonPrevious": "پچھلا",
+  "commonGetStarted": "شروع کریں",
+  "commonSkipForNow": "ابھی کے لیے چھوڑ دیں",
+  "commonFinish": "مکمل کریں",
+  "authIncorrectEmailOrPassword": "ای میل یا پاس ورڈ غلط ہے",
+  "authGoogleSignInFailed": "گوگل سے سائن اِن نہیں ہو سکا۔ دوبارہ کوشش کریں۔",
+  "authEmailLoginTitle": "ای میل سے لاگ اِن",
+  "authEmailLoginSubtitle": "جاری رکھنے کے لیے اپنا ای میل اور پاس ورڈ درج کریں",
+  "authLogin": "لاگ اِن",
+  "authSigningIn": "سائن اِن ہو رہا ہے...",
+  "authGoogle": "گوگل",
+  "authApple": "ایپل",
+  "authEmailAlreadyRegistered": "یہ ای میل پہلے سے رجسٹرڈ ہے۔ براہِ کرم لاگ اِن کریں۔",
+  "authSignUpFailed": "سائن اپ نہیں ہو سکا۔ دوبارہ کوشش کریں۔",
+  "authSignupSubtitle": "جاری رکھنے کے لیے اپنی تفصیلات درج کریں",
+  "authSignUpButton": "سائن اپ کریں",
+  "authPhoneLoginTitle": "فون سے لاگ اِن",
+  "authPhoneLoginSubtitle": "اپنے میڈیکل ریکارڈ دیکھنے کے لیے فون نمبر سے لاگ اِن کریں",
+  "authSendOtp": "OTP بھیجیں",
+  "authPhoneAlreadyRegistered": "یہ نمبر پہلے سے رجسٹرڈ ہے۔ لاگ اِن کر کے دیکھیں۔",
+  "authPhoneSignupSubtitle": "ہم آپ کو تصدیقی کوڈ بھیجیں گے۔",
+  "authCreateAccountLower": "اپنا اکاؤنٹ بنائیں",
+  "authPhoneVerifiedSetupProfile": "آپ کا فون نمبر تصدیق ہو گیا ہے۔ اب اپنی پروفائل بنائیں۔",
+  "authCreateAccountButton": "اکاؤنٹ بنائیں",
+  "authTermsFooter": "جاری رکھنے کا مطلب ہے کہ آپ ہماری شرائطِ استعمال\nاور پرائیویسی پالیسی سے متفق ہیں",
+  "authRegistrationFailed": "رجسٹریشن نہیں ہو سکی۔ دوبارہ کوشش کریں۔",
+  "fieldEmail": "ای میل",
+  "hintEmail": "آپ کا ای میل ایڈریس",
+  "fieldPassword": "پاس ورڈ",
+  "hintPassword": "آپ کا پاس ورڈ",
+  "fieldFullName": "پورا نام",
+  "hintFullName": "آپ کا پورا نام",
+  "fieldConfirmPassword": "پاس ورڈ کی تصدیق",
+  "hintConfirmPassword": "پاس ورڈ دوبارہ لکھیں",
+  "fieldPhoneNumber": "فون نمبر",
+  "hintPhoneNumber": "فون نمبر",
+  "validationEmailRequired": "ای میل ضروری ہے",
+  "validationEmailInvalid": "درست ای میل درج کریں",
+  "validationPasswordRequired": "پاس ورڈ ضروری ہے",
+  "validationNameMinLength": "پورا نام کم از کم 2 حروف کا ہونا چاہیے",
+  "validationPasswordMin8": "کم از کم 8 حروف",
+  "validationPasswordUppercase": "کم از کم ایک بڑا حرف (A-Z) ہونا چاہیے",
+  "validationPasswordNumber": "کم از کم ایک ہندسہ ہونا چاہیے",
+  "validationPasswordsMismatch": "دونوں پاس ورڈ ایک جیسے نہیں ہیں",
+  "validationPhoneRequired": "براہِ کرم اپنا فون نمبر درج کریں",
+  "validationFullNameMinLength": "براہِ کرم اپنا پورا نام لکھیں (کم از کم 2 حروف)",
+  "otpVerifyEmailTitle": "اپنا ای میل تصدیق کریں",
+  "otpResendCode": "کوڈ دوبارہ بھیجیں",
+  "otpSendFailedError": "OTP نہیں بھیجا جا سکا۔ اپنا نمبر چیک کر کے دوبارہ کوشش کریں۔",
+  "splashTagline": "آپ کی صحت، ہمیشہ آپ کے ساتھ",
+  "successAllSet": "سب تیار ہے!",
+  "successWelcomeBack": "خوش آمدید!",
+  "successNewUserBody": "آپ کا اکاؤنٹ کامیابی سے بن گیا ہے۔\nصحت کا سفر ابھی سے شروع۔",
+  "successReturningUserBody": "آپ کامیابی سے لاگ اِن ہو گئے ہیں۔\nآپ کے میڈیکل ریکارڈ تیار ہیں۔",
+  "successGoToDashboard": "ڈیش بورڈ پر جائیں",
+  "carousel1Title": "اپنے تمام میڈیکل\nریکارڈ محفوظ رکھیں",
+  "carousel1Subtitle": "نسخے، رپورٹس اور ایکس رے سب ایک محفوظ جگہ پر رکھیں۔",
+  "carousel2Title": "ڈاکٹر کے ساتھ فوراً\nشیئر کریں",
+  "carousel2Subtitle": "QR کوڈ بنائیں تاکہ ڈاکٹر بغیر کسی ایپ کے آپ کی ہسٹری دیکھ سکیں۔",
+  "carousel3Title": "اپنا ایمرجنسی\nویجٹ سیٹ کریں",
+  "carousel3Subtitle": "ضروری طبی معلومات ہر وقت سامنے رکھیں، لاک اسکرین پر بھی۔",
+  "onboardingStep1Of3": "مرحلہ 1 از 3",
+  "onboardingStep2Of3": "مرحلہ 2 از 3",
+  "onboardingStep3Of3": "مرحلہ 3 از 3",
+  "onboardingTellUsTitle": "اپنے بارے میں بتائیں",
+  "onboardingTellUsSubtitle": "اس سے ہم آپ کا ہیلتھ والٹ آپ کے مطابق بنا سکیں گے۔",
+  "fieldFullNameRequired": "پورا نام *",
+  "fieldYearOfBirthRequired": "سالِ پیدائش *",
+  "hintYearOfBirth": "سالِ پیدائش",
+  "fieldGenderRequired": "جنس *",
+  "hintSelectGender": "جنس منتخب کریں",
+  "genderMale": "مرد",
+  "genderFemale": "عورت",
+  "genderOther": "دیگر",
+  "genderPreferNotToSay": "بتانا نہیں چاہتا/چاہتی",
+  "validationYearRequired": "سالِ پیدائش ضروری ہے",
+  "validationYearInvalid": "درست 4 ہندسوں کا سال درج کریں",
+  "validationYearRange": "1900 اور {year} کے درمیان سال درج کریں",
+  "@validationYearRange": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "validationMinAge13": "آپ کی عمر کم از کم 13 سال ہونی چاہیے",
+  "validationGenderRequired": "براہِ کرم اپنی جنس منتخب کریں",
+  "onboardingPhysicalMetricsTitle": "جسمانی پیمائش",
+  "onboardingPhysicalMetricsSubtitle": "آپ کی صحت کا سفر بہتر بنانے میں ہماری مدد کریں...",
+  "fieldHeightCm": "قد (سینٹی میٹر)",
+  "hintHeightCm": "قد سینٹی میٹر میں",
+  "fieldWeightKg": "وزن (کلوگرام)",
+  "hintWeightKg": "وزن کلوگرام میں",
+  "fieldBloodGroup": "بلڈ گروپ",
+  "hintSelectBloodGroup": "بلڈ گروپ منتخب کریں",
+  "onboardingPhysicalDataNotice": "آپ کی جسمانی معلومات صرف BMI نکالنے اور غذائی تجاویز بہتر بنانے کے لیے استعمال ہوتی ہیں۔ تمام ڈیٹا خفیہ کاری کے ساتھ محفوظ ہے۔",
+  "validationHeightRange": "قد 50 سے 300 سینٹی میٹر کے درمیان درج کریں",
+  "validationWeightRange": "وزن 1 سے 500 کلوگرام کے درمیان درج کریں",
+  "onboardingAlmostThereTitle": "بس تھوڑا سا باقی!",
+  "onboardingAlmostThereSubtitle": "یہ معلومات آپ کو ذاتی نوعیت کی ہیلتھ انسائٹس دینے کے لیے استعمال ہوتی ہیں...",
+  "fieldAllergies": "الرجیز",
+  "hintAllergiesExample": "مثلاً پولن، پینسلین...",
+  "helperSeparateWithCommas": "ہر چیز کو کوما سے الگ کریں",
+  "fieldExistingConditions": "موجودہ بیماریاں",
+  "hintAddOtherConditions": "کوئی اور بیماری شامل کریں...",
+  "badgeHipaaSecureStorage": "HIPAA کے مطابق\nمحفوظ اسٹوریج",
+  "badgeEncryptedPersonalData": "خفیہ کردہ\nذاتی ڈیٹا",
+  "onboardingSaveProfileFailed": "پروفائل محفوظ نہیں ہو سکی۔ بعد میں سیٹنگز سے اپ ڈیٹ کر لیں۔",
+  "conditionAsthma": "دمہ",
+  "conditionDiabetes": "ذیابیطس",
+  "conditionEpilepsy": "مرگی",
+  "conditionHypertension": "بلڈ پریشر",
+  "conditionThyroidIssue": "تھائیرائیڈ کا مسئلہ",
+  "commonRetry": "دوبارہ کوشش کریں",
+  "commonDelete": "حذف کریں",
+  "monthJan": "جنوری",
+  "monthFeb": "فروری",
+  "monthMar": "مارچ",
+  "monthApr": "اپریل",
+  "monthMay": "مئی",
+  "monthJun": "جون",
+  "monthJul": "جولائی",
+  "monthAug": "اگست",
+  "monthSep": "ستمبر",
+  "monthOct": "اکتوبر",
+  "monthNov": "نومبر",
+  "monthDec": "دسمبر",
+  "recordsTabAll": "تمام",
+  "recordsTabPrescriptions": "نسخے",
+  "recordsTabMedicalReports": "میڈیکل رپورٹس",
+  "recordsTabXRays": "ایکس رے",
+  "recordsTabLab": "لیب",
+  "recordsTabOther": "دیگر",
+  "recordsFolder": "فولڈر",
+  "recordsFolderName": "فولڈر کا نام",
+  "recordsFolderNameHint": "مثلاً کارڈیالوجی، آرتھوپیڈک",
+  "recordsFolderNameRequired": "براہِ کرم فولڈر کا نام لکھیں۔",
+  "recordsCreateFolderFailed": "فولڈر نہیں بن سکا۔ دوبارہ کوشش کریں۔",
+  "recordsCreateNewFolder": "نیا فولڈر بنائیں",
+  "recordsCreateFolderSubtitle": "بیماری کے حساب سے ریکارڈ ترتیب دیں",
+  "recordsSelectIcon": "آئیکن منتخب کریں",
+  "recordsCreateFolder": "فولڈر بنائیں",
+  "recordsLoadFailed": "ریکارڈ لوڈ نہیں ہو سکے",
+  "recordsEmptyDescription": "کوئی دستاویز نہیں ملی۔ ایک مختلف تلاش یا زمرہ آزمائیں، یا اپنے ہیلتھ والٹ میں نئی دستاویز اپلوڈ کریں۔",
+  "recordsSearchPlaceholder": "دستاویزات تلاش کریں",
+  "recordsUntitled": "بغیر عنوان",
+  "recordsAnalysing": "تجزیہ جاری ہے…",
+  "recordsViewAiSummary": "AI خلاصہ دیکھیں",
+  "recordsExplainWithAi": "AI سے سمجھیں",
+  "recordsDeleteTitle": "ریکارڈ حذف کریں",
+  "recordsDeleteBody": "یہ ریکارڈ ہمیشہ کے لیے حذف ہو جائے گا۔ کیا آپ واقعی چاہتے ہیں؟",
+  "recordsDeleteFailed": "ریکارڈ حذف نہیں ہو سکا۔",
+  "recordsViewDetails": "تفصیلات دیکھیں",
+  "recordsAiSummary": "AI خلاصہ",
+  "uploadTitle": "میڈیکل ریکارڈ شامل کریں",
+  "uploadTitleForMember": "{name} کے لیے اپ لوڈ کریں",
+  "@uploadTitleForMember": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "uploadSubtitle": "اپنے میڈیکل ریکارڈ اپنے محفوظ والٹ میں اپ لوڈ کریں۔",
+  "uploadSubtitleForMember": "{name} کے ریکارڈ اُن کے محفوظ والٹ میں اپ لوڈ کریں۔",
+  "@uploadSubtitleForMember": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "uploadOfflineNotice": "دستاویز اپ لوڈ کرنے کے لیے انٹرنیٹ ضروری ہے تاکہ وہ محفوظ طریقے سے اسٹور اور تجزیہ ہو سکے۔ دوبارہ کنکٹ کر کے کوشش کریں۔",
+  "uploadFileTooLarge": "فائل بہت بڑی ہے۔ زیادہ سے زیادہ 50 MB کی اجازت ہے۔",
+  "uploadImageTooLarge": "تصویر بہت بڑی ہے۔ زیادہ سے زیادہ 50 MB کی اجازت ہے۔",
+  "uploadFilePickerFailed": "فائل پکر نہیں کھل سکا۔ دوبارہ کوشش کریں۔",
+  "uploadCameraFailed": "کیمرہ نہیں کھل سکا۔ دوبارہ کوشش کریں۔",
+  "uploadSelectFileFirst": "براہِ کرم اپ لوڈ کرنے کے لیے فائل منتخب کریں۔",
+  "uploadFileReadFailed": "منتخب کردہ فائل نہیں پڑھی جا سکی۔ دوبارہ کوشش کریں۔",
+  "uploadStagePreparing": "اپ لوڈ کی تیاری…",
+  "uploadStageUploading": "فائل اپ لوڈ ہو رہی ہے…",
+  "uploadStageAnalysing": "AI آپ کی دستاویز کا تجزیہ کر رہا ہے…",
+  "uploadFailedShort": "اپ لوڈ ناکام۔",
+  "uploadFailedConnection": "اپ لوڈ ناکام۔ اپنا انٹرنیٹ چیک کر کے دوبارہ کوشش کریں۔",
+  "uploadFailedRetry": "اپ لوڈ ناکام۔ دوبارہ کوشش کریں۔",
+  "uploadCamera": "کیمرہ",
+  "uploadGallery": "گیلری",
+  "uploadSelectFolder": "فولڈر منتخب کریں (اختیاری)",
+  "uploadGeneralRecords": "عام ریکارڈ",
+  "uploadProcessing": "کارروائی جاری ہے…",
+  "uploadPrivacyFirst": "پرائیویسی سب سے پہلے",
+  "uploadPrivacyNote": "دستاویزات خفیہ کاری کے ساتھ محفوظ رکھی جاتی ہیں۔",
+  "uploadTakePhotoOrChooseFile": "تصویر لیں یا فائل منتخب کریں",
+  "uploadFileTypesHint": "PDF، JPG، PNG، WebP، یا DICOM - زیادہ سے زیادہ 50 MB",
+  "uploadUnsupportedType": "غیر معاون فائل قسم۔ PDF، JPG، PNG، WebP، یا DICOM (.dcm) فائل منتخب کریں۔",
+  "uploadDuplicateMessage": "یہ دستاویز پہلے ہی آپ کے ہیلتھ والٹ میں اپلوڈ ہو چکی ہے۔",
+  "uploadRejectedTitle": "اپلوڈ ناکام",
+  "uploadRejectedBody": "یہ دستاویز آپ کے ہیلتھ والٹ میں شامل نہیں کی گئی۔",
+  "uploadCouldNotVerify": "ہم اس دستاویز کی تصدیق نہیں کر سکے۔ براہ کرم دوبارہ کوشش کریں۔",
+  "uploadTryAgain": "دوبارہ کوشش کریں",
+  "uploadCancel": "منسوخ کریں",
+  "recordTypeLabReport": "لیب رپورٹ",
+  "recordTypePrescription": "نسخہ",
+  "recordTypeRadiology": "ریڈیالوجی",
+  "recordTypeDischargeSummary": "ڈسچارج سمری",
+  "recordTypeVaccination": "ویکسینیشن",
+  "recordTypeInsurance": "انشورنس",
+  "recordTypeReferral": "ریفرل",
+  "recordTypeOther": "دیگر",
+  "recordWord": "ریکارڈ",
+  "recordPreviewLoadFailed": "یہ ریکارڈ لوڈ نہیں ہو سکا۔",
+  "recordViewFullRecord": "مکمل ریکارڈ دیکھیں",
+  "recordStillProcessing": "ابھی کارروائی جاری ہے - AI خلاصہ تیار ہوتے ہی نظر آ جائے گا۔",
+  "recordProcessingFailed": "کارروائی ناکام ہو گئی۔",
+  "recordIssuedBy": "جاری کنندہ",
+  "recordDoctor": "ڈاکٹر",
+  "viewerUnsupportedFileType": "اس قسم کی فائل کا پری ویو ابھی دستیاب نہیں ہے۔",
+  "viewerLoadFailed": "دستاویز لوڈ نہیں ہو سکی۔ دوبارہ کوشش کریں۔",
+  "chatAttachRecords": "ریکارڈ منسلک کریں",
+  "chatAttachRecordsSubtitle": "منتخب کریں کہ اس سوال کے لیے AI کن ریکارڈز پر توجہ دے۔",
+  "chatNoRecordsForPatient": "اس مریض کے لیے ابھی کوئی ریکارڈ نہیں ملا۔",
+  "chatCouldNotLoadRecords": "ریکارڈ لوڈ نہیں ہو سکے۔",
+  "chatQuickChipLastReport": "میری آخری رپورٹ سمجھائیں",
+  "chatQuickChipEmergencyInfo": "ایمرجنسی معلومات دکھائیں",
+  "chatDefaultUntitledRecord": "بلا عنوان ریکارڈ",
+  "chatAskAboutYourHealth": "اپنی صحت کے بارے میں پوچھیں",
+  "chatAskAboutMembersHealth": "{name} کی صحت کے بارے میں پوچھیں",
+  "@chatAskAboutMembersHealth": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatHealthAssistantTitle": "ہیلتھ اسسٹنٹ",
+  "chatOfflineNotice": "AI اسسٹنٹ کو آپ کے ریکارڈز پڑھنے اور جواب دینے کے لیے انٹرنیٹ کنکشن درکار ہے۔ دوبارہ کنیکٹ ہو کر کوشش کریں۔",
+  "chatSessionHistoryTooltip": "سیشن ہسٹری",
+  "chatNewSessionTooltip": "نیا سیشن",
+  "chatInputHint": "اپنے صحت کے ریکارڈز کے بارے میں پوچھیں...",
+  "chatSessionStartFailed": "معذرت، چیٹ سیشن شروع نہیں ہو سکا۔ دوبارہ کوشش کریں۔",
+  "chatGenericError": "معذرت، ایک خرابی پیش آگئی۔ دوبارہ کوشش کریں۔",
+  "chatSourcesLabel": "ذرائع",
+  "chatRenameConversationTitle": "گفتگو کا نام تبدیل کریں",
+  "chatConversationTitleHint": "گفتگو کا عنوان",
+  "commonSave": "محفوظ کریں",
+  "chatRenameFailed": "چیٹ کا نام تبدیل کرنے میں ناکامی۔",
+  "chatUnpinFailed": "چیٹ ان پن کرنے میں ناکامی۔",
+  "chatPinFailed": "چیٹ پن کرنے میں ناکامی۔",
+  "chatDeleteConversationTitle": "گفتگو حذف کریں؟",
+  "chatDeleteConversationBody": "یہ واپس نہیں ہو سکتا۔ یہ گفتگو مستقل طور پر حذف ہو جائے گی۔",
+  "chatDeleteFailed": "چیٹ حذف کرنے میں ناکامی۔",
+  "chatSessionHistoryTitle": "گفتگوئیں",
+  "chatCouldNotLoadHistory": "سیشن ہسٹری لوڈ نہیں ہو سکی۔",
+  "chatNoPreviousSessions": "ابھی تک کوئی پرانا سیشن نہیں۔",
+  "chatNewConversation": "نئی گفتگو",
+  "chatRename": "نام تبدیل کریں",
+  "chatPin": "پن کریں",
+  "chatUnpin": "ان پن کریں",
+  "chatAttachButton": "منسلک کریں",
+  "chatAttachCountButton": "منسلک کریں ({count})",
+  "@chatAttachCountButton": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatYourHealthAssistant": "آپ کا ہیلتھ اسسٹنٹ",
+  "chatEmptyStateSubtitle": "اپنے صحت کے ریکارڈز کے بارے میں کچھ بھی پوچھیں۔\nمیں آسان زبان میں سمجھاؤں گا۔",
+  "chatSuggestionSummarizeLabs": "میرے حالیہ لیب نتائج کا خلاصہ بتائیں",
+  "chatSuggestionActiveConditions": "میری موجودہ فعال بیماریاں کیا ہیں؟",
+  "chatSuggestionExplainMeds": "میری دوائیں سمجھائیں",
+  "chatSuggestionCriticalAllergies": "کیا مجھے کوئی شدید الرجی ہے؟",
+  "chatEmptyTitle": "اپنی صحت کے بارے میں کچھ بھی پوچھیں",
+  "chatEmptyDescription": "ان ریکارڈز کی بنیاد پر جواب حاصل کریں جو آپ پہلے ہی ہیلتھ والٹ میں اپ لوڈ کر چکے ہیں۔",
+  "chatSuggestionSummarizeLatestLab": "میری تازہ ترین لیب رپورٹ کا خلاصہ بتائیں",
+  "chatSuggestionExplainXray": "میرا ایکسرے کیا ظاہر کرتا ہے؟",
+  "chatSuggestionAnyConcerns": "کیا میرے ریکارڈز کی بنیاد پر کوئی تشویش ہے؟",
+  "chatDisclaimerBanner": "CurecordAI پیشہ ور طبی مشورے کا متبادل نہیں ہے۔ اہم فیصلوں کی ہمیشہ اپنے ڈاکٹر سے تصدیق کریں۔",
+  "chatUntitledConversation": "بلا عنوان",
+  "chatAttachSearchPlaceholder": "دستاویزات تلاش کریں",
+  "chatAttachNoMatches": "آپ کی تلاش سے کوئی دستاویز میل نہیں کھاتی۔",
+  "chatTimeNow": "ابھی",
+  "chatTimeMinutesAgo": "{value} منٹ پہلے",
+  "@chatTimeMinutesAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeHoursAgo": "{value} گھنٹے پہلے",
+  "@chatTimeHoursAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeDaysAgo": "{value} دن پہلے",
+  "@chatTimeDaysAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeWeeksAgo": "{value} ہفتے پہلے",
+  "@chatTimeWeeksAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeMonthsAgo": "{value} ماہ پہلے",
+  "@chatTimeMonthsAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeYearsAgo": "{value} سال پہلے",
+  "@chatTimeYearsAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "aiSummaryAppBarTitle": "AI رپورٹ خلاصہ",
+  "aiSummaryLoadFailed": "ریکارڈ لوڈ نہیں ہو سکا",
+  "aiSummaryProcessing": "AI آپ کی دستاویز کا تجزیہ کر رہا ہے",
+  "aiSummaryProcessingSubtitle": "اس میں عام طور پر چند سیکنڈ لگتے ہیں۔ تیار ہونے پر ری فریش کے لیے نیچے کھینچیں۔",
+  "aiSummaryFailedTitle": "تجزیہ ناکام ہو گیا",
+  "aiSummaryFailedSubtitle": "ہم اس دستاویز پر کارروائی نہیں کر سکے۔ براہ کرم دوبارہ اپلوڈ کریں۔",
+  "aiSummaryAskAiInstead": "اس کے بجائے AI سے پوچھیں",
+  "aiSummaryNoLabParams": "کوئی لیب پیرامیٹرز نہیں ملے",
+  "aiSummaryNoLabParamsSubtitle": "اس دستاویز میں عددی لیب نتائج شامل نہیں ہیں۔ آپ پھر بھی AI سے اسے سمجھانے کے لیے کہہ سکتے ہیں۔",
+  "aiSummaryContinueInChat": "چیٹ میں جاری رکھیں",
+  "aiSummaryViewRecordDetails": "ریکارڈ کی تفصیلات دیکھیں",
+  "aiSummaryResultLabel": "تجزیہ کا نتیجہ",
+  "aiSummaryOverallLabel": "مجموعی: {status}",
+  "@aiSummaryOverallLabel": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSummaryDisclaimer": "یہ خلاصہ AI کے ذریعے تیار کیا گیا ہے تاکہ آپ اپنے نتائج سمجھ سکیں۔ باقاعدہ تشخیص کے لیے اپنے معالج سے مشورہ کریں۔",
+  "aiSummaryContinueExplanation": "چیٹ میں وضاحت جاری رکھیں",
+  "commonYou": "آپ",
+  "medFamilyMemberFallback": "خاندان کا رکن",
+  "medAddTitle": "دوا شامل کریں",
+  "medNameRequired": "دوا کا نام درکار ہے۔",
+  "medSelectDayRequired": "ہفتے کا کم از کم ایک دن منتخب کریں۔",
+  "medSaveFailed": "یہ دوا کی یاد دہانی محفوظ نہیں ہو سکی۔",
+  "medWhoIsFor": "یہ دوا کس کے لیے ہے؟",
+  "medMyself": "میرے لیے",
+  "medHowToAdd": "آپ یہ دوا کیسے شامل کرنا چاہتے ہیں؟",
+  "medSelectFromDocument": "اپلوڈ شدہ دستاویز سے منتخب کریں",
+  "medSelectFromDocumentSubtitle": "اپنے ریکارڈز سے پہلے سے نکالی گئی دوائیں دوبارہ استعمال کریں",
+  "medAddManually": "دستی طور پر شامل کریں",
+  "medAddManuallySubtitle": "خود دوا کی تفصیلات درج کریں",
+  "medCouldNotLoadDocuments": "دستاویزات لوڈ نہیں ہو سکیں۔",
+  "medNoDocumentsUploaded": "ابھی تک کوئی دستاویز اپلوڈ نہیں کی گئی۔",
+  "medSelectDocument": "ایک دستاویز منتخب کریں (تازہ ترین پہلے)",
+  "medCouldNotLoadMedications": "دوائیں لوڈ نہیں ہو سکیں۔",
+  "medSelectMedicationFromDocument": "اس دستاویز سے ایک دوا منتخب کریں",
+  "medNoMedicationsExtracted": "اس دستاویز سے کوئی دوا نہیں نکالی جا سکی۔",
+  "medUnknownMedication": "نامعلوم",
+  "medChooseDifferentDocument": "ایک مختلف دستاویز منتخب کریں",
+  "medFieldName": "دوا کا نام",
+  "medFieldDosage": "خوراک",
+  "medDosageHint": "مثلاً 500mg",
+  "medFieldForm": "شکل",
+  "medFormHint": "مثلاً ٹیبلٹ، شربت",
+  "medFieldInstructions": "ہدایات (اختیاری)",
+  "medContinueToSchedule": "شیڈول کی طرف جاری رکھیں",
+  "medFrequencyLabel": "تعدد",
+  "medFreqDaily": "روزانہ",
+  "medFreqSpecificDays": "ہفتے کے مخصوص دن",
+  "medFreqInterval": "ہر N دن بعد",
+  "medFreqAsNeeded": "ضرورت کے مطابق (کوئی مقررہ یاد دہانی نہیں)",
+  "medEveryLabel": "ہر",
+  "medDaysUnit": "دن",
+  "medReminderTimes": "یاد دہانی کے اوقات",
+  "medAddAnotherTime": "ایک اور وقت شامل کریں",
+  "medStartDate": "شروع کرنے کی تاریخ",
+  "medEndDateOptional": "ختم ہونے کی تاریخ (اختیاری)",
+  "medOngoing": "جاری",
+  "medEmailReminder": "ای میل یاد دہانی (ویب ایپ)",
+  "medPushReminder": "اس ڈیوائس پر الارم طرز کی یاد دہانی",
+  "medSaving": "محفوظ ہو رہا ہے...",
+  "medSaveReminder": "دوا کی یاد دہانی محفوظ کریں",
+  "dayMon": "پیر",
+  "dayTue": "منگل",
+  "dayWed": "بدھ",
+  "dayThu": "جمعرات",
+  "dayFri": "جمعہ",
+  "daySat": "ہفتہ",
+  "daySun": "اتوار",
+  "medicationsTitle": "دوائیں",
+  "medicationsLoadFailed": "ابھی دوائیں لوڈ نہیں ہو سکیں",
+  "medicationsEmptyTitle": "ابھی تک کوئی دوا نہیں",
+  "medicationsEmptySubtitle": "یاد دہانیاں شروع کرنے کے لیے دستاویز سے یا دستی طور پر ایک دوا شامل کریں۔",
+  "medicationsAddButton": "دوا شامل کریں",
+  "medFreqAsNeededSummary": "ضرورت کے مطابق",
+  "medFreqDailySummary": "روزانہ · {times}",
+  "@medFreqDailySummary": {
+    "placeholders": {
+      "times": {
+        "type": "String"
+      }
+    }
+  },
+  "medFreqIntervalSummary": "ہر {days} دن بعد · {times}",
+  "@medFreqIntervalSummary": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      },
+      "times": {
+        "type": "String"
+      }
+    }
+  },
+  "medDetailTitle": "دوا",
+  "medUpdateFailed": "یہ دوا اپ ڈیٹ نہیں ہو سکی۔",
+  "medDeleteConfirmTitle": "دوا حذف کریں؟",
+  "medDeleteConfirmBody": "یہ یاد دہانی ہٹا دی جائے گی۔ یہ واپس نہیں ہو سکتا۔",
+  "medDeleteFailed": "یہ دوا حذف نہیں ہو سکی۔",
+  "medLoadFailed": "یہ دوا لوڈ نہیں ہو سکی۔",
+  "medForMember": "{name} کے لیے",
+  "@medForMember": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medRowDosage": "خوراک",
+  "medRowForm": "شکل",
+  "medRowInstructions": "ہدایات",
+  "medRowFrequency": "تعدد",
+  "medRowTimes": "اوقات",
+  "medRowStartDate": "شروع کرنے کی تاریخ",
+  "medRowEndDate": "ختم ہونے کی تاریخ",
+  "medRowTimezone": "ٹائم زون",
+  "medRowReminders": "یاد دہانیاں",
+  "medRowStatus": "حیثیت",
+  "medReminderEmail": "ای میل",
+  "medReminderMobileAlarm": "موبائل الارم",
+  "medReminderNone": "کوئی نہیں",
+  "medResume": "دوبارہ شروع کریں",
+  "medPause": "روکیں",
+  "medMarkCompleted": "مکمل نشان زد کریں",
+  "medNotifChannelName": "دوا کی یاد دہانیاں",
+  "medNotifChannelDescription": "الارم طرز کی یاد دہانیاں تاکہ آپ کبھی دوا کی خوراک نہ بھولیں",
+  "medNotifReminderTitle": "دوا کی یاد دہانی",
+  "medNotifReminderBody": "{medicationName} لینے کا وقت ہو گیا ہے",
+  "@medNotifReminderBody": {
+    "placeholders": {
+      "medicationName": {
+        "type": "String"
+      }
+    }
+  },
+  "medNotifReminderBodyWithDosage": "{medicationName} ({dosage}) لینے کا وقت ہو گیا ہے",
+  "@medNotifReminderBodyWithDosage": {
+    "placeholders": {
+      "medicationName": {
+        "type": "String"
+      },
+      "dosage": {
+        "type": "String"
+      }
+    }
+  },
+  "commonClose": "بند کریں",
+  "medTabActive": "فعال",
+  "medTabPaused": "موقوف",
+  "medTabCompleted": "مکمل",
+  "medTabAll": "تمام",
+  "medNoActiveMedications": "کوئی فعال ادویات نہیں",
+  "medNoPausedMedications": "کوئی موقوف ادویات نہیں",
+  "medNoCompletedMedications": "کوئی مکمل ادویات نہیں",
+  "medOtherTabsNote": "دیگر ٹیبز میں آپ کے پاس {summary} موجود ہیں۔",
+  "@medOtherTabsNote": {
+    "placeholders": {
+      "summary": {
+        "type": "String"
+      }
+    }
+  },
+  "medExplainerAllergiesTitle": "آپ کی الرجیز کے خلاف چیک کی گئی",
+  "medExplainerAllergiesDescription": "آپ جو ادویات ٹریک کرتے ہیں وہ آپ کے AI ہیلتھ خلاصے میں آپ کی درج شدہ الرجیز کے ساتھ ظاہر ہوتی ہیں، جس سے آپ اور آپ کی نگہداشت کرنے والی ٹیم کے لیے ممکنہ تصادم کو نوٹ کرنا آسان ہو جاتا ہے۔",
+  "medExplainerDocumentsTitle": "آپ کی دستاویزات کے مطابق",
+  "medExplainerDocumentsDescription": "اپ لوڈ کردہ نسخے سے دوا درآمد کرنے سے وہ اس دستاویز سے منسلک ہو جاتی ہے، جس سے آپ کی ادویات کی فہرست آپ کے باقی صحت کے ریکارڈز کے مطابق رہتی ہے۔",
+  "medNotProvided": "فراہم نہیں کی گئی",
+  "medMyselfHint": "اپنی ادویات کا انتظام کریں",
+  "medFamilyMemberHint": "اپنے زیرِ نگہداشت کسی فرد کی ادویات کا انتظام کریں",
+  "medNoFamilyMembersYet": "آپ نے ابھی تک کوئی خاندانی رکن شامل نہیں کیا۔ جاری رکھنے کے لیے ایک شامل کریں۔",
+  "medCurrentlySelected": "فی الحال منتخب",
+  "medFamilyMemberTileTitle": "خاندانی رکن",
+  "medSelectFamilyMemberPrompt": "ایک خاندانی رکن منتخب کریں",
+  "medBackStep": "پیچھے",
+  "medAddDescription": "ایک یاد دہانی ترتیب دیں تاکہ یہ خوراک کبھی نہ چھوٹے۔",
+  "medEditTitle": "دوا میں ترمیم کریں",
+  "medEditDescription": "اس دوا کی یاد دہانی کی تفصیلات اپ ڈیٹ کریں۔",
+  "medSaveChanges": "تبدیلیاں محفوظ کریں",
+  "medNoDosageDetails": "خوراک کی کوئی تفصیل نہیں",
+  "medSectionDetails": "دوا کی تفصیلات",
+  "medSectionSchedule": "شیڈول",
+  "medSectionNotifications": "اطلاعات",
+  "medAddedSnack": "{name} شامل کر دی گئی ہے",
+  "@medAddedSnack": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medAddedForMember": "{name} کو {memberName} کے لیے شامل کر دیا گیا ہے",
+  "@medAddedForMember": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "memberName": {
+        "type": "String"
+      }
+    }
+  },
+  "familyManagementTitle": "خاندانی انتظام",
+  "familyManagementSubtitle": "اپنے صحت کے حلقے کا انتظام کریں۔ طبی ریکارڈز شیئر کریں، زیرِ کفالت افراد کا انتظام کریں، اور الرٹس وصول کریں۔",
+  "familyMemberFallbackName": "رکن",
+  "familyMemberRemoved": "رکن ہٹا دیا گیا",
+  "familyMemberRemoveFailed": "رکن کو ہٹانے میں ناکامی",
+  "familyPrivacyPolicy": "پرائیویسی پالیسی",
+  "familyTermsOfService": "شرائط و ضوابط",
+  "familySupport": "معاونت",
+  "familyAppVersion": "CurecordAI v1.0.0",
+  "familyManagedByGuardian": "والدین/سرپرست کے زیرِ انتظام",
+  "familyHasAccessToRecords": "آپ کے ریکارڈز تک رسائی رکھتا ہے",
+  "familyAddMemberTitle": "خاندان کا رکن شامل کریں",
+  "familyAddMemberSubtitle": "کسی ساتھی، رشتہ دار کو مدعو کریں، یا اپنے متحد ہیلتھ سنک پروفائل میں بچہ شامل کریں۔",
+  "familyRemoveMemberTitle": "رکن کو ہٹائیں؟",
+  "familyRemoveMemberBody": "کیا آپ واقعی {name} کو اپنے صحت کے حلقے سے ہٹانا چاہتے ہیں؟ ان کے طبی ریکارڈز محفوظ رہیں گے۔",
+  "@familyRemoveMemberBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "familyRemove": "ہٹائیں",
+  "commonDone": "مکمل",
+  "famPhotoUploadTitle": "تصویر شامل کریں",
+  "famPhotoUploadHint": "اختیاری، جلد آ رہا ہے",
+  "famFullNameLabel": "پورا نام *",
+  "famValidationNameMin": "براہ کرم پورا نام درج کریں (کم از کم 2 حروف)",
+  "famDobLabel": "تاریخ پیدائش",
+  "famDobPlaceholder": "DD / MM / YYYY",
+  "famAddSubtitle": "بچے، والدین، یا بہن بھائی کو ان کے صحت کے ریکارڈز کے انتظام کے لیے شامل کریں۔",
+  "famNameHintFamily": "مثلاً John Doe",
+  "famValidationRelationshipRequired": "براہ کرم ایک رشتہ منتخب کریں",
+  "famAddedSnack": "{name} کو آپ کے خاندان میں شامل کر دیا گیا ہے",
+  "@famAddedSnack": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "famAddFailed": "خاندان کا رکن شامل کرنے میں ناکامی۔ دوبارہ کوشش کریں۔",
+  "famRelationshipLabel": "رشتہ *",
+  "famRelationshipPlaceholder": "رشتہ منتخب کریں",
+  "famSelectRelationshipTitle": "رشتہ منتخب کریں",
+  "famGenderLabel": "جنس",
+  "famGenderPlaceholder": "جنس منتخب کریں",
+  "famSelectGenderTitle": "جنس منتخب کریں",
+  "famBloodGroupLabel": "بلڈ گروپ",
+  "famPrivacyAgreementMember": "رکن شامل کر کے، آپ CurecordAI کی فیملی پرائیویسی پالیسی سے اتفاق کرتے ہیں۔",
+  "famRoleLabel": "کردار",
+  "famRoleDependent": "زیرِ کفالت (میں ان کے ریکارڈز کا انتظام کرتا ہوں)",
+  "famRoleCaregiver": "نگہداشت کنندہ (میرے ریکارڈز کے انتظام میں مدد کرتا ہے)",
+  "famRoleLockedHint": "رکن بننے کے بعد کردار تبدیل نہیں کیا جا سکتا۔",
+  "famEditMemberTitle": "خاندانی رکن میں ترمیم کریں",
+  "famEditMemberSubtitle": "اس خاندانی رکن کی صحت پروفائل کو اپ ڈیٹ کریں۔",
+  "famUpdateSuccess": "{name} کو اپ ڈیٹ کر دیا گیا ہے",
+  "@famUpdateSuccess": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "famUpdateFailed": "خاندانی رکن کو اپ ڈیٹ کرنے میں ناکامی۔ دوبارہ کوشش کریں۔",
+  "famSaveChanges": "تبدیلیاں محفوظ کریں",
+  "relSon": "بیٹا",
+  "relDaughter": "بیٹی",
+  "relFather": "والد",
+  "relMother": "والدہ",
+  "relWife": "بیوی",
+  "relHusband": "شوہر",
+  "relBrother": "بھائی",
+  "relSister": "بہن",
+  "relGrandfather": "دادا",
+  "relGrandmother": "دادی",
+  "relOther": "دیگر",
+  "relSpouse": "شریک حیات",
+  "relParent": "والدین",
+  "relChild": "بچہ",
+  "relSibling": "بہن بھائی",
+  "familyEmptyTitle": "ابھی تک کوئی خاندانی رکن نہیں",
+  "familyEmptyDescription": "اپنے ریکارڈز کے ساتھ ساتھ ان کے صحت کے ریکارڈز کا انتظام شروع کرنے کے لیے والدین، شریک حیات، یا بچہ شامل کریں۔",
+  "familyAddShortcutParentTitle": "والدین شامل کریں",
+  "familyAddShortcutParentDescription": "ان کی ادویات اور اپائنٹمنٹس کو ٹریک کریں۔",
+  "familyAddShortcutSpouseTitle": "شریک حیات شامل کریں",
+  "familyAddShortcutSpouseDescription": "مشترکہ صحت کی تاریخ کا مل کر انتظام کریں۔",
+  "familyAddShortcutChildTitle": "بچہ شامل کریں",
+  "familyAddShortcutChildDescription": "ان کے ریکارڈز کو ایک جگہ منظم رکھیں۔",
+  "familyFieldGender": "جنس",
+  "familyFieldBloodGroup": "بلڈ گروپ",
+  "familyFieldAge": "عمر",
+  "familyNotProvided": "فراہم نہیں کی گئی",
+  "familyYearsOld": "{age} سال کی عمر",
+  "@familyYearsOld": {
+    "placeholders": {
+      "age": {
+        "type": "int"
+      }
+    }
+  },
+  "familyEditAria": "{name} میں ترمیم کریں",
+  "@familyEditAria": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "caregiverAddTitle": "نگہداشت کنندہ شامل کریں",
+  "caregiverAddSubtitle": "اپنے صحت کے ریکارڈز شیئر کرنے کے لیے کوئی ڈاکٹر یا نگہداشت کنندہ شامل کریں۔",
+  "caregiverValidationTypeRequired": "براہ کرم نگہداشت کنندہ کی قسم منتخب کریں",
+  "caregiverAddedSnack": "نگہداشت کنندہ شامل ہو گیا",
+  "caregiverAddFailed": "نگہداشت کنندہ شامل کرنے میں ناکامی۔ دوبارہ کوشش کریں۔",
+  "caregiverTypeLabel": "قسم *",
+  "caregiverTypePlaceholder": "قسم منتخب کریں",
+  "caregiverSelectTypeTitle": "قسم منتخب کریں",
+  "caregiverRelationshipLabel": "رشتہ (اختیاری)",
+  "caregiverRelationshipHint": "مثلاً فیملی ڈاکٹر",
+  "caregiverNameHint": "مثلاً Dr. John Smith",
+  "caregiverAccessPermissionTitle": "رسائی کی اجازت",
+  "caregiverAccessPermissionSubtitle": "جب آپ اپنے ریکارڈز شیئر کریں تو یہ شخص کیا دیکھ سکتا ہے؟",
+  "caregiverAccessFullTitle": "مکمل رسائی",
+  "caregiverAccessFullSubtitle": "تمام ریکارڈز - بیماریاں، دوائیں، الرجی اور دستاویزات",
+  "caregiverAccessVitalsTitle": "صرف وائٹلز",
+  "caregiverAccessVitalsSubtitle": "صرف بلڈ پریشر، دل کی دھڑکن، SpO2 اور بنیادی وائٹلز",
+  "caregiverAccessReadOnlyTitle": "صرف دیکھنے کے لیے",
+  "caregiverAccessReadOnlySubtitle": "تمام ریکارڈز دیکھ سکتا ہے لیکن کچھ شامل یا ترمیم نہیں کر سکتا",
+  "caregiverPrivacyAgreement": "نگہداشت کنندہ شامل کر کے، آپ CurecordAI کی فیملی پرائیویسی پالیسی سے اتفاق کرتے ہیں۔",
+  "caregiverTypeDoctor": "ڈاکٹر",
+  "caregiverTypeNurse": "نرس",
+  "caregiverTypeHomeAide": "گھریلو معاون",
+  "caregiverTypeSpecialist": "ماہر",
+  "caregiverTypeTherapist": "معالج",
+  "caregiverTypeOther": "دیگر",
+  "emergencyInfoTitle": "ہنگامی معلومات",
+  "emergencyInfoTitleFor": "{name} کی ہنگامی معلومات",
+  "@emergencyInfoTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "emergencyWidgetSetupTitle": "ہنگامی ویجٹ سیٹ اپ",
+  "emergencyWidgetSetupSubtitle": "منتخب کریں کہ آپ کی لاک اسکرین پر کیا دکھایا جائے",
+  "emergencyLockScreenHint": "ہنگامی معلومات نیچے نظر آ رہی ہیں",
+  "emergencyInfoLabel": "ہنگامی معلومات",
+  "emergencyBloodGroupLabel": "بلڈ گروپ",
+  "emergencyNotSet": "سیٹ نہیں ہے",
+  "emergencyAllergiesLabel": "الرجیز",
+  "emergencyNoneKnown": "کوئی معلوم نہیں",
+  "emergencyContactLabel": "ہنگامی رابطہ",
+  "emergencyToggleBloodGroupTitle": "بلڈ گروپ",
+  "emergencyToggleBloodGroupSubtitle": "ابتدائی طبی امداد دینے والوں کے لیے اپنا بلڈ گروپ دکھائیں",
+  "emergencyToggleAllergiesTitle": "الرجیز",
+  "emergencyToggleAllergiesSubtitle": "اہم ادویات اور خوراک کی الرجیز دکھائیں",
+  "emergencyToggleContactTitle": "ہنگامی رابطہ",
+  "emergencyToggleContactSubtitle": "بنیادی رابطہ کا نام اور فون نمبر",
+  "emergencyToggleChronicTitle": "دائمی امراض",
+  "emergencyToggleChronicSubtitle": "اہم جاری صحت کے مسائل دکھائیں",
+  "emergencyEnableWidgetTitle": "لاک اسکرین ویجٹ فعال کریں",
+  "emergencyEnableWidgetSubtitle": "ہنگامی معلومات کو سیکیورٹی نظرانداز کرنے کی اجازت دیں",
+  "emergencyContactsSectionTitle": "ہنگامی رابطے",
+  "commonAdd": "شامل کریں",
+  "emergencyContactNameHint": "رابطہ کا نام",
+  "emergencyContactPhoneHint": "فون نمبر",
+  "emergencyRelFamily": "خاندان",
+  "emergencyRelFriend": "دوست",
+  "emergencyRelDoctor": "ڈاکٹر",
+  "emergencyRelNurse": "نرس",
+  "emergencyAddContactButton": "رابطہ شامل کریں",
+  "emergencyNoContacts": "کوئی ہنگامی رابطہ شامل نہیں کیا گیا",
+  "emergencySaveSettingsButton": "سیٹنگز محفوظ کریں",
+  "emergencySettingsSaved": "سیٹنگز محفوظ ہو گئیں",
+  "emergencySettingsSaveFailed": "سیٹنگز محفوظ کرنے میں ناکامی",
+  "emergencyAddContactFailed": "رابطہ شامل کرنے میں ناکامی",
+  "commonUnknown": "نامعلوم",
+  "alertCenterTitle": "الرٹ سینٹر",
+  "alertCenterSubtitle": "اپنی صحت کی ترجیحات کا انتظام کریں",
+  "alertMarkAllRead": "سب کو پڑھا ہوا نشان زد کریں",
+  "alertEmptyTitle": "سب کچھ دیکھ لیا گیا!",
+  "alertEmptySubtitle": "آپ کے پاس کوئی اطلاع نہیں ہے",
+  "alertYesterday": "کل",
+  "alertEarlier": "پہلے کی",
+  "alertPriorityHigh": "اعلی ترجیح",
+  "alertPriorityAttention": "توجہ دیں",
+  "alertPrioritySystemUpdate": "سسٹم اپڈیٹ",
+  "alertCategoryMedication": "دوا",
+  "alertCategoryVitals": "وائٹلز",
+  "alertCategoryProfile": "پروفائل",
+  "alertCategoryRecords": "ریکارڈز",
+  "alertDefaultTitle": "اطلاع",
+  "alertTimeMinutesAgo": "{minutes} منٹ پہلے",
+  "@alertTimeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "alertTimeHoursAgo": "{hours} گھنٹے پہلے",
+  "@alertTimeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "alertTimeDaysAgo": "{days} دن پہلے",
+  "@alertTimeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "shareScopeLast1Year": "پچھلا 1 سال",
+  "shareScopeLast6Months": "پچھلے 6 ماہ",
+  "shareScopeFullHistory": "مکمل تاریخ",
+  "shareScopeEmergencyOnly": "صرف ہنگامی معلومات",
+  "shareRecordsTitle": "ریکارڈز شیئر کریں",
+  "shareOfflineMessage": "ڈاکٹر کے ساتھ ریکارڈز شیئر کرنے کے لیے محفوظ لنک بنانے کے لیے انٹرنیٹ کنکشن درکار ہے۔ دوبارہ کنیکٹ کریں اور کوشش کریں۔",
+  "shareRecordsTitleFor": "{name} کے ریکارڈز شیئر کریں",
+  "@shareRecordsTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareFailedGenerateQr": "کیو آر کوڈ بنانے میں ناکامی",
+  "shareDoctorInstructionsTitle": "ڈاکٹر کی ہدایات",
+  "shareSubtitleOwner": "اپنے صحت کے ریکارڈز اپنے ڈاکٹر یا نگہداشت کنندہ کے ساتھ شیئر کریں",
+  "shareSubtitleFor": "{name} کے صحت کے ریکارڈز ان کے ڈاکٹر یا نگہداشت کنندہ کے ساتھ شیئر کریں",
+  "@shareSubtitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareGenerateQrButton": "کیو آر کوڈ بنائیں",
+  "shareGeneratingButton": "بنایا جا رہا ہے...",
+  "shareEncryptedNote": "آپ کا ڈیٹا خفیہ ہے۔ کیو آر کوڈ 10 منٹ میں ختم ہو جائے گا اور صرف تصدیق شدہ معالجین ہی اسے اسکین کر سکتے ہیں۔",
+  "shareActiveSessionsTitle": "فعال سیشنز",
+  "shareNoActiveSessions": "کوئی فعال شیئرنگ سیشن نہیں",
+  "shareShowDoctorTitle": "یہ اپنے ڈاکٹر کو دکھائیں",
+  "shareShowDoctorSubtitle": "ڈاکٹر کسی بھی ایپ کو انسٹال کیے بغیر اسے اسکین کر سکتا ہے",
+  "shareValidityExpired": "ختم ہو گیا",
+  "shareValidityMinSec": "{mins} منٹ {secs} سیکنڈ",
+  "@shareValidityMinSec": {
+    "placeholders": {
+      "mins": {
+        "type": "int"
+      },
+      "secs": {
+        "type": "String"
+      }
+    }
+  },
+  "shareValiditySeconds": "{secs} سیکنڈ",
+  "@shareValiditySeconds": {
+    "placeholders": {
+      "secs": {
+        "type": "int"
+      }
+    }
+  },
+  "shareValidFor": "{text} تک درست",
+  "@shareValidFor": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "shareCodeExpired": "کوڈ ختم ہو گیا",
+  "shareRegenerateCode": "کوڈ دوبارہ بنائیں",
+  "shareLinkCopied": "لنک کلپ بورڈ پر کاپی ہو گیا",
+  "shareCopyLink": "لنک کاپی کریں",
+  "shareScanned": "{count} بار اسکین ہوا",
+  "@shareScanned": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shareRevoke": "منسوخ کریں",
+  "shareInstructionsLoadError": "ہدایات لوڈ نہیں ہو سکیں",
+  "shareInstructionsEmpty": "جب کوئی ڈاکٹر آپ کے شیئر کردہ ریکارڈ کو دیکھنے کے بعد ہدایات چھوڑے گا، تو وہ یہاں دکھائی دیں گی۔",
+  "shareDoctorNameFallback": "ڈاکٹر",
+  "shareDoctorInstructionRow": "ڈاکٹر {name} · {institution}",
+  "@shareDoctorInstructionRow": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "institution": {
+        "type": "String"
+      }
+    }
+  },
+  "profileMyProfileTitle": "میری پروفائل",
+  "commonEdit": "ترمیم کریں",
+  "commonUser": "صارف",
+  "profilePatientId": "مریض کی شناخت: {id}",
+  "@profilePatientId": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "profileSectionPersonalDetails": "ذاتی تفصیلات",
+  "profileLabelDob": "تاریخ پیدائش",
+  "profileLabelGender": "جنس",
+  "profileLabelPhone": "فون",
+  "profileSectionPhysicalMetrics": "جسمانی پیمائشیں",
+  "profileLabelHeight": "قد",
+  "profileLabelWeight": "وزن",
+  "profileLabelBloodGroup": "بلڈ گروپ",
+  "profileLabelBmi": "بی ایم آئی",
+  "profileBmiUnderweight": "کم وزن",
+  "profileBmiNormal": "نارمل",
+  "profileBmiOverweight": "زیادہ وزن",
+  "profileBmiObese": "موٹاپا",
+  "profileSectionHealthDetails": "صحت کی تفصیلات",
+  "profileFailedUploadPhoto": "تصویر اپ لوڈ کرنے میں ناکامی",
+  "profileCropPhotoTitle": "تصویر کاٹیں",
+  "profileCompletionTitle": "پروفائل کی تکمیل",
+  "profileCompletionTapToComplete": "اپنی طبی پروفائل مکمل کرنے کے لیے تھپتھپائیں",
+  "profileAllergiesLabel": "الرجیز",
+  "profileNoneRecorded": "کچھ درج نہیں",
+  "profileConditionsLabel": "امراض",
+  "profileNoMemberSelected": "کوئی خاندانی رکن منتخب نہیں",
+  "profileMemberTitleFor": "{name} کی پروفائل",
+  "@profileMemberTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "profileSelectGenderTitle": "جنس منتخب کریں",
+  "profileSelectBloodGroupTitle": "بلڈ گروپ منتخب کریں",
+  "profileFailedLoad": "پروفائل لوڈ کرنے میں ناکامی",
+  "profileInformationTitle": "پروفائل کی معلومات",
+  "profileFailedToLoadWith": "لوڈ کرنے میں ناکامی: {error}",
+  "@profileFailedToLoadWith": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "profileUpdatedSuccess": "پروفائل کامیابی سے اپڈیٹ ہو گئی",
+  "profileUpdateErrorWith": "خرابی: {error}",
+  "@profileUpdateErrorWith": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "profileFailedUpdatePicture": "پروفائل تصویر اپڈیٹ کرنے میں ناکامی۔",
+  "profileSectionPersonalDetailsLabel": "ذاتی تفصیلات",
+  "profileFieldFullName": "پورا نام",
+  "profileHintFullName": "اپنا پورا نام درج کریں",
+  "profileValidationRequired": "درکار ہے",
+  "profileFieldDob": "تاریخ پیدائش",
+  "profileDobPlaceholder": "DD / MM / YYYY",
+  "profileFieldGender": "جنس",
+  "profileHintSelectGender": "جنس منتخب کریں",
+  "profileFieldPhoneNumber": "فون نمبر",
+  "profileSectionPhysicalMetricsLabel": "جسمانی پیمائشیں",
+  "profileFieldHeightCm": "قد (سینٹی میٹر)",
+  "profileHintHeightExample": "مثلاً 175",
+  "profileFieldWeightKg": "وزن (کلوگرام)",
+  "profileHintWeightExample": "مثلاً 70",
+  "profileFieldBloodGroupLabel": "بلڈ گروپ",
+  "profileHintSelectBloodGroup": "بلڈ گروپ منتخب کریں",
+  "profileSectionHealthDetailsLabel": "صحت کی تفصیلات",
+  "profileFieldAllergies": "الرجیز",
+  "profileHintAllergiesExample": "مثلاً، پولن، پینسلن...",
+  "profileFieldExistingConditions": "موجودہ امراض",
+  "profileHintAddOtherConditions": "دیگر امراض شامل کریں...",
+  "profileSaveChangesButton": "تبدیلیاں محفوظ کریں",
+  "profileConditionAsthma": "دمہ",
+  "profileConditionDiabetes": "ذیابیطس",
+  "profileConditionEpilepsy": "مرگی",
+  "profileConditionHypertension": "بلند فشار خون",
+  "profileConditionThyroidIssue": "تھائیرائیڈ کا مسئلہ",
+  "insightsTitle": "صحت کے بصیرے",
+  "insightsTitleFor": "{name} کے بصیرے",
+  "@insightsTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsCouldNotLoad": "بصیرے لوڈ نہیں ہو سکے",
+  "insightsOverview": "خلاصہ",
+  "insightsTotalRecords": "کل ریکارڈز",
+  "insightsThisMonth": "اس ماہ",
+  "insightsActiveConditions": "فعال بیماریاں",
+  "insightsUnreadAlerts": "غیر پڑھے الرٹس",
+  "insightsRecordsByType": "قسم کے لحاظ سے ریکارڈز",
+  "insightsCouldNotLoadChart": "چارٹ لوڈ نہیں ہو سکا",
+  "insightsNoRecordsYet": "ابھی تک کوئی ریکارڈ نہیں",
+  "insightsVitalTrends": "اہم رجحانات",
+  "insightsBloodGlucose": "بلڈ گلوکوز",
+  "insightsHemoglobin": "ہیموگلوبن",
+  "insightsBloodPressureSystolic": "بلڈ پریشر (سسٹولک)",
+  "insightsFailedToLoad": "لوڈ کرنا ناکام رہا",
+  "insightsNoDataRecordedYet": "ابھی تک کوئی ڈیٹا درج نہیں",
+  "insightsChartLabelLab": "لیب",
+  "insightsChartLabelRx": "نسخہ",
+  "insightsChartLabelRad": "ریڈیو",
+  "insightsChartLabelVax": "ویکسین",
+  "insightsChartLabelOther": "دیگر",
+  "healthSummaryTitle": "صحت کا خلاصہ",
+  "healthSummaryTitleFor": "{name} کا صحت کا خلاصہ",
+  "@healthSummaryTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "healthSummaryCouldNotLoad": "آپ کا صحت کا خلاصہ لوڈ نہیں ہو سکا",
+  "healthSummaryActiveConditions": "فعال بیماریاں",
+  "healthSummaryCurrentMedications": "موجودہ ادویات",
+  "healthSummaryAllergies": "ایلرجیاء",
+  "healthSummaryRecentLabsVitals": "حالیہ لیب اور وائٹلز",
+  "healthSummaryDisclaimer": "یہ خلاصہ آپ کے اپ لوڈ کیے گئے ریکارڈز سے AI کے ذریعے تیار کیا گیا ہے اور ہو سکتا ہے مکمل نہ ہو۔ طبی فیصلوں کے لیے ہمیشہ اپنے ڈاکٹر سے رجوع کریں۔",
+  "healthSummaryYourOverview": "آپ کا صحت کا خلاصہ",
+  "healthSummaryNoDataYet": "ابھی تک کوئی صحت کا ڈیٹا نہیں",
+  "healthSummaryNoDataYetFor": "{name} کے لیے ابھی تک کوئی صحت کا ڈیٹا نہیں",
+  "@healthSummaryNoDataYetFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "healthSummaryUploadPrompt": "مکمل صحت کا خلاصہ بنانے کے لیے طبی ریکارڈز اپ لوڈ کریں۔",
+  "profileCompletionPersonalDetailsTitle": "ذاتی تفصیلات",
+  "profileCompletionPersonalDetailsSubtitle": "آئیں اپنی بنیادی معلومات سے شروع کرتے ہیں۔",
+  "profileCompletionFullNameRequired": "پورا نام لازمی ہے",
+  "profileCompletionDobFormat": "DD / MM / YYYY",
+  "profileCompletionDobRequired": "تاریخ پیدائش لازمی ہے",
+  "profileCompletionGenderRequired": "براہ مہربانی منتخب کریں",
+  "profileCompletionPhoneHint": "000-000-0000",
+  "profileCompletionPhoneRequired": "فون نمبر لازمی ہے",
+  "profileCompletionStep1Note": "یہ معلومات ڈاکٹرز کو آپ کی درست شناخت کرنے میں مدد دیتی ہیں۔",
+  "profileCompletionNext": "آگے →",
+  "profileCompletionStep1HelpTitle": "اسٹیپ 1 مدد",
+  "profileCompletionStep1HelpBody": "اپنی ذاتی تفصیلات صحیح طریقے سے درج کریں۔ اس سے صحت کے ماہرین کو آپ کی شناخت اور الگ دیکھ بھال میں مدد ملتی ہے۔",
+  "profileCompletionStep2SkipNotice": "آپ یہ بعد میں اپنی پروفائل سے مکمل کر سکتے ہیں",
+  "profileCompletionPhysicalMetricsTitle": "جسمانی اعدادوشمار",
+  "profileCompletionPhysicalMetricsSubtitle": "اپنے اہم جسمانی اشاریے فراہم کر کے ہمیں آپ کے ویلنیس سفر کو ذاتی بنانے میں مدد دیجیے۔",
+  "profileCompletionStep2Note": "آپ کا جسمانی ڈیٹا صرف BMI نکالنے اور غذائی تجاویز کو ذاتی بنانے کے لیے استعمال ہوتا ہے۔ تمام ڈیٹا انکرپٹڈ ہے۔",
+  "profileCompletionStep2HelpTitle": "اسٹیپ 2 مدد",
+  "profileCompletionStep2HelpBody": "جسمانی اعدادوشمار آپ کا BMI نکالنے اور غذائی تجاویز ترتیب دینے میں مدد کرتے ہیں۔ تمام خانے اختیاری ہیں - آپ انہیں چھوڑ کر بعد میں مکمل کر سکتے ہیں۔",
+  "profileCompletionSaveError": "خرابی: {error}",
+  "@profileCompletionSaveError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "profileCompletionSuccessTitle": "پروفائل اپ ڈیٹ ہو گیا!",
+  "profileCompletionSuccessBody": "آپ کا صحت کا پروفائل محفوظ ہو گیا ہے۔",
+  "profileCompletionGoToProfile": "پروفائل پر جائیں",
+  "profileCompletionAlmostThere": "بس تھوڑا سا رہ گیا ہے!",
+  "profileCompletionStep3Subtitle": "ہم یہ معلومات آپ کو ذاتی صحت کی بصیرت اور حفاظتی الرٹس دینے کے لیے استعمال کرتے ہیں۔",
+  "profileCompletionSeparateWithCommas": "اشیاء کو کاموں سے الگ کریں",
+  "profileCompletionHipaaCompliant": "HIPAA کے مطابق",
+  "profileCompletionSecureStorage": "محفوظ ذخیرہ",
+  "profileCompletionEncrypted": "انکرپٹڈ",
+  "profileCompletionPersonalData": "ذاتی ڈیٹا",
+  "profileCompletionSaving": "محفوظ ہو رہا ہے...",
+  "profileCompletionFinish": "مکمل کریں →",
+  "profileCompletionStep3HelpTitle": "اسٹیپ 3 مدد",
+  "profileCompletionStep3HelpBody": "آپ کی صحت کی تفصیلات ذاتی حفاظتی الرٹس اور تجاویزات بنانے میں مدد دیتی ہیں۔ آپ انہیں اپنے پروفائل سے کبھی بھی اپ ڈیٹ کر سکتے ہیں۔",
+  "privacyPolicyAppBarTitle": "ڈیٹا اور رازداری",
+  "privacyPolicyHeading": "CurecordAI آپ کے ڈیٹا کو کیسے سنبھالتا ہے",
+  "privacyPolicyIntro": "یہ صفحہ بتاتا ہے کہ ہم کون سا صحت کا ڈیٹا جمع کرتے ہیں، اسے کیسے استعمال کیا جاتا ہے، اور اس پر آپ کے پاس کون سے اختیارات ہیں۔",
+  "privacyPolicyDataWeCollectTitle": "ہم جو ڈیٹا جمع کرتے ہیں",
+  "privacyPolicyDataWeCollectBody": "آپ کا ذاتی صحت ریکارڈ فراہم کرنے کے لیے، ہم آپ کی فراہم کردہ پروفائل تفصیلات (نام، تاریخ پیدائش، جنس، رابطہ معلومات)، آپ کے اپ لوڈ کردہ طبی دستاویزات، ان دستاویزات سے نکالا گیا ساختہ کلینیکل ڈیٹا (بیماریاں، ادویات، لیب نتائج، ایلرجیاء، اور وزٹ ہسٹری)، اور ان-ایپ AI اسسٹنٹ کے ساتھ آپ کی گفتگو محفوظ کرتے ہیں۔ ہم آپ کے اکاؤنٹ کو محفوظ رکھنے کے لیے بنیادی ڈیوائس اور سیشن میٹا ڈیٹا (IP ایڈریس، ڈیوائس کی قسم، لاگ ان ٹائم اسٹیمپس) بھی ریکارڈ کرتے ہیں۔",
+  "privacyPolicyHowWeUseDataTitle": "ہم آپ کا ڈیٹا کیسے استعمال کرتے ہیں",
+  "privacyPolicyHowWeUseDataBody": "آپ کا ڈیٹا صرف ان خصوصیات کو چلانے کے لیے استعمال ہوتا ہے جو آپ استعمال کرتے ہیں: اپ لوڈ کردہ دستاویزات سے ساختہ صحت کی معلومات نکالنا، AI خلاصے بنانا، AI چیٹ میں آپ کے ریکارڈز کے متعلق سوالات کے جواب دینا، آپ کی پروفائل مکمل ہونے کا سکور نکالنا، آپ کا ایمرجنسی میڈیکل کارڈ بھرنا، اور خاندان کے افراد، نگہداشت کنندگان یا معالجین کے ساتھ محفوظ اشتراک ممکن بنانا جسے آپ واضح طور پر اجازت دیتے ہیں۔",
+  "privacyPolicyAiProcessingTitle": "AI پروسیسنگ",
+  "privacyPolicyAiProcessingBody": "جب کوئی دستاویز پروسیس ہوتی ہے یا آپ AI چیٹ میں سوال کرتے ہیں، تو متعلقہ دستاویز کا مواد یا ریکارڈ ڈیٹا صرف کلینیکل ڈیٹا نکالنے یا جواب بنانے کے لیے ہمارے AI پروسیسنگ فراہم کنندہ کو بھیجا جاتا ہے۔ یہ ڈیٹا صرف آپ کی درخواست پوری کرنے کے لیے استعمال ہوتا ہے - یہ کسی تیسرے فریق کے AI ماڈلز کو تربیت دینے کے لیے استعمال نہیں ہوتا، اور AI فراہم کنندہ اسے اس ایک درخواست کو پروسیس کرنے کے لیے درکار وقت سے زیادہ محفوظ نہیں رکھتا۔",
+  "privacyPolicyStorageSecurityTitle": "ذخیرہ اور سیکیورٹی",
+  "privacyPolicyStorageSecurityBody": "اپ لوڈ کردہ دستاویزات انکرپٹڈ کلاؤڈ اسٹوریج میں محفوظ کی جاتی ہیں، اور ٹرانزٹ میں موجود تمام ڈیٹا TLS انکرپشن سے محفوظ ہے۔ آپ کے ریکارڈز تک رسائی صرف آپ کے اکاؤنٹ اور ان خاندان کے افراد یا نگہداشت کنندگان تک محدود ہے جنہیں آپ واضح طور پر رسائی دیتے ہیں۔ آپ کسی بھی وقت لاگ آؤٹ کر کے اس ڈیوائس کا لاگ ان سیشن منسوخ کر سکتے ہیں، جو فوری طور پر متعلقہ ایکسیس اور ریفریش ٹوکنز کو غیر فعال کر دیتا ہے۔",
+  "privacyPolicyFamilyAccessTitle": "خاندان اور نگہداشت کنندہ رسائی",
+  "privacyPolicyFamilyAccessBody": "اگر آپ اپنے اکاؤنٹ میں خاندان کے افراد یا نگہداشت کنندگان شامل کرتے ہیں، تو وہ صرف ان ریکارڈز اور ڈیٹا کو دیکھ سکتے ہیں جو آپ نے ان کے لیے بنائی گئی فیملی ممبر پروفائل تک محدود کیے ہوں۔ ہر فیملی ممبر پروفائل میں کیا موجود ہے یہ آپ کے کنٹرول میں رہتا ہے اور آپ کسی بھی وقت فیملی مینجمنٹ سے رسائی ختم کر سکتے ہیں۔",
+  "privacyPolicySharingCliniciansTitle": "معالجین کے ساتھ اشتراک",
+  "privacyPolicySharingCliniciansBody": "اپنے ڈیش بورڈ سے QR کوڈ بنانا منتخب ریکارڈز کے لیے ایک وقت کی حد والا، منسوخ کیا جا سکنے والا اشتراک لنک بناتا ہے۔ اسے اسکین کرنے والے معالجین صرف اس اشتراک میں شامل ریکارڈز دیکھ سکتے ہیں - کبھی بھی آپ کا مکمل اکاؤنٹ نہیں - اور آپ کسی بھی وقت رسائی منسوخ کر سکتے ہیں۔",
+  "privacyPolicyYourRightsTitle": "آپ کے حقوق",
+  "privacyPolicyYourRightsBody": "آپ کسی بھی وقت سیٹنگز → میرا ڈیٹا ایکسپورٹ کریں سے اپنے صحت کے ڈیٹا کا مکمل ایکسپورٹ درخواست کر سکتے ہیں، کنسنٹ مینجمنٹ سے مخصوص رضامندیاں دیکھ اور واپس لے سکتے ہیں، اور وہ ریکارڈز مستقل طور پر حذف کر سکتے ہیں جو آپ اب محفوظ نہیں رکھنا چاہتے۔ حذف کردہ ریکارڈز فوری طور پر فعال استعمال سے ہٹا دیے جاتے ہیں اور ہمارے معیاری برقراری شیڈول پر بیک اپس سے صاف کر دیے جاتے ہیں۔",
+  "privacyPolicyDataRetentionTitle": "ڈیٹا برقراری",
+  "privacyPolicyDataRetentionBody": "ہم آپ کا ڈیٹا اس وقت تک محفوظ رکھتے ہیں جب تک آپ کا اکاؤنٹ فعال رہتا ہے۔ اگر آپ کوئی ریکارڈ حذف کرتے ہیں، تو یہ فوری طور پر ایپ سے چھپا دیا جاتا ہے اور اوپر بیان کردہ برقراری کی مدت کے اندر ہمارے سسٹمز سے مستقل طور پر صاف کر دیا جاتا ہے۔ اگر آپ اپنا اکاؤنٹ حذف کرتے ہیں، تو تمام متعلقہ ذاتی اور طبی ڈیٹا مستقل حذف کے لیے شیڈول کر دیا جاتا ہے۔",
+  "privacyPolicyContactTitle": "رابطہ",
+  "privacyPolicyContactBody": "اگر آپ کے پاس اس بارے میں سوالات ہیں کہ آپ کا ڈیٹا کیسے سنبھالا جاتا ہے، تو نیچے دیے گئے سپورٹ لنک سے ہماری سپورٹ ٹیم سے رابطہ کریں اور ہمیں مدد کر کے خوشی ہوگی۔",
+  "privacyControlsTitle": "رازداری کنٹرولز",
+  "privacyControlsBiometricLockTitle": "بایومیٹرک لاک",
+  "privacyControlsBiometricLockSubtitle": "کھولنے کے لیے فیس آئی ڈی یا فنگر پرنٹ استعمال کریں",
+  "privacyControlsAppLockTitle": "بیک گراؤنڈ پر ایپ لاک",
+  "privacyControlsAppLockSubtitle": "ٹاسک تبدیل کرتے وقت ایپ لاک کریں",
+  "privacyControlsScreenshotTitle": "اسکرین شاٹ روک تھام",
+  "privacyControlsScreenshotSubtitle": "ایپ میں اسکرین شاٹس روکیں",
+  "privacyControlsNote": "رازداری کی ترتیبات آپ کے طبی ڈیٹا کو محفوظ رکھنے میں مدد دیتی ہیں۔ بایومیٹرک لاک یقینی بناتا ہے کہ صرف آپ ہی ایپ تک رسائی حاصل کر سکیں۔ تبدیلیاں خودکار طور پر محفوظ ہو جاتی ہیں۔",
+  "dataSharingTitle": "ڈیٹا شیئرنگ",
+  "dataSharingSubtitle": "منظم کریں کہ کون سے ڈاکٹرز اور ہسپتال آپ کے ریکارڈز تک رسائی رکھ سکتے ہیں",
+  "dataSharingAddNewAccess": "نئی رسائی شامل کریں",
+  "dataSharingRevokeAccessTitle": "رسائی منسوخ کریں",
+  "dataSharingRevokeAccessConfirm": "{name} کے لیے رسائی ختم کریں؟",
+  "@dataSharingRevokeAccessConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "dataSharingRevoke": "منسوخ کریں",
+  "dataSharingRevokeFailed": "رسائی منسوخ کرنا ناکام رہا",
+  "dataSharingAccessFull": "مکمل",
+  "dataSharingAccessRead": "صرف دیکھنا",
+  "dataSharingUntil": "{date} تک",
+  "@dataSharingUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "dataSharingEmptyTitle": "ابھی تک کوئی مشترکہ رسائی نہیں",
+  "dataSharingEmptyBody": "ڈاکٹرز یا ہسپتالوں کو رسائی دینے کے لیے \"نئی رسائی شامل کریں\" پر ٹیپ کریں۔",
+  "dataSharingAddFailed": "رسائی شامل کرنا ناکام رہا",
+  "dataSharingDoctorHospitalName": "ڈاکٹر / ہسپتال کا نام",
+  "dataSharingEnterName": "نام درج کریں",
+  "dataSharingAccessType": "رسائی کی قسم",
+  "dataSharingGrantedUntilOptional": "کب تک دی گئی (اختیاری)",
+  "dataSharingNoExpiry": "کوئی میعاد ختم نہیں",
+  "dataSharingGrantAccess": "رسائی دیں",
+  "consentManagementTitle": "رضامندی کا انتظام",
+  "consentOptionalSectionTitle": "اختیاری رضامندیاں",
+  "consentRequiredSectionTitle": "لازمی معاہدے",
+  "consentAnalyticsTitle": "تجزیات اور استعمال کا ڈیٹا",
+  "consentAnalyticsSubtitle": "گمنام استعمال کے اعدادوشمار شیئر کر کے ایپ بہتر بنانے میں مدد کریں",
+  "consentMarketingTitle": "مارکیٹنگ مواصلات",
+  "consentMarketingSubtitle": "CurecordAI سے اپ ڈیٹس، تجاویز اور صحت کی خبریں وصول کریں",
+  "consentTermsOfServiceTitle": "خدمات کی شرائط",
+  "consentTermsOfServiceSubtitle": "CurecordAI استعمال کرنے کے لیے لازمی",
+  "consentPrivacyPolicyTitle": "رازداری کی پالیسی",
+  "consentPrivacyPolicySubtitle": "ہم آپ کے طبی ڈیٹا کو کیسے سنبھالتے ہیں",
+  "consentDataProcessingTitle": "ڈیٹا پروسیسنگ",
+  "consentDataProcessingSubtitle": "خدمات فراہم کرنے کے لیے آپ کی صحت کی معلومات کی پروسیسنگ",
+  "consentWithdrawalNote": "رضامندی واپس لینا فوری طور پر نافذ ہوتا ہے۔ ایپ استعمال کرتے ہوئے لازمی معاہدے واپس نہیں لیے جا سکتے۔",
+  "consentUpdateFailed": "رضامندی اپ ڈیٹ کرنا ناکام رہا۔ دوبارہ کوشش کریں۔",
+  "consentAccepted": "منظور شدہ",
+  "consentNotSet": "طے نہیں",
+  "recordDetailIcd11Code": "ICD-11: {code}",
+  "@recordDetailIcd11Code": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "errorSaveChangesFailed": "تبدیلیاں محفوظ کرنے میں ناکامی ہوئی۔",
+  "recordDeletePermanentBody": "اس سے یہ ریکارڈ مستقل طور پر حذف ہو جائے گا۔ یہ عمل واپس نہیں کیا جا سکتا۔",
+  "recordDocumentLinkUnavailable": "دستاویز کا لنک دستیاب نہیں ہے۔",
+  "recordDetailsTitle": "ریکارڈ کی تفصیلات",
+  "recordLoadFailed": "ریکارڈ لوڈ کرنے میں ناکامی ہوئی۔",
+  "recordDocumentWord": "دستاویز",
+  "recordDocumentDetails": "دستاویز کی تفصیلات",
+  "fieldTitle": "عنوان",
+  "fieldType": "قسم",
+  "fieldDate": "تاریخ",
+  "commonTapToSet": "سیٹ کرنے کے لیے ٹیپ کریں",
+  "fieldPatientName": "مریض کا نام",
+  "fieldIssuingLabOrg": "لیب / ادارہ",
+  "fieldReferringDoctor": "بھیجنے والا ڈاکٹر",
+  "fieldFile": "فائل",
+  "fieldStatus": "حیثیت",
+  "recordAiExtracting": "AI آپ کی دستاویز سے معلومات نکال رہا ہے...",
+  "recordAiProcessingFailed": "AI پروسیسنگ ناکام ہوئی۔ براہ کرم دوبارہ کوشش کریں۔",
+  "recordViewOriginal": "اصل دیکھیں",
+  "commonSaveChanges": "تبدیلیاں محفوظ کریں",
+  "clinicalLabResultsVitals": "لیب رزلٹس اور وائٹلز",
+  "clinicalConditions": "امراض",
+  "clinicalMedications": "ادویات",
+  "clinicalVisitsEncounters": "وزٹس اور ملاقاتیں",
+  "clinicalEditCondition": "مرض میں ترمیم کریں",
+  "clinicalEditMedication": "دوا میں ترمیم کریں",
+  "clinicalEditObservation": "مشاہدے میں ترمیم کریں",
+  "clinicalEditAllergy": "الرجی میں ترمیم کریں",
+  "clinicalEditVisit": "وزٹ میں ترمیم کریں",
+  "clinicalConditionField": "مرض",
+  "clinicalSeverity": "شدت",
+  "clinicalMedicationField": "دوا",
+  "clinicalDosage": "خوراک",
+  "clinicalFrequency": "تعدد",
+  "clinicalTestVitalName": "ٹیسٹ / وائٹل کا نام",
+  "clinicalValue": "قدر",
+  "clinicalUnit": "یونٹ",
+  "clinicalInterpretation": "تشریح",
+  "clinicalSubstance": "مادہ",
+  "clinicalCriticality": "شدت کی سطح",
+  "clinicalReaction": "ردعمل",
+  "clinicalHospitalClinic": "ہسپتال / کلینک",
+  "clinicalVisitType": "وزٹ کی قسم",
+  "clinicalAiExtractedHint": "آپ کی دستاویز سے AI کے ذریعے نکالا گیا۔ جائزہ لیں اور ضرورت پڑنے پر درست کریں۔",
+  "commonNotSet": "سیٹ نہیں ہے",
+  "interpNormal": "نارمل",
+  "interpLow": "کم",
+  "interpHigh": "زیادہ",
+  "interpCriticalLow": "انتہائی کم",
+  "interpCriticalHigh": "انتہائی زیادہ",
+  "interpAbnormal": "غیر معمولی",
+  "interpVeryAbnormal": "بہت غیر معمولی",
+  "commonActive": "فعال",
+  "recordTypeSheetTitle": "ریکارڈ کی قسم منتخب کریں",
+  "statusPending": "زیر التوا",
+  "statusProcessing": "پروسیسنگ جاری ہے",
+  "statusCompleted": "مکمل",
+  "statusFailed": "ناکام",
+  "recordProcessingFailedWithReason": "پروسیسنگ ناکام ہوئی: {reason}",
+  "@recordProcessingFailedWithReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "clinicalRefRange": "معیاری حد: {range}",
+  "@clinicalRefRange": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "clinicalDoctorPrefix": "ڈاکٹر {name}",
+  "@clinicalDoctorPrefix": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "commonGotIt": "سمجھ گیا",
+  "chatInfoAria": "AI ہیلتھ اسسٹنٹ استعمال کرنے کا طریقہ",
+  "chatInfoModalTitle": "AI ہیلتھ اسسٹنٹ استعمال کرنے کا طریقہ",
+  "chatInfoAskTitle": "اپنی صحت کے بارے میں پوچھیں",
+  "chatInfoAskDescription": "اپنی صحت کے بارے میں کچھ بھی پوچھیں، اسسٹنٹ آپ کی پہلے سے اپ لوڈ کردہ دستاویزات کی بنیاد پر جواب دے گا۔",
+  "chatInfoAttachTitle": "ہیلتھ والٹ سے ریکارڈز منسلک کریں",
+  "chatInfoAttachDescription": "زیادہ درست اور متعلقہ جواب کے لیے اپنے سوال کے ساتھ ہیلتھ والٹ سے مخصوص دستاویزات منسلک کریں۔",
+  "chatInfoSummarizeTitle": "رپورٹس کا خلاصہ کریں",
+  "chatInfoSummarizeDescription": "اسسٹنٹ سے کہیں کہ لیب رپورٹ، نسخہ، یا ایکسرے کا خلاصہ آسان زبان میں بتائے۔",
+  "chatInfoUnderstandTitle": "اپنی صحت کو سمجھیں",
+  "chatInfoUnderstandDescription": "طبی اصطلاحات، نتائج، اور آپ کی مجموعی صحت کے لیے ان کے مطلب کو سمجھنے میں مدد حاصل کریں۔",
+  "familyInfoAria": "خاندانی انتظام کیسے کام کرتا ہے",
+  "familyInfoModalTitle": "خاندانی انتظام کیسے کام کرتا ہے",
+  "familyInfoNoLoginTitle": "الگ لاگ ان کی ضرورت نہیں",
+  "familyInfoNoLoginDescription": "خاندان کے افراد کو اپنا اکاؤنٹ بنانے کی ضرورت نہیں۔ آپ اپنے لاگ ان سے سب کچھ منظم کر سکتے ہیں۔",
+  "familyInfoProfilesTitle": "انفرادی پروفائلز",
+  "familyInfoProfilesDescription": "خاندان کے ہر فرد کی اپنی الگ دستاویزات اور ادویات ہوتی ہیں، جو آپ کے اپنے ریکارڈ سے الگ رکھی جاتی ہیں۔",
+  "familyInfoTogetherTitle": "مل کر انتظام کریں",
+  "familyInfoTogetherDescription": "دستاویزات اپ لوڈ کریں، ادویات ٹریک کریں، اور خاندان کے ہر فرد کے لیے AI خلاصے دیکھیں، بالکل اپنی پروفائل کی طرح۔",
+  "familyInfoShareTitle": "فوری رسائی شیئر کریں",
+  "familyInfoShareDescription": "کسی بھی خاندانی فرد کے ریکارڈز کے لیے الگ سے QR شیئر بنائیں، بالکل اپنے ریکارڈز کی طرح۔",
+  "medicationsInfoAria": "ادویات کیسے کام کرتی ہیں",
+  "medicationsInfoModalTitle": "ادویات کیسے کام کرتی ہیں",
+  "medicationsInfoWhoTitle": "یہ کس کے لیے ہے",
+  "medicationsInfoWhoDescription": "ادویات آپ کے لیے یا آپ کے زیرِ انتظام کسی خاندانی فرد کے لیے شامل کی جا سکتی ہیں۔",
+  "medicationsInfoAddTitle": "دستی طور پر شامل کریں یا درآمد کریں",
+  "medicationsInfoAddDescription": "خود تفصیلات درج کریں، یا پہلے سے اپ لوڈ کردہ دستاویز سے حاصل کریں۔",
+  "medicationsInfoTrackTitle": "حالت ٹریک کریں",
+  "medicationsInfoTrackDescription": "ادویات کو اوپر دیے گئے ٹیبز کے ذریعے فعال، موقوف، یا مکمل کے طور پر نشان زد کیا جا سکتا ہے۔"
+}
