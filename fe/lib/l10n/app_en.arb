@@ -1,0 +1,1398 @@
+{
+  "@@locale": "en",
+  "navDashboard": "Dashboard",
+  "navRecords": "Records",
+  "navAi": "AI",
+  "navMedications": "Medications",
+  "navInsights": "Insights",
+  "navSettings": "Settings",
+  "navAiAssistant": "AI Assistant",
+  "appName": "CurecordAI",
+  "settingsSectionAccount": "ACCOUNT",
+  "settingsProfileInformation": "Profile Information",
+  "settingsProfileInformationSubtitle": "Update your medical details",
+  "settingsFamilyManagement": "Family Management",
+  "settingsFamilyManagementSubtitle": "Add or edit family members",
+  "settingsSectionPreferences": "PREFERENCES",
+  "settingsLanguage": "Language",
+  "settingsLanguageSubtitle": "English / Urdu / Roman Urdu",
+  "langEnglish": "English",
+  "langUrdu": "اردو",
+  "langRomanUrdu": "Roman Urdu",
+  "settingsTheme": "Theme",
+  "settingsThemeCurrentDark": "Current: Dark Mode",
+  "settingsThemeCurrentLight": "Current: Light Mode",
+  "settingsSectionMedical": "MEDICAL",
+  "settingsEmergencyCard": "Emergency Card Settings",
+  "settingsEmergencyCardSubtitle": "SOS contacts & Medical ID",
+  "settingsSectionPrivacyData": "PRIVACY & DATA",
+  "settingsDataPrivacy": "Data & Privacy",
+  "settingsDataPrivacySubtitle": "How we handle your health data",
+  "settingsExportData": "Export My Data",
+  "settingsExportDataSubtitle": "Download a copy of your health data",
+  "settingsConsentManagement": "Consent Management",
+  "settingsConsentManagementSubtitle": "Review & manage your data consents",
+  "settingsLogOut": "Log Out",
+  "settingsLogOutConfirmTitle": "Log Out",
+  "settingsLogOutConfirmBody": "Are you sure you want to log out?",
+  "commonCancel": "Cancel",
+  "commonErrorOccurred": "An error occurred",
+  "settingsExportDataTitle": "Export My Data",
+  "settingsExportDataBody": "We'll prepare a full copy of your health data. This may take up to 30 days. You'll be notified when it's ready.",
+  "settingsRequestExport": "Request Export",
+  "settingsExportRequestedSnack": "Export requested. You'll be notified when ready.",
+  "settingsExportInProgressError": "An export is already in progress.",
+  "settingsExportFailedError": "Failed to request export. Please try again.",
+  "settingsAvatarUploadFailed": "Failed to upload avatar",
+  "settingsManagedByYou": "Managed by you",
+  "settingsProfileCompletion": "Profile Completion",
+  "settingsProfileCompletionHint": "Complete your medical history to help doctors provide better care.",
+  "settingsPrivacyPolicy": "Privacy Policy",
+  "settingsTermsOfService": "Terms of Service",
+  "settingsSupport": "Support",
+  "settingsAppVersion": "CurecordAI v1.0.0",
+  "authWelcomeBack": "Welcome Back",
+  "authLoginSubtitle": "Log in to view your medical records.",
+  "authContinueWithPhone": "Continue with Phone",
+  "authContinueWithEmail": "Continue with Email",
+  "authNewToApp": "New to CurecordAI? ",
+  "authSignUp": "Sign Up",
+  "authCreateAccountTitle": "Create your Account",
+  "authCreateAccountSubtitle": "Sign up to start managing your medical records.",
+  "authAlreadyHaveAccount": "Already have an account? ",
+  "authLogIn": "Log in",
+  "otpVerifyTitle": "Verify Your Number",
+  "otpSubtitlePrefix": "Enter the 6-digit code sent to ",
+  "otpResendCodeIn": "Resend code in ",
+  "otpResendSms": "Resend SMS",
+  "otpVerify": "Verify",
+  "otpTermsPrefix": "By continuing you agree to ",
+  "otpTermsLink": "Terms & Privacy Policy",
+  "otpIncompleteError": "Please enter the complete 6-digit code",
+  "otpAlreadyRegisteredError": "This number is already registered. Please log in.",
+  "otpNotFoundError": "No account found for this number. Please sign up.",
+  "otpInvalidError": "Invalid OTP. Please try again.",
+  "otpResendFailedError": "Failed to resend OTP. Please try again.",
+  "homeRecentActivity": "Recent Activity",
+  "homeUploadDocument": "Upload Document",
+  "homeUploadDocumentSubtitle": "Reports & Prescriptions",
+  "homeAskAi": "Ask AI",
+  "homeAskAiSubtitle": "Instant Medical Insights",
+  "homeGenerateQr": "Generate QR",
+  "homeGenerateQrSubtitle": "Quick Profile Share",
+  "homeViewSummary": "View Summary",
+  "homeViewSummarySubtitle": "Health Record Preview",
+  "homeMedications": "Medications",
+  "homeMedicationsSubtitle": "Reminders & Schedules",
+  "homeDetected": "Detected",
+  "homeMedicationsActive": "Active",
+  "homeYourDashboard": "Your Dashboard",
+  "homeGreetingMorning": "Good morning",
+  "homeGreetingAfternoon": "Good afternoon",
+  "homeGreetingEvening": "Good evening",
+  "homeGreetingNight": "Good night",
+  "homeNudgeUnreadInstructionMessage": "Your doctor left new instructions.",
+  "homeNudgeUnreadInstructionButton": "View instructions",
+  "homeNudgeNoDocumentsMessage": "Upload your first record to get started.",
+  "homeNudgeNoDocumentsButton": "Upload document",
+  "homeNudgeNoMedicationsMessage": "0 active medications. Add yours to stay on track.",
+  "homeNudgeNoMedicationsButton": "Add medication",
+  "homeRotatingTip1": "Try asking the AI assistant to explain any report in plain language.",
+  "homeRotatingTip2": "Your records are only visible to you and doctors you choose to share with.",
+  "homeRotatingTip3": "You have kept your records organized, nice work staying on top of things.",
+  "homeTotalDocuments": "Total Documents",
+  "homeUploadedLabel": "Uploaded",
+  "homeActiveLabel": "Active",
+  "homeNoMedicationsYet": "None added yet",
+  "homeAddMedicationsHint": "Add medications to track refills and interactions.",
+  "homeMedicationsReviewedAgo": "Reviewed {time} ago",
+  "@homeMedicationsReviewedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "homeActiveAllergiesAlert": "You have active allergies",
+  "homeViewDetails": "View details",
+  "homeRecentDocuments": "Recent Documents",
+  "homeNoDocumentsMessage": "No documents yet. Upload your first prescription or lab report to get started.",
+  "homeRecentConversations": "Recent AI Conversations",
+  "homeOpenAssistant": "Open assistant",
+  "homeNoConversationsMessage": "No conversations yet. Ask the AI assistant a question about your health records.",
+  "homeConversationsLoadFailed": "Could not load recent conversations",
+  "homeMessagesCount": "{count} messages",
+  "@homeMessagesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeShareWithDoctor": "Share with Doctor",
+  "homeShareWithDoctorSubtitle": "Quick Profile Share",
+  "homeNewTag": "New",
+  "homeViewAll": "View all",
+  "homeProfileCompletePrefix": "Your profile is ",
+  "homeProfileCompleteSuffix": " complete. Finish the\nremaining details ",
+  "homeHereLink": "here",
+  "homeSwitchProfile": "Switch profile",
+  "homeOwnerYou": "Owner · You",
+  "homeAddFamilyMember": "Add family member",
+  "homeNoRecentActivity": "No recent activity",
+  "homeMemberNoRecentActivity": "{name} has no recent activity",
+  "@homeMemberNoRecentActivity": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeUploadFirstRecord": "Upload your first medical document to get started",
+  "homeUploadRecord": "Upload Record",
+  "homeDefaultRecordType": "Medical Record",
+  "homeMemberDashboardTitle": "{name}'s Dashboard",
+  "@homeMemberDashboardTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeOwnerHasAllergies": "You have active allergies",
+  "homeMemberHasAllergies": "{name} has active allergies",
+  "@homeMemberHasAllergies": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "errorNoInternet": "No internet connection",
+  "commonOr": "or",
+  "commonSkip": "Skip",
+  "commonNext": "Next",
+  "commonPrevious": "Previous",
+  "commonGetStarted": "Get Started",
+  "commonSkipForNow": "Skip for now",
+  "commonFinish": "Finish",
+  "authIncorrectEmailOrPassword": "Incorrect email or password",
+  "authGoogleSignInFailed": "Google sign-in failed. Please try again.",
+  "authEmailLoginTitle": "Email Login",
+  "authEmailLoginSubtitle": "Please enter your Email and Password to Continue",
+  "authLogin": "Login",
+  "authSigningIn": "Signing in...",
+  "authGoogle": "Google",
+  "authApple": "Apple",
+  "authEmailAlreadyRegistered": "Email already registered. Please log in.",
+  "authSignUpFailed": "Sign up failed. Please try again.",
+  "authSignupSubtitle": "Please fill in your details to continue",
+  "authSignUpButton": "Sign up",
+  "authPhoneLoginTitle": "Phone Login",
+  "authPhoneLoginSubtitle": "Login with your phone number to access your health records",
+  "authSendOtp": "Send OTP",
+  "authPhoneAlreadyRegistered": "Number already registered. Try logging in.",
+  "authPhoneSignupSubtitle": "We'll send you a verification code.",
+  "authCreateAccountLower": "Create your account",
+  "authPhoneVerifiedSetupProfile": "Your phone is verified. Let's set up your profile.",
+  "authCreateAccountButton": "Create Account",
+  "authTermsFooter": "By continuing, you agree to our Terms of Service\nand Privacy Policy",
+  "authRegistrationFailed": "Registration failed. Please try again.",
+  "fieldEmail": "Email",
+  "hintEmail": "Your email address",
+  "fieldPassword": "Password",
+  "hintPassword": "Your password",
+  "fieldFullName": "Full Name",
+  "hintFullName": "Your full name",
+  "fieldConfirmPassword": "Confirm Password",
+  "hintConfirmPassword": "Confirm your password",
+  "fieldPhoneNumber": "Phone Number",
+  "hintPhoneNumber": "Phone number",
+  "validationEmailRequired": "Email is required",
+  "validationEmailInvalid": "Enter a valid email",
+  "validationPasswordRequired": "Password is required",
+  "validationNameMinLength": "Full name must be at least 2 characters",
+  "validationPasswordMin8": "Minimum 8 characters",
+  "validationPasswordUppercase": "Must contain at least 1 uppercase letter",
+  "validationPasswordNumber": "Must contain at least 1 number",
+  "validationPasswordsMismatch": "Passwords do not match",
+  "validationPhoneRequired": "Please enter your phone number",
+  "validationFullNameMinLength": "Please enter your full name (at least 2 characters)",
+  "otpVerifyEmailTitle": "Verify Your Email",
+  "otpResendCode": "Resend code",
+  "otpSendFailedError": "Failed to send OTP. Check your number and try again.",
+  "splashTagline": "Your Health, Always With You",
+  "successAllSet": "You're All Set!",
+  "successWelcomeBack": "Welcome Back!",
+  "successNewUserBody": "Your account has been created successfully.\nYour health journey starts now.",
+  "successReturningUserBody": "You have successfully logged in.\nYour health records are ready.",
+  "successGoToDashboard": "Go to Dashboard",
+  "carousel1Title": "Store All Your\nMedical Records",
+  "carousel1Subtitle": "Keep prescriptions, reports, and X-rays safe in one secure vault.",
+  "carousel2Title": "Share With Your\nDoctor Instantly",
+  "carousel2Subtitle": "Generate a QR code so doctors can view your history without any app.",
+  "carousel3Title": "Set Up Your\nEmergency Widget",
+  "carousel3Subtitle": "Keep critical health info one glance away, even on your lock screen.",
+  "onboardingStep1Of3": "Step 1 of 3",
+  "onboardingStep2Of3": "Step 2 of 3",
+  "onboardingStep3Of3": "Step 3 of 3",
+  "onboardingTellUsTitle": "Tell Us About Yourself",
+  "onboardingTellUsSubtitle": "This helps us personalize your health vault.",
+  "fieldFullNameRequired": "Full Name *",
+  "fieldYearOfBirthRequired": "Year of Birth *",
+  "hintYearOfBirth": "Year of birth",
+  "fieldGenderRequired": "Gender *",
+  "hintSelectGender": "Select gender",
+  "genderMale": "Male",
+  "genderFemale": "Female",
+  "genderOther": "Other",
+  "genderPreferNotToSay": "Prefer not to say",
+  "validationYearRequired": "Year of birth is required",
+  "validationYearInvalid": "Enter a valid 4-digit year",
+  "validationYearRange": "Enter a year between 1900 and {year}",
+  "@validationYearRange": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      }
+    }
+  },
+  "validationMinAge13": "You must be at least 13 years old",
+  "validationGenderRequired": "Please select your gender",
+  "onboardingPhysicalMetricsTitle": "Physical Metrics",
+  "onboardingPhysicalMetricsSubtitle": "Help us personalize your wellness journey...",
+  "fieldHeightCm": "Height (cm)",
+  "hintHeightCm": "Height in cm",
+  "fieldWeightKg": "Weight (kg)",
+  "hintWeightKg": "Weight in kg",
+  "fieldBloodGroup": "Blood Group",
+  "hintSelectBloodGroup": "Select blood group",
+  "onboardingPhysicalDataNotice": "Your physical data is used exclusively to calculate BMI and customize nutritional recommendations. All data is encrypted.",
+  "validationHeightRange": "Enter a height between 50 and 300 cm",
+  "validationWeightRange": "Enter a weight between 1 and 500 kg",
+  "onboardingAlmostThereTitle": "Almost there!",
+  "onboardingAlmostThereSubtitle": "We use this information to provide personalized health insights...",
+  "fieldAllergies": "Allergies",
+  "hintAllergiesExample": "e.g., Pollen, Penicillin...",
+  "helperSeparateWithCommas": "Separate items with commas",
+  "fieldExistingConditions": "Existing Conditions",
+  "hintAddOtherConditions": "Add other conditions...",
+  "badgeHipaaSecureStorage": "HIPAA Compliant\nSecure Storage",
+  "badgeEncryptedPersonalData": "Encrypted\nPersonal Data",
+  "onboardingSaveProfileFailed": "Could not save profile. Update it later in settings.",
+  "conditionAsthma": "Asthma",
+  "conditionDiabetes": "Diabetes",
+  "conditionEpilepsy": "Epilepsy",
+  "conditionHypertension": "Hypertension",
+  "conditionThyroidIssue": "Thyroid Issue",
+  "commonRetry": "Retry",
+  "commonDelete": "Delete",
+  "monthJan": "Jan",
+  "monthFeb": "Feb",
+  "monthMar": "Mar",
+  "monthApr": "Apr",
+  "monthMay": "May",
+  "monthJun": "Jun",
+  "monthJul": "Jul",
+  "monthAug": "Aug",
+  "monthSep": "Sep",
+  "monthOct": "Oct",
+  "monthNov": "Nov",
+  "monthDec": "Dec",
+  "recordsTabAll": "All",
+  "recordsTabPrescriptions": "Prescriptions",
+  "recordsTabMedicalReports": "Medical Reports",
+  "recordsTabXRays": "X-Rays",
+  "recordsTabLab": "Lab",
+  "recordsTabOther": "Other",
+  "recordsFolder": "Folder",
+  "recordsFolderName": "Folder Name",
+  "recordsFolderNameHint": "e.g. Cardiology, Orthopedic",
+  "recordsFolderNameRequired": "Please enter a folder name.",
+  "recordsCreateFolderFailed": "Failed to create folder. Please try again.",
+  "recordsCreateNewFolder": "Create New Folder",
+  "recordsCreateFolderSubtitle": "Organize records by health condition",
+  "recordsSelectIcon": "Select Icon",
+  "recordsCreateFolder": "Create Folder",
+  "recordsLoadFailed": "Failed to load records",
+  "recordsEmptyDescription": "No documents found. Try a different search or category, or upload a new document to your health vault.",
+  "recordsSearchPlaceholder": "Search documents",
+  "recordsUntitled": "Untitled",
+  "recordsAnalysing": "Analysing…",
+  "recordsViewAiSummary": "View AI Summary",
+  "recordsExplainWithAi": "Explain with AI",
+  "recordsDeleteTitle": "Delete Record",
+  "recordsDeleteBody": "This record will be permanently deleted. Are you sure?",
+  "recordsDeleteFailed": "Failed to delete record.",
+  "recordsViewDetails": "View Details",
+  "recordsAiSummary": "AI Summary",
+  "uploadTitle": "Add Medical Record",
+  "uploadTitleForMember": "Upload for {name}",
+  "@uploadTitleForMember": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "uploadSubtitle": "Upload your health records to your secure vault.",
+  "uploadSubtitleForMember": "Upload records for {name} to their secure vault.",
+  "@uploadSubtitleForMember": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "uploadOfflineNotice": "Uploading documents needs a connection so they can be securely stored and analysed. Reconnect and try again.",
+  "uploadFileTooLarge": "File too large. Maximum allowed size is 50 MB.",
+  "uploadImageTooLarge": "Image too large. Maximum allowed size is 50 MB.",
+  "uploadFilePickerFailed": "Could not open file picker. Please try again.",
+  "uploadCameraFailed": "Could not open camera. Please try again.",
+  "uploadSelectFileFirst": "Please select a file to upload.",
+  "uploadFileReadFailed": "Could not read the selected file. Please try again.",
+  "uploadStagePreparing": "Preparing upload…",
+  "uploadStageUploading": "Uploading file…",
+  "uploadStageAnalysing": "AI is analysing your document…",
+  "uploadFailedShort": "Upload failed.",
+  "uploadFailedConnection": "Upload failed. Please check your connection and try again.",
+  "uploadFailedRetry": "Upload failed. Please try again.",
+  "uploadCamera": "Camera",
+  "uploadGallery": "Gallery",
+  "uploadSelectFolder": "Select Folder (optional)",
+  "uploadGeneralRecords": "General Records",
+  "uploadProcessing": "Processing…",
+  "uploadPrivacyFirst": "Privacy First",
+  "uploadPrivacyNote": "Documents are encrypted and stored securely.",
+  "uploadTakePhotoOrChooseFile": "Take Photo or Choose File",
+  "uploadFileTypesHint": "PDF, JPG, PNG, WebP, or DICOM - max 50 MB",
+  "uploadUnsupportedType": "Unsupported file type. Choose a PDF, JPG, PNG, WebP, or DICOM (.dcm) file.",
+  "uploadDuplicateMessage": "This document has already been uploaded to your health vault.",
+  "uploadRejectedTitle": "Upload Failed",
+  "uploadRejectedBody": "This document was not added to your health vault.",
+  "uploadCouldNotVerify": "We could not verify this document. Please try again.",
+  "uploadTryAgain": "Try Again",
+  "uploadCancel": "Cancel",
+  "recordTypeLabReport": "Lab Report",
+  "recordTypePrescription": "Prescription",
+  "recordTypeRadiology": "Radiology",
+  "recordTypeDischargeSummary": "Discharge Summary",
+  "recordTypeVaccination": "Vaccination",
+  "recordTypeInsurance": "Insurance",
+  "recordTypeReferral": "Referral",
+  "recordTypeOther": "Other",
+  "recordWord": "Record",
+  "recordPreviewLoadFailed": "Could not load this record.",
+  "recordViewFullRecord": "View Full Record",
+  "recordStillProcessing": "Still processing - AI summary will appear once ready.",
+  "recordProcessingFailed": "Processing failed.",
+  "recordIssuedBy": "Issued by",
+  "recordDoctor": "Doctor",
+  "viewerUnsupportedFileType": "Preview isn't supported for this file type yet.",
+  "viewerLoadFailed": "Could not load the document. Please try again.",
+  "chatAttachRecords": "Attach Records",
+  "chatAttachRecordsSubtitle": "Pick which records the AI should focus on for this question.",
+  "chatNoRecordsForPatient": "No records found for this patient yet.",
+  "chatCouldNotLoadRecords": "Could not load records.",
+  "chatQuickChipLastReport": "Explain my last report",
+  "chatQuickChipEmergencyInfo": "Show emergency info",
+  "chatDefaultUntitledRecord": "Untitled record",
+  "chatAskAboutYourHealth": "Ask about your health",
+  "chatAskAboutMembersHealth": "Ask about {name}'s health",
+  "@chatAskAboutMembersHealth": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatHealthAssistantTitle": "Health Assistant",
+  "chatOfflineNotice": "The AI assistant needs a connection to read your records and respond. Reconnect and try again.",
+  "chatSessionHistoryTooltip": "Session History",
+  "chatNewSessionTooltip": "New Session",
+  "chatInputHint": "Ask about your health records...",
+  "chatSessionStartFailed": "Sorry, I could not start a chat session. Please try again.",
+  "chatGenericError": "Sorry, I encountered an error. Please try again.",
+  "chatSourcesLabel": "Sources",
+  "chatRenameConversationTitle": "Rename conversation",
+  "chatConversationTitleHint": "Conversation title",
+  "commonSave": "Save",
+  "chatRenameFailed": "Failed to rename chat.",
+  "chatUnpinFailed": "Failed to unpin chat.",
+  "chatPinFailed": "Failed to pin chat.",
+  "chatDeleteConversationTitle": "Delete conversation?",
+  "chatDeleteConversationBody": "This can't be undone. This conversation will be permanently deleted.",
+  "chatDeleteFailed": "Failed to delete chat.",
+  "chatSessionHistoryTitle": "Conversations",
+  "chatCouldNotLoadHistory": "Could not load session history.",
+  "chatNoPreviousSessions": "No previous sessions yet.",
+  "chatNewConversation": "New conversation",
+  "chatRename": "Rename",
+  "chatPin": "Pin",
+  "chatUnpin": "Unpin",
+  "chatAttachButton": "Attach",
+  "chatAttachCountButton": "Attach ({count})",
+  "@chatAttachCountButton": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatYourHealthAssistant": "Your Health Assistant",
+  "chatEmptyStateSubtitle": "Ask me anything about your health records.\nI'll explain things in plain language.",
+  "chatSuggestionSummarizeLabs": "Summarize my recent lab results",
+  "chatSuggestionActiveConditions": "What are my current active conditions?",
+  "chatSuggestionExplainMeds": "Explain my medications",
+  "chatSuggestionCriticalAllergies": "Do I have any critical allergies?",
+  "chatEmptyTitle": "Ask me anything about your health",
+  "chatEmptyDescription": "Get answers grounded in the records you've already uploaded to your Health Vault.",
+  "chatSuggestionSummarizeLatestLab": "Summarize my latest lab report",
+  "chatSuggestionExplainXray": "What does my X-ray show?",
+  "chatSuggestionAnyConcerns": "Any concerns based on my records?",
+  "chatDisclaimerBanner": "CurecordAI is not a substitute for professional medical advice. Always confirm important decisions with your doctor.",
+  "chatUntitledConversation": "Untitled",
+  "chatAttachSearchPlaceholder": "Search documents",
+  "chatAttachNoMatches": "No documents match your search.",
+  "chatTimeNow": "now",
+  "chatTimeMinutesAgo": "{value}m ago",
+  "@chatTimeMinutesAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeHoursAgo": "{value}h ago",
+  "@chatTimeHoursAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeDaysAgo": "{value}d ago",
+  "@chatTimeDaysAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeWeeksAgo": "{value}w ago",
+  "@chatTimeWeeksAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeMonthsAgo": "{value}mo ago",
+  "@chatTimeMonthsAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTimeYearsAgo": "{value}y ago",
+  "@chatTimeYearsAgo": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "aiSummaryAppBarTitle": "AI Report Summary",
+  "aiSummaryLoadFailed": "Could not load record",
+  "aiSummaryProcessing": "AI is analysing your document",
+  "aiSummaryProcessingSubtitle": "This usually takes a few seconds. Pull down to refresh when ready.",
+  "aiSummaryFailedTitle": "Analysis failed",
+  "aiSummaryFailedSubtitle": "We could not process this document. Please try re-uploading it.",
+  "aiSummaryAskAiInstead": "Ask AI instead",
+  "aiSummaryNoLabParams": "No lab parameters found",
+  "aiSummaryNoLabParamsSubtitle": "This document does not contain numeric lab results. You can still ask the AI to explain it.",
+  "aiSummaryContinueInChat": "Continue in Chat",
+  "aiSummaryViewRecordDetails": "View Record Details",
+  "aiSummaryResultLabel": "ANALYSIS RESULT",
+  "aiSummaryOverallLabel": "Overall: {status}",
+  "@aiSummaryOverallLabel": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSummaryDisclaimer": "This summary is generated by AI to help you understand your results. Please consult with your physician for a formal diagnosis.",
+  "aiSummaryContinueExplanation": "Continue explanation in Chat",
+  "commonYou": "You",
+  "medFamilyMemberFallback": "Family member",
+  "medAddTitle": "Add Medication",
+  "medNameRequired": "Medication name is required.",
+  "medSelectDayRequired": "Select at least one day of the week.",
+  "medSaveFailed": "Could not save this medication reminder.",
+  "medWhoIsFor": "Who is this medication for?",
+  "medMyself": "Myself",
+  "medHowToAdd": "How would you like to add this medication?",
+  "medSelectFromDocument": "Select from an uploaded document",
+  "medSelectFromDocumentSubtitle": "Reuse medications already extracted from your records",
+  "medAddManually": "Add manually",
+  "medAddManuallySubtitle": "Enter medication details yourself",
+  "medCouldNotLoadDocuments": "Could not load documents.",
+  "medNoDocumentsUploaded": "No documents uploaded yet.",
+  "medSelectDocument": "Select a document (newest first)",
+  "medCouldNotLoadMedications": "Could not load medications.",
+  "medSelectMedicationFromDocument": "Select a medication from this document",
+  "medNoMedicationsExtracted": "No medications were extracted from this document.",
+  "medUnknownMedication": "Unknown",
+  "medChooseDifferentDocument": "Choose a different document",
+  "medFieldName": "Medication name",
+  "medFieldDosage": "Dosage",
+  "medDosageHint": "e.g. 500mg",
+  "medFieldForm": "Form",
+  "medFormHint": "e.g. Tablet, Syrup",
+  "medFieldInstructions": "Instructions (optional)",
+  "medContinueToSchedule": "Continue to schedule",
+  "medFrequencyLabel": "Frequency",
+  "medFreqDaily": "Every day",
+  "medFreqSpecificDays": "Specific days of the week",
+  "medFreqInterval": "Every N days",
+  "medFreqAsNeeded": "As needed (no fixed reminder)",
+  "medEveryLabel": "Every",
+  "medDaysUnit": "day(s)",
+  "medReminderTimes": "Reminder times",
+  "medAddAnotherTime": "Add another time",
+  "medStartDate": "Start date",
+  "medEndDateOptional": "End date (optional)",
+  "medOngoing": "Ongoing",
+  "medEmailReminder": "Email reminder (web app)",
+  "medPushReminder": "Alarm-style reminder on this device",
+  "medSaving": "Saving...",
+  "medSaveReminder": "Save Medication Reminder",
+  "dayMon": "Mon",
+  "dayTue": "Tue",
+  "dayWed": "Wed",
+  "dayThu": "Thu",
+  "dayFri": "Fri",
+  "daySat": "Sat",
+  "daySun": "Sun",
+  "medicationsTitle": "Medications",
+  "medicationsLoadFailed": "Unable to load medications right now",
+  "medicationsEmptyTitle": "No medications yet",
+  "medicationsEmptySubtitle": "Add a medication from a document or manually to start getting reminders.",
+  "medicationsAddButton": "Add Medication",
+  "medFreqAsNeededSummary": "As needed",
+  "medFreqDailySummary": "Daily · {times}",
+  "@medFreqDailySummary": {
+    "placeholders": {
+      "times": {
+        "type": "String"
+      }
+    }
+  },
+  "medFreqIntervalSummary": "Every {days} day(s) · {times}",
+  "@medFreqIntervalSummary": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      },
+      "times": {
+        "type": "String"
+      }
+    }
+  },
+  "medDetailTitle": "Medication",
+  "medUpdateFailed": "Could not update this medication.",
+  "medDeleteConfirmTitle": "Delete medication?",
+  "medDeleteConfirmBody": "This reminder will be removed. This cannot be undone.",
+  "medDeleteFailed": "Could not delete this medication.",
+  "medLoadFailed": "Could not load this medication.",
+  "medForMember": "For {name}",
+  "@medForMember": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medRowDosage": "Dosage",
+  "medRowForm": "Form",
+  "medRowInstructions": "Instructions",
+  "medRowFrequency": "Frequency",
+  "medRowTimes": "Times",
+  "medRowStartDate": "Start date",
+  "medRowEndDate": "End date",
+  "medRowTimezone": "Timezone",
+  "medRowReminders": "Reminders",
+  "medRowStatus": "Status",
+  "medReminderEmail": "Email",
+  "medReminderMobileAlarm": "Mobile alarm",
+  "medReminderNone": "None",
+  "medResume": "Resume",
+  "medPause": "Pause",
+  "medMarkCompleted": "Mark completed",
+  "medNotifChannelName": "Medication Reminders",
+  "medNotifChannelDescription": "Alarm-style reminders so you never miss a medication dose",
+  "medNotifReminderTitle": "Medication reminder",
+  "medNotifReminderBody": "Time to take {medicationName}",
+  "@medNotifReminderBody": {
+    "placeholders": {
+      "medicationName": {
+        "type": "String"
+      }
+    }
+  },
+  "medNotifReminderBodyWithDosage": "Time to take {medicationName} ({dosage})",
+  "@medNotifReminderBodyWithDosage": {
+    "placeholders": {
+      "medicationName": {
+        "type": "String"
+      },
+      "dosage": {
+        "type": "String"
+      }
+    }
+  },
+  "commonClose": "Close",
+  "medTabActive": "Active",
+  "medTabPaused": "Paused",
+  "medTabCompleted": "Completed",
+  "medTabAll": "All",
+  "medNoActiveMedications": "No active medications",
+  "medNoPausedMedications": "No paused medications",
+  "medNoCompletedMedications": "No completed medications",
+  "medOtherTabsNote": "You have {summary} in other tabs.",
+  "@medOtherTabsNote": {
+    "placeholders": {
+      "summary": {
+        "type": "String"
+      }
+    }
+  },
+  "medExplainerAllergiesTitle": "Checked against your allergies",
+  "medExplainerAllergiesDescription": "Medications you track show up alongside your recorded allergies in your AI health summary, making it easier for you and your care team to notice a potential conflict.",
+  "medExplainerDocumentsTitle": "Consistent with your documents",
+  "medExplainerDocumentsDescription": "Importing a medication from an uploaded prescription links it to that document, so your medication list stays consistent with the rest of your health records.",
+  "medNotProvided": "Not provided",
+  "medMyselfHint": "Manage your own medications",
+  "medFamilyMemberHint": "Manage medications for someone you care for",
+  "medNoFamilyMembersYet": "You have not added any family members yet. Add one to continue.",
+  "medCurrentlySelected": "currently selected",
+  "medFamilyMemberTileTitle": "Family member",
+  "medSelectFamilyMemberPrompt": "Select a family member",
+  "medBackStep": "Back",
+  "medAddDescription": "Set up a reminder so this dose never gets missed.",
+  "medEditTitle": "Edit Medication",
+  "medEditDescription": "Update the details for this medication reminder.",
+  "medSaveChanges": "Save changes",
+  "medNoDosageDetails": "No dosage details",
+  "medSectionDetails": "Medication details",
+  "medSectionSchedule": "Schedule",
+  "medSectionNotifications": "Notifications",
+  "medAddedSnack": "{name} has been added",
+  "@medAddedSnack": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "medAddedForMember": "{name} has been added for {memberName}",
+  "@medAddedForMember": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "memberName": {
+        "type": "String"
+      }
+    }
+  },
+  "familyManagementTitle": "Family Management",
+  "familyManagementSubtitle": "Manage your health circle. Share medical records, manage dependents, and receive alerts.",
+  "familyMemberFallbackName": "Member",
+  "familyMemberRemoved": "Member removed",
+  "familyMemberRemoveFailed": "Failed to remove member",
+  "familyPrivacyPolicy": "Privacy Policy",
+  "familyTermsOfService": "Terms of Service",
+  "familySupport": "Support",
+  "familyAppVersion": "CurecordAI v1.0.0",
+  "familyManagedByGuardian": "Managed by parent/guardian",
+  "familyHasAccessToRecords": "Has access to your records",
+  "familyAddMemberTitle": "Add Family Member",
+  "familyAddMemberSubtitle": "Invite a partner, relative, or add a child to your unified health sync profile.",
+  "familyRemoveMemberTitle": "Remove Member?",
+  "familyRemoveMemberBody": "Are you sure you want to remove {name} from your health circle? Their health records will be preserved.",
+  "@familyRemoveMemberBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "familyRemove": "Remove",
+  "commonDone": "Done",
+  "famPhotoUploadTitle": "Add photo",
+  "famPhotoUploadHint": "Optional, coming soon",
+  "famFullNameLabel": "Full Name *",
+  "famValidationNameMin": "Please enter the full name (min 2 chars)",
+  "famDobLabel": "Date of Birth",
+  "famDobPlaceholder": "DD / MM / YYYY",
+  "famAddSubtitle": "Add a child, parent, or sibling to manage their health records.",
+  "famNameHintFamily": "e.g. John Doe",
+  "famValidationRelationshipRequired": "Please select a relationship",
+  "famAddedSnack": "{name} has been added to your family",
+  "@famAddedSnack": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "famAddFailed": "Failed to add family member. Please try again.",
+  "famRelationshipLabel": "Relationship *",
+  "famRelationshipPlaceholder": "Select relationship",
+  "famSelectRelationshipTitle": "Select Relationship",
+  "famGenderLabel": "Gender",
+  "famGenderPlaceholder": "Select gender",
+  "famSelectGenderTitle": "Select Gender",
+  "famBloodGroupLabel": "Blood Group",
+  "famPrivacyAgreementMember": "By adding a member, you agree to CurecordAI's family privacy policy.",
+  "famRoleLabel": "Role",
+  "famRoleDependent": "Dependent (I manage their records)",
+  "famRoleCaregiver": "Caregiver (helps manage my records)",
+  "famRoleLockedHint": "Role cannot be changed after a family member is created.",
+  "famEditMemberTitle": "Edit Family Member",
+  "famEditMemberSubtitle": "Update this family member's health profile.",
+  "famUpdateSuccess": "{name} has been updated",
+  "@famUpdateSuccess": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "famUpdateFailed": "Failed to update family member. Please try again.",
+  "famSaveChanges": "Save changes",
+  "relSon": "Son",
+  "relDaughter": "Daughter",
+  "relFather": "Father",
+  "relMother": "Mother",
+  "relWife": "Wife",
+  "relHusband": "Husband",
+  "relBrother": "Brother",
+  "relSister": "Sister",
+  "relGrandfather": "Grandfather",
+  "relGrandmother": "Grandmother",
+  "relOther": "Other",
+  "relSpouse": "Spouse",
+  "relParent": "Parent",
+  "relChild": "Child",
+  "relSibling": "Sibling",
+  "familyEmptyTitle": "No family members yet",
+  "familyEmptyDescription": "Add a parent, spouse, or child to start managing their health records alongside your own.",
+  "familyAddShortcutParentTitle": "Add a parent",
+  "familyAddShortcutParentDescription": "Track their medications and appointments.",
+  "familyAddShortcutSpouseTitle": "Add a spouse",
+  "familyAddShortcutSpouseDescription": "Manage shared health history together.",
+  "familyAddShortcutChildTitle": "Add a child",
+  "familyAddShortcutChildDescription": "Keep their records organized in one place.",
+  "familyFieldGender": "Gender",
+  "familyFieldBloodGroup": "Blood group",
+  "familyFieldAge": "Age",
+  "familyNotProvided": "Not provided",
+  "familyYearsOld": "{age} years old",
+  "@familyYearsOld": {
+    "placeholders": {
+      "age": {
+        "type": "int"
+      }
+    }
+  },
+  "familyEditAria": "Edit {name}",
+  "@familyEditAria": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "caregiverAddTitle": "Add Caregiver",
+  "caregiverAddSubtitle": "Add a doctor or caregiver to share your health records with them.",
+  "caregiverValidationTypeRequired": "Please select a caregiver type",
+  "caregiverAddedSnack": "Caregiver added",
+  "caregiverAddFailed": "Failed to add caregiver. Please try again.",
+  "caregiverTypeLabel": "Type *",
+  "caregiverTypePlaceholder": "Select type",
+  "caregiverSelectTypeTitle": "Select Type",
+  "caregiverRelationshipLabel": "Relationship (optional)",
+  "caregiverRelationshipHint": "e.g. Family Doctor",
+  "caregiverNameHint": "e.g. Dr. John Smith",
+  "caregiverAccessPermissionTitle": "Access Permission",
+  "caregiverAccessPermissionSubtitle": "What can this person view when you share your records?",
+  "caregiverAccessFullTitle": "Full Access",
+  "caregiverAccessFullSubtitle": "All records - conditions, medications, allergies and documents",
+  "caregiverAccessVitalsTitle": "Vitals Only",
+  "caregiverAccessVitalsSubtitle": "Blood pressure, heart rate, SpO2 and basic vitals only",
+  "caregiverAccessReadOnlyTitle": "Read Only",
+  "caregiverAccessReadOnlySubtitle": "Can view all records but cannot add or edit anything",
+  "caregiverPrivacyAgreement": "By adding a caregiver, you agree to CurecordAI's family privacy policy.",
+  "caregiverTypeDoctor": "Doctor",
+  "caregiverTypeNurse": "Nurse",
+  "caregiverTypeHomeAide": "Home Aide",
+  "caregiverTypeSpecialist": "Specialist",
+  "caregiverTypeTherapist": "Therapist",
+  "caregiverTypeOther": "Other",
+  "emergencyInfoTitle": "Emergency Info",
+  "emergencyInfoTitleFor": "{name}'s Emergency Info",
+  "@emergencyInfoTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "emergencyWidgetSetupTitle": "Emergency Widget Setup",
+  "emergencyWidgetSetupSubtitle": "Choose what to show on your lock screen",
+  "emergencyLockScreenHint": "Emergency info visible below",
+  "emergencyInfoLabel": "EMERGENCY INFO",
+  "emergencyBloodGroupLabel": "BLOOD GROUP",
+  "emergencyNotSet": "Not set",
+  "emergencyAllergiesLabel": "ALLERGIES",
+  "emergencyNoneKnown": "None known",
+  "emergencyContactLabel": "EMERGENCY CONTACT",
+  "emergencyToggleBloodGroupTitle": "Blood Group",
+  "emergencyToggleBloodGroupSubtitle": "Display your blood type for first responders",
+  "emergencyToggleAllergiesTitle": "Allergies",
+  "emergencyToggleAllergiesSubtitle": "Show critical medication and food allergies",
+  "emergencyToggleContactTitle": "Emergency Contact",
+  "emergencyToggleContactSubtitle": "Primary contact name and phone number",
+  "emergencyToggleChronicTitle": "Chronic Conditions",
+  "emergencyToggleChronicSubtitle": "Display important ongoing health issues",
+  "emergencyEnableWidgetTitle": "Enable Lock Screen Widget",
+  "emergencyEnableWidgetSubtitle": "Allow emergency info to bypass security",
+  "emergencyContactsSectionTitle": "EMERGENCY CONTACTS",
+  "commonAdd": "Add",
+  "emergencyContactNameHint": "Contact name",
+  "emergencyContactPhoneHint": "Phone number",
+  "emergencyRelFamily": "Family",
+  "emergencyRelFriend": "Friend",
+  "emergencyRelDoctor": "Doctor",
+  "emergencyRelNurse": "Nurse",
+  "emergencyAddContactButton": "Add Contact",
+  "emergencyNoContacts": "No emergency contacts added",
+  "emergencySaveSettingsButton": "Save Settings",
+  "emergencySettingsSaved": "Settings saved",
+  "emergencySettingsSaveFailed": "Failed to save settings",
+  "emergencyAddContactFailed": "Failed to add contact",
+  "commonUnknown": "Unknown",
+  "alertCenterTitle": "Alert Center",
+  "alertCenterSubtitle": "Manage your health priorities",
+  "alertMarkAllRead": "Mark all as read",
+  "alertEmptyTitle": "All caught up!",
+  "alertEmptySubtitle": "You have no notifications",
+  "alertYesterday": "Yesterday",
+  "alertEarlier": "Earlier",
+  "alertPriorityHigh": "HIGH PRIORITY",
+  "alertPriorityAttention": "ATTENTION",
+  "alertPrioritySystemUpdate": "SYSTEM UPDATE",
+  "alertCategoryMedication": "Medication",
+  "alertCategoryVitals": "Vitals",
+  "alertCategoryProfile": "Profile",
+  "alertCategoryRecords": "Records",
+  "alertDefaultTitle": "Notification",
+  "alertTimeMinutesAgo": "{minutes}m ago",
+  "@alertTimeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "alertTimeHoursAgo": "{hours}h ago",
+  "@alertTimeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "alertTimeDaysAgo": "{days}d ago",
+  "@alertTimeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "shareScopeLast1Year": "Last 1 Year",
+  "shareScopeLast6Months": "Last 6 Months",
+  "shareScopeFullHistory": "Complete History",
+  "shareScopeEmergencyOnly": "Emergency Info Only",
+  "shareRecordsTitle": "Share Records",
+  "shareOfflineMessage": "Sharing records with a doctor needs a connection to generate a secure link. Reconnect and try again.",
+  "shareRecordsTitleFor": "Share {name}'s Records",
+  "@shareRecordsTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareFailedGenerateQr": "Failed to generate QR code",
+  "shareDoctorInstructionsTitle": "Doctor Instructions",
+  "shareSubtitleOwner": "Share your health records with your doctor or caregiver",
+  "shareSubtitleFor": "Share {name}'s health records with their doctor or caregiver",
+  "@shareSubtitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shareGenerateQrButton": "Generate QR Code",
+  "shareGeneratingButton": "Generating...",
+  "shareEncryptedNote": "Your data is encrypted. The QR code expires in 10 minutes and can only be scanned by verified practitioners.",
+  "shareActiveSessionsTitle": "ACTIVE SESSIONS",
+  "shareNoActiveSessions": "No active sharing sessions",
+  "shareShowDoctorTitle": "Show This to Your Doctor",
+  "shareShowDoctorSubtitle": "Doctor can scan this without installing any app",
+  "shareValidityExpired": "Expired",
+  "shareValidityMinSec": "{mins} min {secs} sec",
+  "@shareValidityMinSec": {
+    "placeholders": {
+      "mins": {
+        "type": "int"
+      },
+      "secs": {
+        "type": "String"
+      }
+    }
+  },
+  "shareValiditySeconds": "{secs} seconds",
+  "@shareValiditySeconds": {
+    "placeholders": {
+      "secs": {
+        "type": "int"
+      }
+    }
+  },
+  "shareValidFor": "Valid for {text}",
+  "@shareValidFor": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "shareCodeExpired": "Code expired",
+  "shareRegenerateCode": "Regenerate Code",
+  "shareLinkCopied": "Link copied to clipboard",
+  "shareCopyLink": "Copy Link",
+  "shareScanned": "Scanned {count} times",
+  "@shareScanned": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shareRevoke": "Revoke",
+  "shareInstructionsLoadError": "Could not load instructions",
+  "shareInstructionsEmpty": "When a doctor leaves instructions after viewing a record you shared, they'll show up here.",
+  "shareDoctorNameFallback": "Doctor",
+  "shareDoctorInstructionRow": "Dr. {name} · {institution}",
+  "@shareDoctorInstructionRow": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "institution": {
+        "type": "String"
+      }
+    }
+  },
+  "profileMyProfileTitle": "My Profile",
+  "commonEdit": "Edit",
+  "commonUser": "User",
+  "profilePatientId": "Patient ID: {id}",
+  "@profilePatientId": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "profileSectionPersonalDetails": "PERSONAL DETAILS",
+  "profileLabelDob": "Date of Birth",
+  "profileLabelGender": "Gender",
+  "profileLabelPhone": "Phone",
+  "profileSectionPhysicalMetrics": "PHYSICAL METRICS",
+  "profileLabelHeight": "Height",
+  "profileLabelWeight": "Weight",
+  "profileLabelBloodGroup": "Blood Group",
+  "profileLabelBmi": "BMI",
+  "profileBmiUnderweight": "Underweight",
+  "profileBmiNormal": "Normal",
+  "profileBmiOverweight": "Overweight",
+  "profileBmiObese": "Obese",
+  "profileSectionHealthDetails": "HEALTH DETAILS",
+  "profileFailedUploadPhoto": "Failed to upload photo",
+  "profileCropPhotoTitle": "Crop Photo",
+  "profileCompletionTitle": "Profile Completion",
+  "profileCompletionTapToComplete": "Tap to complete your medical profile",
+  "profileAllergiesLabel": "Allergies",
+  "profileNoneRecorded": "None recorded",
+  "profileConditionsLabel": "Conditions",
+  "profileNoMemberSelected": "No family member selected",
+  "profileMemberTitleFor": "{name}'s Profile",
+  "@profileMemberTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "profileSelectGenderTitle": "Select Gender",
+  "profileSelectBloodGroupTitle": "Select Blood Group",
+  "profileFailedLoad": "Failed to load profile",
+  "profileInformationTitle": "Profile Information",
+  "profileFailedToLoadWith": "Failed to load: {error}",
+  "@profileFailedToLoadWith": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "profileUpdatedSuccess": "Profile updated successfully",
+  "profileUpdateErrorWith": "Error: {error}",
+  "@profileUpdateErrorWith": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "profileFailedUpdatePicture": "Failed to update profile picture.",
+  "profileSectionPersonalDetailsLabel": "Personal Details",
+  "profileFieldFullName": "Full Name",
+  "profileHintFullName": "Enter your full name",
+  "profileValidationRequired": "Required",
+  "profileFieldDob": "Date of Birth",
+  "profileDobPlaceholder": "DD / MM / YYYY",
+  "profileFieldGender": "Gender",
+  "profileHintSelectGender": "Select gender",
+  "profileFieldPhoneNumber": "Phone Number",
+  "profileSectionPhysicalMetricsLabel": "Physical Metrics",
+  "profileFieldHeightCm": "Height (cm)",
+  "profileHintHeightExample": "e.g. 175",
+  "profileFieldWeightKg": "Weight (kg)",
+  "profileHintWeightExample": "e.g. 70",
+  "profileFieldBloodGroupLabel": "Blood Group",
+  "profileHintSelectBloodGroup": "Select Blood Group",
+  "profileSectionHealthDetailsLabel": "Health Details",
+  "profileFieldAllergies": "Allergies",
+  "profileHintAllergiesExample": "e.g., Pollen, Penicillin...",
+  "profileFieldExistingConditions": "Existing Conditions",
+  "profileHintAddOtherConditions": "Add other conditions...",
+  "profileSaveChangesButton": "Save Changes",
+  "profileConditionAsthma": "Asthma",
+  "profileConditionDiabetes": "Diabetes",
+  "profileConditionEpilepsy": "Epilepsy",
+  "profileConditionHypertension": "Hypertension",
+  "profileConditionThyroidIssue": "Thyroid Issue",
+  "insightsTitle": "Health Insights",
+  "insightsTitleFor": "{name}'s Insights",
+  "@insightsTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsCouldNotLoad": "Could not load insights",
+  "insightsOverview": "Overview",
+  "insightsTotalRecords": "Total Records",
+  "insightsThisMonth": "This Month",
+  "insightsActiveConditions": "Active Conditions",
+  "insightsUnreadAlerts": "Unread Alerts",
+  "insightsRecordsByType": "Records by Type",
+  "insightsCouldNotLoadChart": "Could not load chart data",
+  "insightsNoRecordsYet": "No records yet",
+  "insightsVitalTrends": "Vital Trends",
+  "insightsBloodGlucose": "Blood Glucose",
+  "insightsHemoglobin": "Hemoglobin",
+  "insightsBloodPressureSystolic": "Blood Pressure (Systolic)",
+  "insightsFailedToLoad": "Failed to load",
+  "insightsNoDataRecordedYet": "No data recorded yet",
+  "insightsChartLabelLab": "Lab",
+  "insightsChartLabelRx": "Rx",
+  "insightsChartLabelRad": "Rad",
+  "insightsChartLabelVax": "Vax",
+  "insightsChartLabelOther": "Other",
+  "healthSummaryTitle": "Health Summary",
+  "healthSummaryTitleFor": "{name}'s Health Summary",
+  "@healthSummaryTitleFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "healthSummaryCouldNotLoad": "Could not load your health summary",
+  "healthSummaryActiveConditions": "Active Conditions",
+  "healthSummaryCurrentMedications": "Current Medications",
+  "healthSummaryAllergies": "Allergies",
+  "healthSummaryRecentLabsVitals": "Recent Labs & Vitals",
+  "healthSummaryDisclaimer": "This overview is generated from your uploaded records by AI and may not be complete. Always consult your doctor for clinical decisions.",
+  "healthSummaryYourOverview": "Your Health Overview",
+  "healthSummaryNoDataYet": "No health data yet",
+  "healthSummaryNoDataYetFor": "No health data yet for {name}",
+  "@healthSummaryNoDataYetFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "healthSummaryUploadPrompt": "Upload medical records to build a complete health overview.",
+  "profileCompletionPersonalDetailsTitle": "Personal Details",
+  "profileCompletionPersonalDetailsSubtitle": "Let's start with your basic information.",
+  "profileCompletionFullNameRequired": "Full name is required",
+  "profileCompletionDobFormat": "DD / MM / YYYY",
+  "profileCompletionDobRequired": "Date of birth is required",
+  "profileCompletionGenderRequired": "Please select a gender",
+  "profileCompletionPhoneHint": "000-000-0000",
+  "profileCompletionPhoneRequired": "Phone number is required",
+  "profileCompletionStep1Note": "This information helps doctors identify you accurately.",
+  "profileCompletionNext": "Next →",
+  "profileCompletionStep1HelpTitle": "Step 1 Help",
+  "profileCompletionStep1HelpBody": "Enter your personal details accurately. This helps healthcare providers identify you and personalize your care.",
+  "profileCompletionStep2SkipNotice": "You can complete this later from your profile",
+  "profileCompletionPhysicalMetricsTitle": "Physical Metrics",
+  "profileCompletionPhysicalMetricsSubtitle": "Help us personalize your wellness journey by providing your key physical indicators.",
+  "profileCompletionStep2Note": "Your physical data is used exclusively to calculate BMI and customize nutritional recommendations. All data is encrypted.",
+  "profileCompletionStep2HelpTitle": "Step 2 Help",
+  "profileCompletionStep2HelpBody": "Physical metrics help calculate your BMI and tailor nutritional recommendations. All fields are optional - you can skip and complete later.",
+  "profileCompletionSaveError": "Error: {error}",
+  "@profileCompletionSaveError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "profileCompletionSuccessTitle": "Profile Updated!",
+  "profileCompletionSuccessBody": "Your health profile has been saved.",
+  "profileCompletionGoToProfile": "Go to Profile",
+  "profileCompletionAlmostThere": "Almost there!",
+  "profileCompletionStep3Subtitle": "We use this information to provide personalized health insights and safety alerts.",
+  "profileCompletionSeparateWithCommas": "Separate items with commas",
+  "profileCompletionHipaaCompliant": "HIPAA Compliant",
+  "profileCompletionSecureStorage": "Secure Storage",
+  "profileCompletionEncrypted": "Encrypted",
+  "profileCompletionPersonalData": "Personal Data",
+  "profileCompletionSaving": "Saving...",
+  "profileCompletionFinish": "Finish →",
+  "profileCompletionStep3HelpTitle": "Step 3 Help",
+  "profileCompletionStep3HelpBody": "Your health details help generate personalized safety alerts and recommendations. You can update these anytime from your profile.",
+  "privacyPolicyAppBarTitle": "Data & Privacy",
+  "privacyPolicyHeading": "How CurecordAI handles your data",
+  "privacyPolicyIntro": "This page explains what health data we collect, how it's used, and the controls you have over it.",
+  "privacyPolicyDataWeCollectTitle": "Data We Collect",
+  "privacyPolicyDataWeCollectBody": "To provide your personal health record, we store the profile details you provide (name, date of birth, gender, contact information), the medical documents you upload, the structured clinical data extracted from those documents (conditions, medications, lab results, allergies, and visit history), and your conversations with the in-app AI assistant. We also record basic device and session metadata (IP address, device type, login timestamps) to keep your account secure.",
+  "privacyPolicyHowWeUseDataTitle": "How We Use Your Data",
+  "privacyPolicyHowWeUseDataBody": "Your data is used exclusively to power the features you use: extracting structured health information from uploaded documents, generating AI summaries, answering questions about your records in AI Chat, computing your profile completion score, populating your Emergency Medical Card, and enabling secure sharing with family members, caregivers, or clinicians that you explicitly authorize.",
+  "privacyPolicyAiProcessingTitle": "AI Processing",
+  "privacyPolicyAiProcessingBody": "When a document is processed or you ask a question in AI Chat, the relevant document content or record data is sent to our AI processing provider solely to extract clinical data or generate a response. This data is used only to serve your request - it is not used to train third-party AI models, and it is not retained by the AI provider beyond what is required to process that single request.",
+  "privacyPolicyStorageSecurityTitle": "Storage & Security",
+  "privacyPolicyStorageSecurityBody": "Uploaded documents are stored in encrypted cloud storage, and all data in transit is protected with TLS encryption. Access to your records is scoped to your account and any family members or caregivers you explicitly grant access to. You can revoke a login session for this device at any time by logging out, which immediately invalidates the associated access and refresh tokens.",
+  "privacyPolicyFamilyAccessTitle": "Family & Caregiver Access",
+  "privacyPolicyFamilyAccessBody": "If you add family members or caregivers to your account, they can only view records and data explicitly scoped to the family member profile you created for them. You remain in control of what each family member profile contains and can remove access at any time from Family Management.",
+  "privacyPolicySharingCliniciansTitle": "Sharing With Clinicians",
+  "privacyPolicySharingCliniciansBody": "Generating a QR code from your dashboard creates a time-limited, revocable share link to selected records. Clinicians who scan it can view only the records included in that share - never your full account - and you can revoke access at any time.",
+  "privacyPolicyYourRightsTitle": "Your Rights",
+  "privacyPolicyYourRightsBody": "You can request a full export of your health data at any time from Settings → Export My Data, review and withdraw specific consents from Consent Management, and permanently delete records you no longer want stored. Deleted records are removed from active use immediately and purged from backups on our standard retention schedule.",
+  "privacyPolicyDataRetentionTitle": "Data Retention",
+  "privacyPolicyDataRetentionBody": "We retain your data for as long as your account remains active. If you delete a record, it is immediately hidden from the app and permanently purged from our systems within the retention window described above. If you delete your account, all associated personal and medical data is scheduled for permanent deletion.",
+  "privacyPolicyContactTitle": "Contact",
+  "privacyPolicyContactBody": "If you have questions about how your data is handled, reach out to our support team from the Support link below and we'll be glad to help.",
+  "privacyControlsTitle": "Privacy Controls",
+  "privacyControlsBiometricLockTitle": "Biometric Lock",
+  "privacyControlsBiometricLockSubtitle": "Use Face ID or fingerprint to unlock",
+  "privacyControlsAppLockTitle": "App Lock on Background",
+  "privacyControlsAppLockSubtitle": "Lock app when switching tasks",
+  "privacyControlsScreenshotTitle": "Screenshot Prevention",
+  "privacyControlsScreenshotSubtitle": "Block screenshots in app",
+  "privacyControlsNote": "Privacy settings help keep your medical data safe. Biometric lock ensures only you can access the app. Changes are saved automatically.",
+  "dataSharingTitle": "Data Sharing",
+  "dataSharingSubtitle": "Manage which doctors and hospitals can access your records",
+  "dataSharingAddNewAccess": "Add New Access",
+  "dataSharingRevokeAccessTitle": "Revoke Access",
+  "dataSharingRevokeAccessConfirm": "Remove access for {name}?",
+  "@dataSharingRevokeAccessConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "dataSharingRevoke": "Revoke",
+  "dataSharingRevokeFailed": "Failed to revoke access",
+  "dataSharingAccessFull": "Full",
+  "dataSharingAccessRead": "Read",
+  "dataSharingUntil": "Until {date}",
+  "@dataSharingUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "dataSharingEmptyTitle": "No shared access yet",
+  "dataSharingEmptyBody": "Tap \"Add New Access\" to grant access to doctors or hospitals.",
+  "dataSharingAddFailed": "Failed to add access",
+  "dataSharingDoctorHospitalName": "Doctor / Hospital Name",
+  "dataSharingEnterName": "Enter name",
+  "dataSharingAccessType": "Access Type",
+  "dataSharingGrantedUntilOptional": "Granted Until (optional)",
+  "dataSharingNoExpiry": "No expiry",
+  "dataSharingGrantAccess": "Grant Access",
+  "consentManagementTitle": "Consent Management",
+  "consentOptionalSectionTitle": "OPTIONAL CONSENTS",
+  "consentRequiredSectionTitle": "REQUIRED AGREEMENTS",
+  "consentAnalyticsTitle": "Analytics & Usage Data",
+  "consentAnalyticsSubtitle": "Help improve the app by sharing anonymous usage statistics",
+  "consentMarketingTitle": "Marketing Communications",
+  "consentMarketingSubtitle": "Receive updates, tips, and health news from CurecordAI",
+  "consentTermsOfServiceTitle": "Terms of Service",
+  "consentTermsOfServiceSubtitle": "Required to use CurecordAI",
+  "consentPrivacyPolicyTitle": "Privacy Policy",
+  "consentPrivacyPolicySubtitle": "How we handle your medical data",
+  "consentDataProcessingTitle": "Data Processing",
+  "consentDataProcessingSubtitle": "Processing your health information to provide services",
+  "consentWithdrawalNote": "Withdrawing a consent takes effect immediately. Required agreements cannot be withdrawn while using the app.",
+  "consentUpdateFailed": "Failed to update consent. Please try again.",
+  "consentAccepted": "Accepted",
+  "consentNotSet": "Not set",
+  "recordDetailIcd11Code": "ICD-11: {code}",
+  "@recordDetailIcd11Code": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "errorSaveChangesFailed": "Failed to save changes.",
+  "recordDeletePermanentBody": "This will permanently delete this record. This action cannot be undone.",
+  "recordDocumentLinkUnavailable": "Document link is not available.",
+  "recordDetailsTitle": "Record Details",
+  "recordLoadFailed": "Failed to load record.",
+  "recordDocumentWord": "Document",
+  "recordDocumentDetails": "Document Details",
+  "fieldTitle": "Title",
+  "fieldType": "Type",
+  "fieldDate": "Date",
+  "commonTapToSet": "Tap to set",
+  "fieldPatientName": "Patient Name",
+  "fieldIssuingLabOrg": "Lab / Organization",
+  "fieldReferringDoctor": "Referring Doctor",
+  "fieldFile": "File",
+  "fieldStatus": "Status",
+  "recordAiExtracting": "AI is extracting information from your document...",
+  "recordAiProcessingFailed": "AI processing failed. Please try again.",
+  "recordViewOriginal": "View Original",
+  "commonSaveChanges": "Save Changes",
+  "clinicalLabResultsVitals": "Lab Results & Vitals",
+  "clinicalConditions": "Conditions",
+  "clinicalMedications": "Medications",
+  "clinicalVisitsEncounters": "Visits & Encounters",
+  "clinicalEditCondition": "Edit Condition",
+  "clinicalEditMedication": "Edit Medication",
+  "clinicalEditObservation": "Edit Observation",
+  "clinicalEditAllergy": "Edit Allergy",
+  "clinicalEditVisit": "Edit Visit",
+  "clinicalConditionField": "Condition",
+  "clinicalSeverity": "Severity",
+  "clinicalMedicationField": "Medication",
+  "clinicalDosage": "Dosage",
+  "clinicalFrequency": "Frequency",
+  "clinicalTestVitalName": "Test / Vital Name",
+  "clinicalValue": "Value",
+  "clinicalUnit": "Unit",
+  "clinicalInterpretation": "Interpretation",
+  "clinicalSubstance": "Substance",
+  "clinicalCriticality": "Criticality",
+  "clinicalReaction": "Reaction",
+  "clinicalHospitalClinic": "Hospital / Clinic",
+  "clinicalVisitType": "Visit Type",
+  "clinicalAiExtractedHint": "AI-extracted from your document. Review and correct if needed.",
+  "commonNotSet": "Not set",
+  "interpNormal": "Normal",
+  "interpLow": "Low",
+  "interpHigh": "High",
+  "interpCriticalLow": "Critical Low",
+  "interpCriticalHigh": "Critical High",
+  "interpAbnormal": "Abnormal",
+  "interpVeryAbnormal": "Very Abnormal",
+  "commonActive": "Active",
+  "recordTypeSheetTitle": "Select Record Type",
+  "statusPending": "Pending",
+  "statusProcessing": "Processing",
+  "statusCompleted": "Completed",
+  "statusFailed": "Failed",
+  "recordProcessingFailedWithReason": "Processing failed: {reason}",
+  "@recordProcessingFailedWithReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "clinicalRefRange": "Ref: {range}",
+  "@clinicalRefRange": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "clinicalDoctorPrefix": "Dr. {name}",
+  "@clinicalDoctorPrefix": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "commonGotIt": "Got it",
+  "chatInfoAria": "How to use AI Health Assistant",
+  "chatInfoModalTitle": "How to use AI Health Assistant",
+  "chatInfoAskTitle": "Ask about your health",
+  "chatInfoAskDescription": "Ask anything about your health, and the assistant answers based on the documents you've already uploaded.",
+  "chatInfoAttachTitle": "Attach records from Health Vault",
+  "chatInfoAttachDescription": "Attach specific documents from your Health Vault to a question for more targeted, context-aware answers.",
+  "chatInfoSummarizeTitle": "Summarize reports",
+  "chatInfoSummarizeDescription": "Ask the assistant to summarize a lab report, prescription, or X-ray in plain language.",
+  "chatInfoUnderstandTitle": "Understand your health",
+  "chatInfoUnderstandDescription": "Get help understanding medical terms, results, and what they mean for your overall health.",
+  "familyInfoAria": "How family management works",
+  "familyInfoModalTitle": "How Family Management Works",
+  "familyInfoNoLoginTitle": "No separate login needed",
+  "familyInfoNoLoginDescription": "Family members do not need their own account. You manage everything from your own login.",
+  "familyInfoProfilesTitle": "Individual profiles",
+  "familyInfoProfilesDescription": "Each family member gets their own separate documents and medications, kept apart from your own records.",
+  "familyInfoTogetherTitle": "Manage together",
+  "familyInfoTogetherDescription": "Upload documents, track medications, and view AI summaries for each family member, just like your own profile.",
+  "familyInfoShareTitle": "Share access instantly",
+  "familyInfoShareDescription": "Generate a QR share for any family member's records individually, same as your own.",
+  "medicationsInfoAria": "How medications work",
+  "medicationsInfoModalTitle": "How Medications Work",
+  "medicationsInfoWhoTitle": "Who it is for",
+  "medicationsInfoWhoDescription": "Medications can be added for yourself or for a family member you manage.",
+  "medicationsInfoAddTitle": "Add manually or import",
+  "medicationsInfoAddDescription": "Enter details yourself, or pull them from an already uploaded document.",
+  "medicationsInfoTrackTitle": "Track status",
+  "medicationsInfoTrackDescription": "Medications can be marked Active, Paused, or Completed using the tabs above."
+}
