@@ -59,6 +59,7 @@ fe/.packages
 fe/build/
 fe/pubspec.lock
 fe/.fvm/
+fe/**/ephemeral/
 
 # ── Android ───────────────────────────────────────────────────────
 fe/android/.gradle/
